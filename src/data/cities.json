@@ -1,0 +1,38 @@
+[
+  {
+    "id": "beijing",
+    "name": "Beijing",
+    "name_zh": "北京",
+    "description": "China's medical capital with the country's highest concentration of top-tier hospitals. Leading in oncology, orthopedics, neurology, and cardiovascular care. The most mature international patient services in China.",
+    "hospital_count": 15,
+    "top_specialties": ["Oncology", "Orthopedics", "Neurology", "Cardiology", "TCM"],
+    "image_cover": "/images/cities/beijing.jpg"
+  },
+  {
+    "id": "shanghai",
+    "name": "Shanghai",
+    "name_zh": "上海",
+    "description": "China's most international city with a vibrant expat community. Excellent cardiovascular, digestive health, and oncology care. Many hospitals with long histories of serving foreign patients.",
+    "hospital_count": 12,
+    "top_specialties": ["Cardiology", "Gastroenterology", "Oncology", "Plastic Surgery"],
+    "image_cover": "/images/cities/shanghai.jpg"
+  },
+  {
+    "id": "guangzhou",
+    "name": "Guangzhou",
+    "name_zh": "广州",
+    "description": "Southern China's medical hub, known for ENT (ear, nose, throat), oncology, and reproductive medicine. Conveniently located near Hong Kong with strong international services.",
+    "hospital_count": 8,
+    "top_specialties": ["ENT", "Oncology", "Reproductive Medicine", "Dermatology"],
+    "image_cover": "/images/cities/guangzhou.jpg"
+  },
+  {
+    "id": "hainan",
+    "name": "Hainan",
+    "name_zh": "海南",
+    "description": "China's tropical island province with special medical tourism policies. Known for wellness, rehabilitation, cosmetic surgery, and anti-aging treatments. Boao Lecheng area offers approved international drugs and devices.",
+    "hospital_count": 5,
+    "top_specialties": ["Wellness & Rehab", "Cosmetic Surgery", "Anti-aging", "Reproductive Health"],
+    "image_cover": "/images/cities/hainan.jpg"
+  }
+]

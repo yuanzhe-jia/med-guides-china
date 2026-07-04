@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Sarah Mitchell",
+    "nationality": "United Kingdom",
+    "condition": "Brain Tumor",
+    "quote": "I was diagnosed with a brain tumor and scheduled for surgery in just 48 hours. Back home, I would have waited 8 months. The neurosurgery team at Tiantan was world-class — and the care was surprisingly warm and personal.",
+    "initials": "SM",
+    "hospital": "Beijing Tiantan Hospital"
+  },
+  {
+    "id": 2,
+    "name": "James Crawford",
+    "nationality": "United States",
+    "condition": "Knee Replacement",
+    "quote": "My bilateral knee replacement at Jishuitan cost less than a quarter of what I was quoted in the US. The surgeon was excellent, the physical therapy started the next day, and I was walking unassisted within 3 weeks.",
+    "initials": "JC",
+    "hospital": "Beijing Jishuitan Hospital"
+  },
+  {
+    "id": 3,
+    "name": "Yuki Tanaka",
+    "nationality": "Japan",
+    "condition": "Fertility Treatment",
+    "quote": "After three failed IVF cycles in Tokyo, I came to Peking Union. Their reproductive center was recommended by a friend. The doctors were thorough and kind, and I'm now expecting twins — at 42 years old.",
+    "initials": "YT",
+    "hospital": "Peking Union Medical College Hospital"
+  },
+  {
+    "id": 4,
+    "name": "Emma Thompson",
+    "nationality": "Canada",
+    "condition": "Chronic Back Pain",
+    "quote": "I'd lived with chronic back pain for 5 years. A combination of TCM acupuncture, herbal medicine, and targeted physical therapy at Guang'anmen Hospital gave me more relief than anything I'd tried back home. I finally sleep through the night.",
+    "initials": "ET",
+    "hospital": "Guang'anmen TCM Hospital"
+  }
+]
