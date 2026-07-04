@@ -103,9 +103,7 @@ export default function HomePage() {
             </h1>
             
             <p className="text-lg md:text-xl text-primary-100 max-w-2xl mx-auto mb-10 leading-relaxed animate-fade-in-up" style={{ animationDelay: '100ms' }}>
-              Navigating a foreign healthcare system shouldn't be stressful. We provide transparent, 
-              reliable information about China's best hospitals — so you can make informed decisions 
-              about your health with confidence.
+              Navigating a foreign healthcare system shouldn't be stressful. We provide transparent, reliable information about China's best hospitals — you can make informed decisions about your health with confidence.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up" style={{ animationDelay: '200ms' }}>
@@ -154,8 +152,7 @@ export default function HomePage() {
               Exceptional Quality, Remarkable Value
             </h2>
             <p className="text-lg text-neutral-600 leading-relaxed">
-              Affordable doesn't mean lower quality — it means smarter choices. China's top hospitals 
-              match international standards at a fraction of the cost, with dramatically shorter wait times.
+              Affordable doesn't mean lower quality — it means smarter choices. China's top hospitals match international standards at a fraction of the cost, with dramatically shorter wait times.
             </p>
           </div>
 
@@ -267,8 +264,7 @@ export default function HomePage() {
                 Most Trusted by International Patients
               </h2>
               <p className="text-lg text-neutral-600">
-                Handpicked hospitals with proven track records of excellent care for foreign patients.
-                All have English-speaking staff and international insurance direct billing.
+                Handpicked hospitals with proven track records of excellent care for foreign patients. All have English-speaking staff and international insurance direct billing.
               </p>
             </div>
             <Link
@@ -299,8 +295,7 @@ export default function HomePage() {
               China's Medical Excellence Hubs
             </h2>
             <p className="text-lg text-neutral-600">
-              From Beijing's renowned teaching hospitals to Shanghai's international medical centers, 
-              discover where China's best healthcare is found.
+              From Beijing's renowned university hospitals to Shanghai's international medical centers, discover where China's best healthcare is found.
             </p>
           </div>
 
@@ -323,22 +318,12 @@ export default function HomePage() {
                     <MapPin className="text-secondary-400" size={18} />
                     <span className="text-primary-200 text-sm font-medium">{city.hospital_count} Hospitals</span>
                   </div>
-                  <h3 className="text-2xl font-bold text-white mb-2 group-hover:text-secondary-300 transition-colors">
+                  <h3 className="text-2xl font-bold text-white mb-3 group-hover:text-secondary-300 transition-colors">
                     {city.name}
                   </h3>
-                  <p className="text-primary-200 text-sm mb-3 line-clamp-2">
+                  <p className="text-primary-200 text-sm leading-relaxed line-clamp-4">
                     {city.description}
                   </p>
-                  <div className="flex flex-wrap gap-1.5">
-                    {city.top_specialties.slice(0, 3).map((specialty) => (
-                      <span
-                        key={specialty}
-                        className="px-2 py-0.5 bg-white/10 backdrop-blur-sm text-white text-xs rounded-md"
-                      >
-                        {specialty}
-                      </span>
-                    ))}
-                  </div>
                 </div>
               </Link>
             ))}
@@ -355,7 +340,7 @@ export default function HomePage() {
               Real Stories from Real Patients
             </h2>
             <p className="text-lg text-neutral-600">
-              Hear from people who've been through the journey — and emerged healthier, happier, and grateful.
+              Hear from people who've been through the journey.
             </p>
           </div>
 
@@ -407,8 +392,7 @@ export default function HomePage() {
                 Essential Reading for Your Medical Journey
               </h2>
               <p className="text-lg text-neutral-600">
-                Practical guides, hospital reviews, and expert advice to help you navigate 
-                China's healthcare system with confidence.
+                Practical guides, hospital reviews, and expert advice to help you navigate China's healthcare system with confidence.
               </p>
             </div>
             <Link

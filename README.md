@@ -1,6 +1,6 @@
 # China Medical Guides
 
-A lightweight, SEO-optimized English information portal for international patients seeking medical care in China. Built with Next.js 14 (App Router) and Tailwind CSS, statically exported for zero-server deployment.
+A lightweight, SEO-optimized English information portal for global patients seeking medical care in China. Built with Next.js 14 (App Router) and Tailwind CSS, statically exported for zero-server deployment.
 
 ## Overview
 
@@ -17,9 +17,9 @@ This project provides transparent, well-structured information to help internati
 
 | Layer | Technology | Purpose |
 |-------|-----------|---------|
-| Framework | **Next.js 14+ (App Router)** | SSG, SEO-friendly routing, static export |
+| Framework | Next.js 14+ (App Router) | SSG, SEO-friendly routing, static export |
 | Build Mode | `output: 'export'` | Pure static HTML/CSS/JS, no server required |
-| Styling | **Tailwind CSS** | Responsive UI with medical-themed design system |
+| Styling | Tailwind CSS | Responsive UI with medical-themed design system |
 | Language | TypeScript | Type safety and better maintainability |
 | Content | JSON + Markdown | Structured hospital data + long-form articles |
 | Icons | lucide-react | Consistent linear icon set |
@@ -113,8 +113,6 @@ npm install
 ```bash
 npm run dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) to view the site.
 
 ### Build (Static Export)
 

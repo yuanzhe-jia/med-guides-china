@@ -39,28 +39,20 @@ export default function HospitalCard({ hospital, featured = false }: HospitalCar
             </span>
           )}
         </div>
-
-        <div className="absolute top-3 right-3">
-          <span className="px-2.5 py-1 rounded-full text-xs font-medium bg-white/90 text-primary-700 backdrop-blur-sm">
-            {hospital.category_label}
-          </span>
-        </div>
       </div>
 
       <div className="p-5 flex-1 flex flex-col">
-        <div className="flex items-start gap-2 mb-2">
-          <h3 className="font-semibold text-neutral-900 group-hover:text-primary-700 transition-colors text-base leading-tight">
-            {hospital.name}
-          </h3>
-        </div>
-        <p className="text-sm text-neutral-500 mb-3">{hospital.name_zh}</p>
+        <h3 className="font-semibold text-neutral-900 group-hover:text-primary-700 transition-colors text-base leading-tight mb-1 line-clamp-2 h-12">
+          {hospital.name}
+        </h3>
+        <p className="text-sm text-neutral-500 mb-3 line-clamp-1 h-5">{hospital.name_zh}</p>
 
-        <div className="flex items-center gap-1.5 text-sm text-neutral-600 mb-3">
+        <div className="flex items-center gap-1.5 text-sm text-neutral-600 mb-3 h-5">
           <MapPin size={14} className="text-primary-500 flex-shrink-0" />
-          <span>{hospital.city}</span>
+          <span className="line-clamp-1">{hospital.city}</span>
         </div>
 
-        <div className="flex flex-wrap gap-1.5 mb-4">
+        <div className="flex flex-wrap gap-1.5 mb-4 h-6 overflow-hidden">
           {hospital.specialties.slice(0, 3).map((specialty) => (
             <span
               key={specialty}
@@ -77,24 +69,28 @@ export default function HospitalCard({ hospital, featured = false }: HospitalCar
         </div>
 
         <div className="mt-auto pt-4 border-t border-neutral-100">
-          <div className="flex items-center justify-between text-sm">
-            <div className="flex items-center gap-1.5">
-              <Globe size={14} className="text-green-600" />
-              <span className="text-neutral-600">
+          <div className="flex items-center justify-between text-sm h-5">
+            <div className="flex items-center gap-1.5 min-w-0 flex-1 mr-2">
+              <Globe size={14} className="text-green-600 flex-shrink-0" />
+              <span className="text-neutral-600 truncate">
                 {hospital.languages.join(', ')}
               </span>
             </div>
-            <div className="text-primary-700 font-semibold">
+            <div className="text-primary-700 font-semibold flex-shrink-0">
               {hospital.registration_fee_range}
             </div>
           </div>
 
-          {hospital.direct_billing_insurers.length > 0 && (
-            <div className="flex items-center gap-1.5 mt-2 text-xs text-neutral-500">
-              <Shield size={12} className="text-primary-500" />
-              <span>Insurance direct billing available</span>
-            </div>
-          )}
+          <div className="flex items-center gap-1.5 mt-2 text-xs text-neutral-500 h-4">
+            {hospital.direct_billing_insurers.length > 0 ? (
+              <>
+                <Shield size={12} className="text-primary-500 flex-shrink-0" />
+                <span className="truncate">Insurance direct billing available</span>
+              </>
+            ) : (
+              <span className="text-transparent">placeholder</span>
+            )}
+          </div>
         </div>
       </div>
     </Link>

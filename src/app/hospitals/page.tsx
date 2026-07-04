@@ -1,6 +1,7 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect, Suspense } from 'react';
+import { useSearchParams } from 'next/navigation';
 import { Search, MapPin, AlertCircle } from 'lucide-react';
 import HospitalCard from '@/components/HospitalCard';
 import hospitalsData from '@/data/hospitals.json';
@@ -41,12 +42,27 @@ const specialties = [
   'Ophthalmology',
 ];
 
-export default function HospitalsPage() {
+function HospitalsContent() {
+  const searchParams = useSearchParams();
   const [city, setCity] = useState('All Cities');
   const [tier, setTier] = useState('all');
   const [category, setCategory] = useState('all');
   const [specialty, setSpecialty] = useState('All Specialties');
   const [searchQuery, setSearchQuery] = useState('');
+
+  useEffect(() => {
+    const cityParam = searchParams.get('city');
+    if (cityParam && cities.includes(cityParam)) {
+      setCity(cityParam);
+    }
+    const specialtyParam = searchParams.get('specialty');
+    if (specialtyParam) {
+      const formatted = specialtyParam.charAt(0).toUpperCase() + specialtyParam.slice(1).toLowerCase();
+      if (specialties.includes(formatted)) {
+        setSpecialty(formatted);
+      }
+    }
+  }, [searchParams]);
 
   const filteredHospitals = useMemo(() => {
     let result = [...allHospitals];
@@ -241,5 +257,13 @@ export default function HospitalsPage() {
         </div>
       </section>
     </div>
+  );
+}
+
+export default function HospitalsPage() {
+  return (
+    <Suspense fallback={<div className="min-h-screen bg-neutral-50" />}>
+      <HospitalsContent />
+    </Suspense>
   );
 }
