@@ -4,7 +4,7 @@
     "name": "Beijing",
     "name_zh": "北京",
     "description": "China's medical capital with the highest concentration of top-tier hospitals. Leading in oncology, orthopedics, and neurology.",
-    "hospital_count": 15,
+    "hospital_count": 12,
     "top_specialties": ["Oncology", "Orthopedics", "Neurology"],
     "image_cover": "/images/cities/beijing.jpg"
   },
@@ -13,7 +13,7 @@
     "name": "Shanghai",
     "name_zh": "上海",
     "description": "China's most international city with a vibrant expat community. Many hospitals with long histories of serving foreign patients.",
-    "hospital_count": 12,
+    "hospital_count": 8,
     "top_specialties": ["Cardiology", "Gastroenterology", "Oncology", "Plastic Surgery"],
     "image_cover": "/images/cities/shanghai.jpg"
   },
@@ -22,7 +22,7 @@
     "name": "Guangzhou",
     "name_zh": "广州",
     "description": "Southern China's medical hub, known for ENT (ear, nose, throat). Located near Hong Kong with strong international services.",
-    "hospital_count": 8,
+    "hospital_count": 6,
     "top_specialties": ["ENT", "Oncology", "Reproductive Medicine", "Dermatology"],
     "image_cover": "/images/cities/guangzhou.jpg"
   },
@@ -31,7 +31,7 @@
     "name": "Hainan",
     "name_zh": "海南",
     "description": "China's tropical island province with special medical tourism policies. Known for wellness, rehabilitation, and cosmetic surgery.",
-    "hospital_count": 5,
+    "hospital_count": 4,
     "top_specialties": ["Wellness & Rehab", "Cosmetic Surgery", "Anti-aging"],
     "image_cover": "/images/cities/hainan.jpg"
   }

@@ -6,23 +6,23 @@
     "items": [
       {
         "title": "Passport & Visa",
-        "description": "Ensure your passport is valid for at least 6 months beyond your planned stay. Apply for an S2 medical visa or check if you qualify for visa-free transit (144 hours in Beijing/Shanghai)."
+        "description": "Ensure your passport is valid for at least 6 months beyond your planned stay. Apply for an S2 medical visa or check if you qualify for visa-free transit (up to 240 hours / 10 days in cities like Beijing and Shanghai for eligible nationalities)."
       },
       {
         "title": "Medical Records Translation",
-        "description": "Gather all relevant medical records — test results, imaging reports, doctor's notes, and current medication lists. Have them translated into English (hospital international departments can work with English records)."
+        "description": "Gather all relevant medical records — test results, imaging reports, doctor's notes, and current medication lists. Have them translated into English (or Chinese if you prefer). Hospital international departments can work with English records, and many can arrange on-site translation if needed."
       },
       {
         "title": "Appointment Confirmation",
-        "description": "Book your initial appointment with the hospital's international department before traveling. Get a written confirmation and save the hospital's phone number in your phone."
+        "description": "Book your initial appointment with the hospital's international department before traveling. Get a written confirmation via email or WeChat, and save the hospital's international hotline number in your phone for easy access."
       },
       {
         "title": "Medications to Bring",
-        "description": "Pack enough prescription medication for your entire trip plus extra. Keep medications in original packaging with doctor's prescriptions. Check China's customs regulations — most common prescription medications are allowed with a doctor's note."
+        "description": "Pack enough prescription medication for your entire trip plus a few extra days. Keep all medications in their original packaging with the doctor's prescription and a translated doctor's note. Check China's customs regulations — some controlled substances (e.g., certain painkillers, sedatives) may require special permits. For common medications, a doctor's note is usually sufficient."
       },
       {
         "title": "Travel & Health Insurance",
-        "description": "Confirm your health insurance covers China. Get travel insurance that includes medical evacuation. Save your insurance card and emergency contact numbers."
+        "description": "Confirm your health insurance covers treatment in mainland China. If not, consider purchasing a short-term international medical insurance plan that includes medical evacuation. Save your insurance card, policy number, and emergency assistance contact numbers in your phone and a printed copy."
       }
     ]
   },
@@ -33,23 +33,23 @@
     "items": [
       {
         "title": "Hospital International Department Hotline",
-        "description": "The most reliable way. Call the hospital's international patient line directly — English-speaking staff will help you book the right specialist. Have your passport number and a brief description of your symptoms ready."
+        "description": "The most reliable way: call the hospital's dedicated international patient line directly. English-speaking staff will help you book the right specialist. Have your passport number, a brief description of your symptoms, and any relevant medical history ready."
       },
       {
         "title": "WeChat & Hospital Apps",
-        "description": "Many hospitals accept appointments through their official WeChat accounts or mini-programs. You can usually message the international department in English. Some have their own apps for booking and accessing results."
+        "description": "Many hospitals accept appointments through their official WeChat accounts or mini-programs. You can usually message the international department in English. Some hospitals also have their own mobile apps (available in English) for booking, viewing test results, and communicating with your care team."
       },
       {
         "title": "114 Appointment Platform",
-        "description": "Beijing's official city-wide appointment service (114) has some English support, but the hospital's direct international line is usually more helpful for foreign patients."
+        "description": "Beijing's official city-wide appointment service (114) has limited English support. It can be useful for some general appointments, but for international patients, we strongly recommend using the hospital's direct international hotline for a smoother experience."
       },
       {
         "title": "Walk-in Appointments",
-        "description": "Some international departments accept walk-ins, but availability is not guaranteed. We strongly recommend booking ahead to avoid long waits or being turned away."
+        "description": "Some international departments accept walk-ins, but availability is not guaranteed — especially for specialist consultations. We strongly recommend booking ahead to avoid long waits or being turned away. If you must walk in, go early in the morning and be prepared to wait."
       },
       {
         "title": "Insurance Pre-authorization",
-        "description": "If using insurance, check if your plan requires pre-authorization for specialist visits or procedures. The hospital's insurance desk can often help coordinate this."
+        "description": "If using insurance, check with your insurer whether pre-authorization is required for specialist visits, diagnostic tests, or procedures. The hospital's insurance desk can often help coordinate this process, so let them know your insurance details at the time of booking."
       }
     ]
   },
@@ -60,23 +60,23 @@
     "items": [
       {
         "title": "Finding the International Department",
-        "description": "Most hospitals have a separate international department building or floor with its own entrance. Always go to the international department, not the general registration area — the staff there speak English and understand foreign patients' needs."
+        "description": "Most hospitals have a separate international department building or floor with its own entrance. Always go directly to the international department, not the general hospital registration area — the staff there speak English and are specifically trained to assist foreign patients."
       },
       {
         "title": "First-time Registration",
-        "description": "On your first visit, you'll need to create a medical record. Bring your passport, fill out a brief information form (available in English), and pay the registration/建档 fee. You'll receive a hospital card or electronic health code."
+        "description": "On your first visit, you'll need to create a medical record (establish a patient file). Bring your passport, fill out a brief information form (available in English), and pay a one-time registration/建档 fee (typically $10-30). You'll receive a hospital card or an electronic health code linked to your phone."
       },
       {
         "title": "Insurance Registration",
-        "description": "If using direct billing insurance, present your insurance card at registration. The staff will verify your coverage and set up direct billing so you won't need to pay for covered services out of pocket."
+        "description": "If you have direct-billing insurance, present your insurance card at registration. The staff will verify your coverage and set up direct billing so that you do not need to pay for covered services out of pocket. Double-check with them which services are included."
       },
       {
         "title": "Getting Your Hospital Card",
-        "description": "You'll receive a physical hospital card or a QR code on your phone. This is your key to everything — appointments, test check-ins, payment, and picking up medications. Keep it with you at all times."
+        "description": "You will receive a physical hospital card or a QR code on your phone. This is your key to everything — appointments, test check-ins, payment, and picking up medications. Keep it with you at all times. If you lose it, the international desk can issue a replacement."
       },
       {
         "title": "Patient Coordinators",
-        "description": "International departments usually have patient coordinators who can guide you through the process, answer questions, and help arrange tests or follow-up appointments. Don't hesitate to ask for help!"
+        "description": "International departments usually have dedicated patient coordinators (often bilingual nurses or administrators) who guide you through the entire process, answer questions, arrange tests, and book follow-up appointments. Do not hesitate to ask them for help — they are there to make your experience as smooth as possible."
       }
     ]
   },
@@ -87,23 +87,23 @@
     "items": [
       {
         "title": "Triage & Vitals",
-        "description": "Before seeing the doctor, a nurse will check your vital signs (blood pressure, temperature, weight, etc.) and confirm your symptoms. This is standard in Chinese hospitals and helps the doctor prepare."
+        "description": "Before seeing the doctor, a nurse will check your vital signs (blood pressure, temperature, weight, height, pulse) and confirm your symptoms and current medications. This is standard practice in Chinese hospitals and helps the doctor prepare for your consultation."
       },
       {
         "title": "Seeing the Doctor",
-        "description": "Consultations at international departments typically last 15-30 minutes — longer for new patients or complex cases. Bring all your medical records, and don't hesitate to ask questions. If you need more time, you can always book a follow-up."
+        "description": "Consultations at international departments typically last 15–30 minutes for follow-ups, and up to 45 minutes for new or complex cases. Bring all your medical records and a list of questions. If you need more time, you can request a longer consultation — just let the coordinator know when booking."
       },
       {
         "title": "Language Support",
-        "description": "Doctors in international departments speak English, but if you ever have difficulty understanding, ask for an interpreter. Many hospitals provide free medical translation services for international patients with advance notice."
+        "description": "Doctors in international departments speak fluent English. If you ever have difficulty understanding, ask for an interpreter. Many hospitals provide free medical interpretation services (in several languages) with advance notice. For less common languages, they can arrange professional interpreters at a reasonable fee."
       },
       {
         "title": "Diagnostic Tests",
-        "description": "If the doctor orders tests (blood work, imaging, etc.), you'll get a test order form. Pay at the cashier (or it goes to insurance), then go to the relevant department. Many test results are available the same day or next day."
+        "description": "If the doctor orders tests (blood work, imaging, endoscopy, etc.), you will receive a test order form. Pay at the cashier (or present your insurance card if direct billing applies), then go to the relevant department. Most tests are performed on-site within the same hospital complex."
       },
       {
         "title": "Same-day Results",
-        "description": "Blood tests and X-rays are usually ready the same day. MRIs and CT scans might take 1-2 days (or longer if a detailed report is needed). Your doctor will tell you when to come back for results."
+        "description": "Blood tests, basic X-rays, and ultrasounds are usually ready the same day (within 2–6 hours). More advanced imaging such as MRI, CT, or PET scans may take 1–2 business days for a full report. Your doctor will tell you when and how to receive your results — often via the hospital app, by phone, or by scheduling a follow-up visit."
       }
     ]
   },
@@ -114,23 +114,23 @@
     "items": [
       {
         "title": "Direct Billing (Insurance)",
-        "description": "If your insurance has direct billing with the hospital, it's simple: you show your card, the hospital bills your insurance, and you only pay for anything not covered. Make sure to confirm coverage at registration."
+        "description": "If your insurance has a direct-billing agreement with the hospital, the process is simple: present your insurance card, and the hospital will bill your insurer directly. You only pay for any deductibles, co-pays, or non-covered services. Always confirm coverage for specific procedures before they are done."
       },
       {
         "title": "Paying Out of Pocket",
-        "description": "If you're paying yourself, you'll pay at each step — registration, tests, medications, etc. Most hospitals accept cash (RMB), Visa/Mastercard, and mobile payments (WeChat Pay, Alipay). Some larger hospitals accept foreign credit cards directly."
+        "description": "If you are paying yourself, you will pay at each step — registration, consultations, tests, procedures, and medications. Keep all receipts. Most hospitals accept cash (RMB), international credit/debit cards (Visa, Mastercard, American Express), and mobile payments (WeChat Pay, Alipay — these can be linked to international cards)."
       },
       {
         "title": "Getting Receipts for Reimbursement",
-        "description": "Always ask for **bilingual receipts (中英文发票)** and **itemized cost lists (费用明细)**. You'll need these to file insurance claims when you return home. The cashier at the international department knows how to provide these."
+        "description": "Always ask for **bilingual official receipts (中英文发票)** and **detailed itemized cost lists (费用明细)** . These documents are essential for filing insurance claims or tax deductions when you return home. The international department cashier is trained to provide these."
       },
       {
         "title": "Hospitalization Deposits",
-        "description": "If you're admitted to the hospital, you'll need to pay a deposit upfront (usually 30-50% of estimated costs for self-paying patients). The final bill is settled at discharge, with any refund returned to you."
+        "description": "If you are admitted to the hospital, you will need to pay an upfront deposit (typically 30–50% of the estimated total cost for self-pay patients, or a smaller amount for insured patients after verification). The final bill is settled at discharge, with any overpayment refunded to you."
       },
       {
         "title": "Payment Methods",
-        "description": "Cash (RMB) is always accepted. Visa and Mastercard work at most international departments. WeChat Pay and Alipay are the most convenient if you have them set up with a Chinese bank account."
+        "description": "Cash (RMB) is always accepted. International credit cards (Visa, Mastercard, American Express) work at most international department counters. WeChat Pay and Alipay are widely used — you can link your international credit card to these apps for convenience, but having some cash as backup is recommended."
       }
     ]
   },
@@ -141,23 +141,23 @@
     "items": [
       {
         "title": "Getting Your Medication",
-        "description": "If the doctor prescribes medication, take your prescription to the hospital pharmacy. Pay (or show your insurance card) and collect your medicine. Medications at hospital pharmacies are genuine and quality-controlled — this is important in China."
+        "description": "If the doctor prescribes medication, take your prescription to the hospital pharmacy (usually located near the outpatient area). Pay at the pharmacy counter (or show your insurance card if direct billing applies) and collect your medicine. Hospital pharmacies dispense genuine, quality-controlled medications — this is important in China, as counterfeit drugs are a risk outside regulated hospitals."
       },
       {
         "title": "Medication Instructions",
-        "description": "Pharmacy labels in international departments usually have English instructions. If not, ask the pharmacist or your doctor to explain the dosage and timing. Important: confirm how many times per day and whether to take with food."
+        "description": "Pharmacy labels in international departments typically include English instructions. If not, ask the pharmacist or your doctor to clearly explain the dosage, frequency, timing (with/without food), and duration of treatment. Write it down or take a photo of the label for reference."
       },
       {
         "title": "Scheduling Follow-up Visits",
-        "description": "Before you leave, book any necessary follow-up appointments. You can usually do this at the doctor's office, the nursing station, or the international patient desk. Follow-ups are important — don't skip them!"
+        "description": "Before you leave, book any necessary follow-up appointments. You can do this at the doctor's office, at the nursing station, or through the international patient desk. Follow-ups are crucial for monitoring progress and adjusting treatment — do not skip them. If you need to change the date, call the international hotline."
       },
       {
         "title": "Medical Records & Discharge Summaries",
-        "description": "Before you return home, request a **bilingual medical record summary** (出院小结) and copies of test results. The international department can prepare these for you. These are essential for your doctor back home to continue your care."
+        "description": "Before you return home, request a **bilingual discharge summary (出院小结)** and copies of all test results, imaging reports, and procedure notes. The international department can prepare these for you, usually within 1–2 business days. These documents are essential for your doctor at home to continue your care seamlessly."
       },
       {
         "title": "Remote Follow-up",
-        "description": "Some hospitals offer remote follow-up consultations via video call or email after you return home. Ask your doctor about this option — it can be very helpful for monitoring recovery and adjusting medications without traveling back to China."
+        "description": "Many hospitals offer remote follow-up consultations via video call, WeChat, or email after you return home. Ask your doctor or coordinator if this is available. It can be very helpful for monitoring recovery, adjusting medications, and answering questions without the need to travel back to China."
       }
     ]
   }
