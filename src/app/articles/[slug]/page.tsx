@@ -11,12 +11,10 @@ import {
   ChevronLeft,
   ChevronRight,
 } from 'lucide-react';
-import HospitalCard from '@/components/HospitalCard';
 import articlesData from '@/data/articles.json';
-import hospitalsData from '@/data/hospitals.json';
 import { getArticleContent } from '@/lib/markdown';
 import { formatDate } from '@/lib/utils';
-import type { Article, Hospital } from '@/types';
+import type { Article } from '@/types';
 import type { Metadata } from 'next';
 
 interface ArticlePageProps {
@@ -46,7 +44,6 @@ export default function ArticlePage({ params }: ArticlePageProps) {
   const articles = articlesData as Article[];
   const article = articles.find((a) => a.slug === params.slug);
   const content = getArticleContent(params.slug);
-  const hospitals = hospitalsData as Hospital[];
 
   if (!article) {
     notFound();
@@ -55,18 +52,6 @@ export default function ArticlePage({ params }: ArticlePageProps) {
   const currentIndex = articles.findIndex((a) => a.slug === params.slug);
   const prevArticle = currentIndex > 0 ? articles[currentIndex - 1] : null;
   const nextArticle = currentIndex < articles.length - 1 ? articles[currentIndex + 1] : null;
-
-  const relatedHospitals = hospitals
-    .filter((h) =>
-      h.specialties.some((s) =>
-        article.tags.some((t) => s.toLowerCase().includes(t.toLowerCase()))
-      )
-    )
-    .slice(0, 2);
-
-  if (relatedHospitals.length === 0) {
-    relatedHospitals.push(...hospitals.slice(0, 2));
-  }
 
   return (
     <div className="bg-neutral-50 min-h-screen">
@@ -108,7 +93,7 @@ export default function ArticlePage({ params }: ArticlePageProps) {
               </div>
               <div className="flex items-center gap-2">
                 <BookOpen size={16} />
-                <span>By MedGuides Team</span>
+                <span>By Xinhua</span>
               </div>
             </div>
           </div>
@@ -122,7 +107,7 @@ export default function ArticlePage({ params }: ArticlePageProps) {
             {/* Main Content */}
             <article className="lg:col-span-3">
               <div className="bg-white rounded-2xl shadow-card border border-neutral-100 p-6 md:p-10">
-                <div className="prose prose-lg max-w-none prose-headings:text-neutral-900 prose-p:text-neutral-700 prose-p:leading-relaxed prose-a:text-primary-600 prose-a:no-underline hover:prose-a:underline prose-strong:text-neutral-900 prose-ul:text-neutral-700 prose-ol:text-neutral-700 prose-li:marker:text-primary-500 prose-blockquote:border-l-primary-500 prose-blockquote:text-neutral-600 prose-blockquote:bg-neutral-50 prose-blockquote:rounded-r-lg prose-blockquote:py-1 prose-table:w-full prose-th:bg-neutral-50 prose-th:text-neutral-700 prose-th:font-semibold prose-td:text-neutral-600 prose-tr:border-b prose-tr:border-neutral-100">
+                <div className="article-content text-lg max-w-none">
                   <ReactMarkdown remarkPlugins={[remarkGfm]}>
                     {content}
                   </ReactMarkdown>
@@ -183,31 +168,6 @@ export default function ArticlePage({ params }: ArticlePageProps) {
 
             {/* Sidebar */}
             <aside className="space-y-6">
-              <div className="bg-white rounded-2xl shadow-card border border-neutral-100 p-6 sticky top-24">
-                <h3 className="font-bold text-lg text-neutral-900 mb-5">Related Hospitals</h3>
-                <div className="space-y-4">
-                  {relatedHospitals.map((hospital) => (
-                    <Link
-                      key={hospital.id}
-                      href={`/hospitals/${hospital.slug}`}
-                      className="block p-3 rounded-xl hover:bg-neutral-50 transition-colors group"
-                    >
-                      <p className="font-medium text-neutral-900 group-hover:text-primary-700 transition-colors text-sm line-clamp-2">
-                        {hospital.name}
-                      </p>
-                      <p className="text-xs text-neutral-500 mt-1">{hospital.city} · {hospital.tier} Tier</p>
-                    </Link>
-                  ))}
-                </div>
-
-                <Link
-                  href="/hospitals"
-                  className="mt-5 w-full flex items-center justify-center gap-2 bg-primary-50 text-primary-700 py-3 rounded-xl font-medium hover:bg-primary-100 transition-colors"
-                >
-                  View All Hospitals
-                </Link>
-              </div>
-
               <div className="bg-gradient-to-br from-primary-700 to-primary-800 rounded-2xl p-6 text-white">
                 <h3 className="font-bold text-lg mb-3">New Here?</h3>
                 <p className="text-primary-100 text-sm mb-5">

@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { useState } from 'react';
-import { Menu, X, Heart, Phone, Mail } from 'lucide-react';
+import { Menu, X, Heart } from 'lucide-react';
 
 const navLinks = [
   { name: 'Home', href: '/' },
@@ -18,18 +18,8 @@ export default function Header() {
   return (
     <header className="bg-white shadow-sm sticky top-0 z-50">
       <div className="bg-primary-800 text-white text-sm py-2 hidden md:block">
-        <div className="container-custom flex items-center justify-between">
-          <div className="flex items-center gap-6">
-            <a href="tel:+86-10-6915-6699" className="flex items-center gap-2 hover:text-primary-200 transition-colors">
-              <Phone size={14} />
-              <span>+86 10 6915 6699</span>
-            </a>
-            <a href="mailto:info@medguideschina.com" className="flex items-center gap-2 hover:text-primary-200 transition-colors">
-              <Mail size={14} />
-              <span>info@medguideschina.com</span>
-            </a>
-          </div>
-          <span className="text-primary-200">Your Trusted Healthcare Companion in China</span>
+        <div className="container-custom flex items-center justify-center">
+          <span className="text-primary-300 text-center">All content on this website is for reference only. Please contact the hospital for medical consultation.</span>
         </div>
       </div>
       

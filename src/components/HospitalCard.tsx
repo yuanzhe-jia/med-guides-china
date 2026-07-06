@@ -42,7 +42,7 @@ export default function HospitalCard({ hospital, featured = false }: HospitalCar
       </div>
 
       <div className="p-5 flex-1 flex flex-col">
-        <h3 className="font-semibold text-neutral-900 group-hover:text-primary-700 transition-colors text-base leading-tight mb-1 line-clamp-2 h-12">
+        <h3 className="font-semibold text-neutral-900 group-hover:text-primary-700 transition-colors text-base leading-tight mb-1 line-clamp-2 h-[2.5rem]">
           {hospital.name}
         </h3>
         <p className="text-sm text-neutral-500 mb-3 line-clamp-1 h-5">{hospital.name_zh}</p>

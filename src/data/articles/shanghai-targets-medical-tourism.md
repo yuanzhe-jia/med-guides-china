@@ -1,5 +1,3 @@
-# New Center in Shanghai Targets Medical Tourism
-
 Shanghai's endeavor to build a diversified healthcare ecosystem by introducing high-quality international medical resources took another significant step with the recent opening of Parkway Medi-Centre Xintiandi, an ambulatory care center, part of IHH Healthcare, one of Asia's leading multinational healthcare services networks.
 
 The new center, which represents an investment of nearly 100 million yuan ($14 million) and occupies an entire floor covering roughly 7,000 square meters in a shopping mall at the downtown Xintiandi commercial area, marks a new milestone in Shanghai's efforts to boost medical services for international patients.

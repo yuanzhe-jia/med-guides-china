@@ -1,5 +1,3 @@
-# China Emerging As Cost-effective Healthcare Destination for Foreign Patients
-
 American content creator Lucian George took to social media to share his opinions on the hospital experience in China. The video quickly went viral, garnering more than 70,000 likes and sparking lively discussions.
 
 "The appointment was four U.S. dollars without insurance. In America this would cost at least 300 U.S. dollars," he said in the video. "Considering China has so many people, I'm very impressed by how efficient the healthcare system is."

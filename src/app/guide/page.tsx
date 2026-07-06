@@ -33,30 +33,10 @@ export default function GuidePage() {
         </div>
       </section>
 
-      {/* Step Navigation */}
-      <section className="bg-white border-b border-neutral-100 sticky top-20 z-40 shadow-sm">
-        <div className="container-custom">
-          <div className="flex items-center gap-2 overflow-x-auto py-3 scrollbar-hide">
-            {guideSteps.map((step) => (
-              <a
-                key={step.step}
-                href={`#step-${step.step}`}
-                className="flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium text-neutral-600 hover:bg-primary-50 hover:text-primary-700 transition-colors whitespace-nowrap flex-shrink-0"
-              >
-                <span className="w-6 h-6 rounded-full bg-neutral-100 text-neutral-600 flex items-center justify-center text-xs font-bold">
-                  {step.step}
-                </span>
-                {step.title}
-              </a>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Steps Content */}
       <section className="py-12 md:py-16">
         <div className="container-custom max-w-4xl">
-          <div className="space-y-0">
+          <div className="space-y-8">
             {guideSteps.map((step, index) => (
               <div key={step.step} id={`step-${step.step}`} className="scroll-mt-32">
                 <GuideStep step={step} isLast={index === guideSteps.length - 1} />

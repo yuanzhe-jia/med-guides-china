@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   description: 'Your trusted guide to world-class healthcare in China. Find top hospitals, understand costs, and navigate the Chinese medical system with confidence.',
 };
 
-const featuredHospitals = (hospitalsData as Hospital[]).slice(0, 4);
+const featuredHospitals = (hospitalsData as Hospital[]).slice(0, 3);
 const featuredArticles = (articlesData as Article[]).filter((a) => a.featured).slice(0, 3);
 const cities = citiesData as City[];
 const patientStories = patientStoriesData as PatientStory[];
@@ -271,12 +271,12 @@ export default function HomePage() {
               href="/hospitals"
               className="inline-flex items-center gap-2 text-primary-600 font-semibold hover:text-primary-700 transition-colors group"
             >
-              View All Hospitals
+              All Hospitals
               <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
             </Link>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {featuredHospitals.map((hospital, index) => (
               <div key={hospital.id} className="animate-fade-in-up" style={{ animationDelay: `${index * 100}ms` }}>
                 <HospitalCard hospital={hospital} />

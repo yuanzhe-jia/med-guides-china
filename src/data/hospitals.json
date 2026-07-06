@@ -2,7 +2,7 @@
   {
     "id": "h1",
     "slug": "peking-union-medical-college-hospital",
-    "name": "Peking Union Medical College Hospital - International Medical Service",
+    "name": "Peking Union Medical College Hospital - International Medical Center",
     "name_zh": "北京协和医院国际医疗部",
     "tier": "S",
     "category": "public_international",
@@ -84,8 +84,8 @@
   {
     "id": "h3",
     "slug": "beijing-tiantan-hospital-international",
-    "name": "Beijing Tiantan Hospital - International Department",
-    "name_zh": "北京天坛医院国际部",
+    "name": "Beijing Tiantan Hospital - International Medical Center",
+    "name_zh": "北京天坛医院国际医疗部",
     "tier": "A+",
     "category": "public_international",
     "category_label": "Public Tier 3A International",
@@ -207,7 +207,7 @@
   {
     "id": "h6",
     "slug": "beijing-anzhen-hospital-international",
-    "name": "Beijing Anzhen Hospital - International Medical Service",
+    "name": "Beijing Anzhen Hospital - International Medical Center",
     "name_zh": "北京安贞医院国际医疗部",
     "tier": "A+",
     "category": "public_international",
@@ -289,7 +289,7 @@
   {
     "id": "h8",
     "slug": "xuanwu-hospital-international",
-    "name": "Xuanwu Hospital - International Medical Department",
+    "name": "Xuanwu Hospital - International Medical Center",
     "name_zh": "宣武医院国际医疗部",
     "tier": "A+",
     "category": "public_international",
@@ -535,7 +535,7 @@
   {
     "id": "h14",
     "slug": "ruijin-hospital-international",
-    "name": "Ruijin Hospital - International Medical Department",
+    "name": "Ruijin Hospital - International Medical Center",
     "name_zh": "上海交通大学医学院附属瑞金医院国际医疗部",
     "tier": "S",
     "category": "public_international",
@@ -576,7 +576,7 @@
   {
     "id": "h15",
     "slug": "zhongshan-hospital-international",
-    "name": "Zhongshan Hospital - International Medical Department",
+    "name": "Zhongshan Hospital - International Medical Center",
     "name_zh": "复旦大学附属中山医院国际医疗部",
     "tier": "S",
     "category": "public_international",
@@ -658,8 +658,8 @@
   {
     "id": "h17",
     "slug": "shanghai-first-peoples-hospital",
-    "name": "Shanghai First People's Hospital - International Medical Care Center",
-    "name_zh": "上海市第一人民医院国际医疗保健中心",
+    "name": "Shanghai First People's Hospital - International Medical Center",
+    "name_zh": "上海市第一人民医院国际医疗中心",
     "tier": "A+",
     "category": "public_international",
     "category_label": "Public Tier 3A International",
@@ -699,7 +699,7 @@
   {
     "id": "h18",
     "slug": "shanghai-east-hospital-international",
-    "name": "Shanghai East Hospital - International Medical Department",
+    "name": "Shanghai East Hospital - International Medical Center",
     "name_zh": "同济大学附属东方医院国际医疗部",
     "tier": "A",
     "category": "public_international",
@@ -740,7 +740,7 @@
   {
     "id": "h19",
     "slug": "shanghai-childrens-medical-center",
-    "name": "Shanghai Children's Medical Center - International Department",
+    "name": "Shanghai Children's Medical Center - International Medical Center",
     "name_zh": "上海儿童医学中心国际部",
     "tier": "A+",
     "category": "public_international",
@@ -822,7 +822,7 @@
   {
     "id": "h21",
     "slug": "guangdong-provincial-peoples-hospital",
-    "name": "Guangdong Provincial People's Hospital - International Medical Center (Xiehe Advanced Medical Center)",
+    "name": "Guangdong Provincial People's Hospital - International Medical Center",
     "name_zh": "广东省人民医院国际医疗中心（协和高级医疗中心）",
     "tier": "S",
     "category": "public_international",
@@ -904,8 +904,8 @@
   {
     "id": "h23",
     "slug": "nanfang-hospital-guangzhou",
-    "name": "Nanfang Hospital - International Medical Services",
-    "name_zh": "南方医科大学南方医院国际医疗部",
+    "name": "Nanfang Hospital - International Medical Center",
+    "name_zh": "南方医科大学南方医院国际医疗中心",
     "tier": "A+",
     "category": "public_international",
     "category_label": "Public Tier 3A International",
@@ -945,8 +945,8 @@
   {
     "id": "h24",
     "slug": "guangdong-hospital-of-tcm",
-    "name": "Guangdong Hospital of Traditional Chinese Medicine - International TCM Service",
-    "name_zh": "广东省中医院国际医疗部",
+    "name": "Guangdong Hospital of Traditional Chinese Medicine - International Medical Center",
+    "name_zh": "广东省中医院国际医疗中心",
     "tier": "A+",
     "category": "public_international",
     "category_label": "Public Tier 3A TCM Hospital",
@@ -986,8 +986,8 @@
   {
     "id": "h25",
     "slug": "guangzhou-first-affiliated-hospital",
-    "name": "The First Affiliated Hospital of Guangzhou Medical University - International Medical Service",
-    "name_zh": "广州医科大学附属第一医院国际医疗部",
+    "name": "The First Affiliated Hospital of Guangzhou Medical University - International Medical Center",
+    "name_zh": "广州医科大学附属第一医院国际医疗中心",
     "tier": "A+",
     "category": "public_international",
     "category_label": "Public Tier 3A International",
@@ -1027,8 +1027,8 @@
   {
     "id": "h26",
     "slug": "guangzhou-women-children-medical-center",
-    "name": "Guangzhou Women and Children's Medical Center - International Medical Service",
-    "name_zh": "广州医科大学附属妇女儿童医疗中心国际医疗部",
+    "name": "Guangzhou Women and Children's Medical Center - International Medical Center",
+    "name_zh": "广州医科大学附属妇女儿童医疗中心国际医疗中心",
     "tier": "A+",
     "category": "public_international",
     "category_label": "Public Tier 3A Specialist",
@@ -1068,7 +1068,7 @@
   {
     "id": "h27",
     "slug": "ruijin-hainan-hospital",
-    "name": "Ruijin Hospital Hainan - International Medical Services",
+    "name": "Ruijin Hospital Hainan - International Medical Center",
     "name_zh": "瑞金医院海南医院（博鳌研究型医院）",
     "tier": "S",
     "category": "public_international",

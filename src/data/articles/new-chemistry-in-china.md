@@ -1,5 +1,3 @@
-# The new chemistry of 'Made in China'
-
 China's rise in manufacturing has rarely been associated with drug discovery. That, quietly, is starting to change -- giving "Made in China" a new chemistry.
 
 Earlier this week, Chinese biotech innovator Jacobio Pharma reached an agreement to license an experimental cancer drug targeting a notoriously difficult genetic mutation to pharmaceutical giant AstraZeneca.

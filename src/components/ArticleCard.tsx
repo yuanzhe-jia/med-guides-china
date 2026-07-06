@@ -38,7 +38,7 @@ export default function ArticleCard({ article, featured = false }: ArticleCardPr
       </div>
 
       <div className={`p-5 flex-1 flex flex-col ${featured ? 'md:w-3/5' : ''}`}>
-        <div className="flex items-center gap-4 text-xs text-neutral-500 mb-3">
+        <div className="flex items-center gap-4 text-xs text-neutral-500 mb-3 h-4">
           <div className="flex items-center gap-1">
             <Calendar size={12} />
             <span>{formatDate(article.publish_date)}</span>
@@ -49,26 +49,15 @@ export default function ArticleCard({ article, featured = false }: ArticleCardPr
           </div>
         </div>
 
-        <h3 className="font-semibold text-neutral-900 group-hover:text-primary-700 transition-colors text-lg leading-snug mb-3">
+        <h3 className="font-semibold text-neutral-900 group-hover:text-primary-700 transition-colors text-lg leading-snug mb-3 line-clamp-2 h-[3.125rem]">
           {article.title}
         </h3>
 
-        <p className="text-sm text-neutral-600 leading-relaxed mb-4 line-clamp-3">
+        <p className="text-sm text-neutral-600 leading-relaxed mb-4 line-clamp-3 h-[4.3rem]">
           {article.excerpt}
         </p>
 
-        <div className="mt-auto flex items-center justify-between">
-          <div className="flex flex-wrap gap-1.5">
-            {article.tags.slice(0, 2).map((tag) => (
-              <span
-                key={tag}
-                className="px-2 py-0.5 bg-neutral-100 text-neutral-600 text-xs rounded-md"
-              >
-                #{tag}
-              </span>
-            ))}
-          </div>
-          
+        <div className="mt-auto flex justify-end">
           <span className="text-primary-600 text-sm font-medium flex items-center gap-1 group-hover:gap-2 transition-all">
             Read more
             <ArrowRight size={14} />

@@ -1,5 +1,3 @@
-# Portuguese TCM Enthusiasts Pursue Study in China
-
 After carefully observing her instructor demonstrate facial acupuncture, Catarina Oliveira uses a mirror to practice on her own face.
 
 During the 2025 International Traditional Chinese Medicine (TCM) study tour, which was hosted by the Sanya Hospital of Traditional Chinese Medicine in south China's island province of Hainan from Aug. 4 to 15, Portuguese national Oliveira studied in a group of 21 trainees from countries such as Portugal, Brazil and Ireland. For two weeks, the trainees immersed themselves in intensive theoretical and practical TCM studies.

@@ -10,12 +10,10 @@ const allArticles = articlesData as Article[];
 
 const categories = [
   { value: 'all', label: 'All Articles' },
-  { value: 'guide', label: 'Guides' },
-  { value: 'cost', label: 'Cost Guides' },
-  { value: 'hospital-guide', label: 'Hospital Reviews' },
-  { value: 'emergency', label: 'Emergency' },
-  { value: 'insurance', label: 'Insurance' },
-  { value: 'general', label: 'General' },
+  { value: 'medical-tourism', label: 'Medical Tourism' },
+  { value: 'innovation', label: 'Innovation' },
+  { value: 'cost', label: 'Cost' },
+  { value: 'international', label: 'International' },
 ];
 
 export default function ArticlesPage() {
