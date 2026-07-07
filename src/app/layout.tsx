@@ -11,9 +11,41 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "China Medical Guides | Your Trusted Healthcare Companion in China",
+  title: {
+    default: "China Medical Guides | Your Trusted Healthcare Companion in China",
+    template: "%s | China Medical Guides",
+  },
   description: "Your trusted guide to world-class healthcare in China. Find top hospitals, understand costs, and navigate the Chinese medical system with confidence.",
-  keywords: ["China healthcare", "medical tourism China", "Beijing hospitals", "international patients", "medical guide China"],
+  keywords: ["Chinese healthcare", "medical tourism China", "Beijing hospitals", "international patients", "medical guide China"],
+  icons: {
+    icon: "/favicon.svg",
+  },
+  metadataBase: new URL("https://www.medguideschina.com"),
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://www.medguideschina.com",
+    siteName: "China Medical Guides",
+    title: "China Medical Guides | Your Trusted Healthcare Companion in China",
+    description: "Your trusted guide to world-class healthcare in China. Find top hospitals, understand costs, and navigate the Chinese medical system with confidence.",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "China Medical Guides | Your Trusted Healthcare Companion in China",
+    description: "Your trusted guide to world-class healthcare in China. Find top hospitals, understand costs, and navigate the Chinese medical system with confidence.",
+    creator: "@medguideschina",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
 };
 
 export default function RootLayout({

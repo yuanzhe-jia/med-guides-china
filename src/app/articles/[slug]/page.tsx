@@ -34,9 +34,33 @@ export function generateMetadata({ params }: ArticlePageProps): Metadata {
     return { title: 'Article Not Found' };
   }
 
+  const url = `https://www.medguideschina.com/articles/${article.slug}`;
+
   return {
-    title: `${article.title} | China Medical Guides`,
+    title: article.title,
     description: article.excerpt,
+    keywords: article.tags,
+    openGraph: {
+      type: 'article',
+      locale: 'en_US',
+      url: url,
+      siteName: 'China Medical Guides',
+      title: `${article.title} | China Medical Guides`,
+      description: article.excerpt,
+      publishedTime: article.publish_date,
+      modifiedTime: article.publish_date,
+      authors: ['Xinhua'],
+      tags: article.tags,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${article.title} | China Medical Guides`,
+      description: article.excerpt,
+      creator: '@medguideschina',
+    },
+    alternates: {
+      canonical: url,
+    },
   };
 }
 
@@ -55,6 +79,35 @@ export default function ArticlePage({ params }: ArticlePageProps) {
 
   return (
     <div className="bg-neutral-50 min-h-screen">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'Article',
+            headline: article.title,
+            description: article.excerpt,
+            articleBody: content,
+            datePublished: article.publish_date,
+            dateModified: article.publish_date,
+            author: {
+              '@type': 'Organization',
+              name: 'Xinhua',
+            },
+            publisher: {
+              '@type': 'Organization',
+              name: 'China Medical Guides',
+              url: 'https://www.medguideschina.com',
+            },
+            mainEntityOfPage: {
+              '@type': 'WebPage',
+              '@id': `https://www.medguideschina.com/articles/${article.slug}/`,
+            },
+            keywords: article.tags.join(', '),
+            articleSection: article.category_label,
+          }),
+        }}
+      />
       {/* Article Header */}
       <section className="bg-white border-b border-neutral-100">
         <div className="container-custom py-8">

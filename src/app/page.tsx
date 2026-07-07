@@ -26,6 +26,24 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'China Medical Guides | Your Trusted Healthcare Companion in China',
   description: 'Your trusted guide to world-class healthcare in China. Find top hospitals, understand costs, and navigate the Chinese medical system with confidence.',
+  keywords: ['Chinese healthcare', 'medical tourism China', 'Beijing hospitals', 'international patients', 'medical guide China'],
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://www.medguideschina.com',
+    siteName: 'China Medical Guides',
+    title: 'China Medical Guides | Your Trusted Healthcare Companion in China',
+    description: 'Your trusted guide to world-class healthcare in China. Find top hospitals, understand costs, and navigate the Chinese medical system with confidence.',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'China Medical Guides | Your Trusted Healthcare Companion in China',
+    description: 'Your trusted guide to world-class healthcare in China. Find top hospitals, understand costs, and navigate the Chinese medical system with confidence.',
+    creator: '@medguideschina',
+  },
+  alternates: {
+    canonical: 'https://www.medguideschina.com',
+  },
 };
 
 const featuredHospitals = (hospitalsData as Hospital[]).slice(0, 3);
@@ -77,8 +95,40 @@ const waitTimeComparisons = [
 ];
 
 export default function HomePage() {
+  const orgSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'China Medical Guides',
+    url: 'https://www.medguideschina.com',
+    logo: 'https://www.medguideschina.com/favicon.ico',
+    description: 'Your trusted guide to world-class healthcare in China.',
+    email: 'info@medguideschina.com',
+    areaServed: ['Beijing', 'Shanghai', 'Guangzhou', 'Hainan'],
+  };
+
+  const webSiteSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'China Medical Guides',
+    url: 'https://www.medguideschina.com',
+    description: 'Find top hospitals, understand costs, and navigate the Chinese medical system with confidence.',
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: 'https://www.medguideschina.com/hospitals?q={search_term_string}',
+      'query-input': 'required name=search_term_string',
+    },
+  };
+
   return (
     <div className="overflow-hidden">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webSiteSchema) }}
+      />
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary-900 via-primary-800 to-primary-700 text-white overflow-hidden">
         <div className="absolute inset-0 opacity-5">

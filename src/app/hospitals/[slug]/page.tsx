@@ -47,9 +47,29 @@ export function generateMetadata({ params }: HospitalPageProps): Metadata {
     return { title: 'Hospital Not Found' };
   }
 
+  const url = `https://www.medguideschina.com/hospitals/${hospital.slug}`;
+
   return {
-    title: `${hospital.name} | China Medical Guides`,
+    title: hospital.name,
     description: hospital.description,
+    keywords: [hospital.name, `${hospital.city} hospitals`, ...hospital.specialties, 'international hospital China'],
+    openGraph: {
+      type: 'profile',
+      locale: 'en_US',
+      url: url,
+      siteName: 'China Medical Guides',
+      title: `${hospital.name} | China Medical Guides`,
+      description: hospital.description,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${hospital.name} | China Medical Guides`,
+      description: hospital.description,
+      creator: '@medguideschina',
+    },
+    alternates: {
+      canonical: url,
+    },
   };
 }
 
@@ -69,6 +89,28 @@ export default function HospitalPage({ params }: HospitalPageProps) {
 
   return (
     <div className="bg-neutral-50">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'Hospital',
+            name: hospital.name,
+            alternateName: hospital.name_zh,
+            description: hospital.description,
+            url: `https://www.medguideschina.com/hospitals/${hospital.slug}/`,
+            address: {
+              '@type': 'PostalAddress',
+              addressLocality: hospital.city,
+              addressCountry: 'CN',
+            },
+            medicalSpecialty: hospital.specialties,
+            availableService: hospital.direct_billing_insurers.length > 0 ? ['Insurance direct billing'] : [],
+            languagesSpoken: hospital.languages,
+            telephone: hospital.phone_foreign,
+          }),
+        }}
+      />
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary-900 via-primary-800 to-primary-700 text-white overflow-hidden">
         <div className="absolute inset-0 opacity-5">

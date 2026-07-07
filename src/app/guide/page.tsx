@@ -6,13 +6,70 @@ import type { Metadata } from 'next';
 const guideSteps = guideStepsData as GuideStepType[];
 
 export const metadata: Metadata = {
-  title: 'Complete Medical Guide to China | Your Roadmap to Healthcare',
+  title: 'Complete Medical Guide to China',
   description: 'Your complete roadmap to medical care in China. From pre-departure preparation to follow-up care, we break down every step.',
+  keywords: ['China medical guide', 'healthcare in China', 'medical travel China', 'hospital visit China', 'patient guide'],
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://www.medguideschina.com/guide',
+    siteName: 'China Medical Guides',
+    title: 'Complete Medical Guide to China | Your Roadmap to Healthcare',
+    description: 'Your complete roadmap to medical care in China. From pre-departure preparation to follow-up care, we break down every step.',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Complete Medical Guide to China | Your Roadmap to Healthcare',
+    description: 'Your complete roadmap to medical care in China. From pre-departure preparation to follow-up care, we break down every step.',
+    creator: '@medguideschina',
+  },
+  alternates: {
+    canonical: 'https://www.medguideschina.com/guide',
+  },
 };
 
 export default function GuidePage() {
+  const howToSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    name: 'Complete Medical Guide to China',
+    description: 'Your complete roadmap to medical care in China. From pre-departure preparation to follow-up care, we break down every step.',
+    totalTime: 'PT6W',
+    estimatedCost: {
+      '@type': 'MonetaryAmount',
+      currency: 'USD',
+      value: '5000-50000',
+    },
+    supply: [
+      { '@type': 'HowToSupply', name: 'Passport valid for 6+ months' },
+      { '@type': 'HowToSupply', name: 'Medical visa (S2) or visa-free transit eligibility' },
+      { '@type': 'HowToSupply', name: 'Translated medical records' },
+      { '@type': 'HowToSupply', name: 'Prescription medications in original packaging' },
+      { '@type': 'HowToSupply', name: 'International health insurance' },
+    ],
+    tool: [
+      { '@type': 'HowToTool', name: 'Hospital international department hotline' },
+      { '@type': 'HowToTool', name: 'WeChat for appointments and communication' },
+      { '@type': 'HowToTool', name: 'Hospital mobile app (where available)' },
+    ],
+    steps: guideSteps.map((step) => ({
+      '@type': 'HowToStep',
+      position: step.step,
+      name: step.title,
+      itemListElement: step.items.map((item, index) => ({
+        '@type': 'HowToDirection',
+        position: index + 1,
+        text: `${item.title}: ${item.description}`,
+      })),
+    })),
+  };
+
   return (
     <div className="bg-neutral-50 min-h-screen">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
+      />
       {/* Page Header */}
       <section className="bg-gradient-to-br from-primary-900 via-primary-800 to-primary-700 text-white py-16 md:py-20 overflow-hidden relative">
         <div className="absolute inset-0 opacity-5">
