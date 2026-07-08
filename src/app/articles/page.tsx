@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://www.medguideschina.com/articles',
+    url: 'https://medguideschina.com/articles',
     siteName: 'China Medical Guides',
     title: 'Medical Articles & Guides | China Medical Guides',
     description: 'Expert articles and guides on healthcare in China. Medical tourism, hospital reviews, treatment costs, insurance tips, and health advice for international patients.',
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     creator: '@medguideschina',
   },
   alternates: {
-    canonical: 'https://www.medguideschina.com/articles',
+    canonical: 'https://medguideschina.com/articles',
   },
 };
 

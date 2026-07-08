@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://www.medguideschina.com/hospitals',
+    url: 'https://medguideschina.com/hospitals',
     siteName: 'China Medical Guides',
     title: 'Find Top Hospitals in China | China Medical Guides',
     description: 'Discover 30+ top Chinese hospitals with international patient services. Filter by city, specialty, tier, and hospital type. Beijing, Shanghai, Guangzhou, Hainan.',
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     creator: '@medguideschina',
   },
   alternates: {
-    canonical: 'https://www.medguideschina.com/hospitals',
+    canonical: 'https://medguideschina.com/hospitals',
   },
 };
 

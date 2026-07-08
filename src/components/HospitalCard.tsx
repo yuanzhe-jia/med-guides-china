@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { MapPin, Clock, Star, Globe, Shield, Phone } from 'lucide-react';
+import { MapPin, Clock, Globe, Shield } from 'lucide-react';
 import type { Hospital } from '@/types';
 
 interface HospitalCardProps {
@@ -20,14 +20,15 @@ export default function HospitalCard({ hospital, featured = false }: HospitalCar
       href={`/hospitals/${hospital.slug}`}
       className="group bg-white rounded-xl overflow-hidden shadow-card card-hover border border-neutral-100 flex flex-col"
     >
-      <div className={`relative ${featured ? 'h-48' : 'h-36'} overflow-hidden bg-gradient-to-br from-primary-100 to-primary-200`}>
-        <div className="absolute inset-0 flex items-center justify-center">
-          <div className="text-primary-700 text-center px-4">
-            <div className="text-4xl md:text-5xl font-bold text-primary-800 opacity-20 font-serif">
-              {hospital.name.charAt(0)}
-            </div>
-          </div>
-        </div>
+      <div className={`relative ${featured ? 'h-48' : 'h-36'} overflow-hidden bg-neutral-100`}>
+        {hospital.image_cover && (
+          <img
+            src={hospital.image_cover}
+            alt={hospital.name}
+            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+          />
+        )}
+        <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
         
         <div className="absolute top-3 left-3 flex gap-2">
           <span className={`px-2.5 py-1 rounded-full text-xs font-semibold ${tierColors[hospital.tier] || 'bg-neutral-500 text-white'}`}>

@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://www.medguideschina.com',
+    url: 'https://medguideschina.com',
     siteName: 'China Medical Guides',
     title: 'China Medical Guides | Your Trusted Healthcare Companion in China',
     description: 'Your trusted guide to world-class healthcare in China. Find top hospitals, understand costs, and navigate the Chinese medical system with confidence.',
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     creator: '@medguideschina',
   },
   alternates: {
-    canonical: 'https://www.medguideschina.com',
+    canonical: 'https://medguideschina.com',
   },
 };
 
@@ -99,8 +99,8 @@ export default function HomePage() {
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: 'China Medical Guides',
-    url: 'https://www.medguideschina.com',
-    logo: 'https://www.medguideschina.com/favicon.ico',
+    url: 'https://medguideschina.com',
+    logo: 'https://medguideschina.com/favicon.ico',
     description: 'Your trusted guide to world-class healthcare in China.',
     email: 'info@medguideschina.com',
     areaServed: ['Beijing', 'Shanghai', 'Guangzhou', 'Hainan'],
@@ -110,11 +110,11 @@ export default function HomePage() {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: 'China Medical Guides',
-    url: 'https://www.medguideschina.com',
+    url: 'https://medguideschina.com',
     description: 'Find top hospitals, understand costs, and navigate the Chinese medical system with confidence.',
     potentialAction: {
       '@type': 'SearchAction',
-      target: 'https://www.medguideschina.com/hospitals?q={search_term_string}',
+      target: 'https://medguideschina.com/hospitals?q={search_term_string}',
       'query-input': 'required name=search_term_string',
     },
   };
@@ -356,11 +356,14 @@ export default function HomePage() {
                 href={`/hospitals?city=${city.name}`}
                 className="group relative overflow-hidden rounded-2xl shadow-card card-hover h-64"
               >
-                <div className="absolute inset-0 bg-gradient-to-br from-primary-700 via-primary-800 to-primary-900">
-                  <div className="absolute inset-0 opacity-10">
-                    <div className="absolute top-4 right-4 w-24 h-24 border-2 border-white rounded-full" />
-                    <div className="absolute bottom-8 left-8 w-16 h-16 border-2 border-white rounded-full opacity-50" />
-                  </div>
+                {city.image_cover && (
+                  <img
+                    src={city.image_cover}
+                    alt={city.name}
+                    className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  />
+                )}
+                <div className="absolute inset-0 bg-gradient-to-t from-primary-900/90 via-primary-900/50 to-primary-700/30">
                 </div>
 
                 <div className="relative z-10 h-full flex flex-col justify-end p-6">

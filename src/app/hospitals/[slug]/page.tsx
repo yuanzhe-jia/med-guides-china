@@ -47,7 +47,7 @@ export function generateMetadata({ params }: HospitalPageProps): Metadata {
     return { title: 'Hospital Not Found' };
   }
 
-  const url = `https://www.medguideschina.com/hospitals/${hospital.slug}`;
+  const url = `https://medguideschina.com/hospitals/${hospital.slug}`;
 
   return {
     title: hospital.name,
@@ -98,7 +98,7 @@ export default function HospitalPage({ params }: HospitalPageProps) {
             name: hospital.name,
             alternateName: hospital.name_zh,
             description: hospital.description,
-            url: `https://www.medguideschina.com/hospitals/${hospital.slug}/`,
+            url: `https://medguideschina.com/hospitals/${hospital.slug}/`,
             address: {
               '@type': 'PostalAddress',
               addressLocality: hospital.city,

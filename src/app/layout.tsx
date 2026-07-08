@@ -20,11 +20,11 @@ export const metadata: Metadata = {
   icons: {
     icon: "/favicon.svg",
   },
-  metadataBase: new URL("https://www.medguideschina.com"),
+  metadataBase: new URL("https://medguideschina.com"),
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://www.medguideschina.com",
+    url: "https://medguideschina.com",
     siteName: "China Medical Guides",
     title: "China Medical Guides | Your Trusted Healthcare Companion in China",
     description: "Your trusted guide to world-class healthcare in China. Find top hospitals, understand costs, and navigate the Chinese medical system with confidence.",

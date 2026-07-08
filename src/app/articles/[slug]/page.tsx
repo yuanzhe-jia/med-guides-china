@@ -34,7 +34,7 @@ export function generateMetadata({ params }: ArticlePageProps): Metadata {
     return { title: 'Article Not Found' };
   }
 
-  const url = `https://www.medguideschina.com/articles/${article.slug}`;
+  const url = `https://medguideschina.com/articles/${article.slug}`;
 
   return {
     title: article.title,
@@ -97,11 +97,11 @@ export default function ArticlePage({ params }: ArticlePageProps) {
             publisher: {
               '@type': 'Organization',
               name: 'China Medical Guides',
-              url: 'https://www.medguideschina.com',
+              url: 'https://medguideschina.com',
             },
             mainEntityOfPage: {
               '@type': 'WebPage',
-              '@id': `https://www.medguideschina.com/articles/${article.slug}/`,
+              '@id': `https://medguideschina.com/articles/${article.slug}/`,
             },
             keywords: article.tags.join(', '),
             articleSection: article.category_label,
