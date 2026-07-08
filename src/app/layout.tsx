@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     template: "%s | China Medical Guides",
   },
   description: "Your trusted guide to world-class healthcare in China. Find top hospitals, understand costs, and navigate the Chinese medical system with confidence.",
-  keywords: ["Chinese healthcare", "medical tourism China", "Beijing hospitals", "international patients", "medical guide China"],
+  keywords: ["China healthcare", "medical tourism China", "Beijing hospitals", "international patients", "medical guide China"],
   icons: {
     icon: "/favicon.svg",
   },

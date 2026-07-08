@@ -31,7 +31,7 @@ export default function Header() {
             </div>
             <div>
               <span className="text-lg md:text-xl font-bold text-primary-800">MedGuides</span>
-              <span className="text-xs text-neutral-500 block -mt-1">Chinese Healthcare</span>
+              <span className="text-xs text-neutral-500 block -mt-1">China's Healthcare</span>
             </div>
           </Link>
 

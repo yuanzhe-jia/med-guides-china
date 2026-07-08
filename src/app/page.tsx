@@ -26,7 +26,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'China Medical Guides | Your Trusted Healthcare Companion in China',
   description: 'Your trusted guide to world-class healthcare in China. Find top hospitals, understand costs, and navigate the Chinese medical system with confidence.',
-  keywords: ['Chinese healthcare', 'medical tourism China', 'Beijing hospitals', 'international patients', 'medical guide China'],
+  keywords: ['China healthcare', 'medical tourism China', 'Beijing hospitals', 'international patients', 'medical guide China'],
   openGraph: {
     type: 'website',
     locale: 'en_US',
