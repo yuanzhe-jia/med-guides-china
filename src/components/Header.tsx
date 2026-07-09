@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { useState } from 'react';
-import { Menu, X, Heart } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 const navLinks = [
   { name: 'Home', href: '/' },
@@ -26,9 +26,7 @@ export default function Header() {
       <div className="container-custom">
         <div className="flex items-center justify-between h-16 md:h-20">
           <Link href="/" className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-primary-800 rounded-full flex items-center justify-center">
-              <Heart className="text-white" size={20} />
-            </div>
+            <img src="/logo.png" alt="MedGuides Logo" className="w-10 h-10" />
             <div>
               <span className="text-lg md:text-xl font-bold text-primary-800">MedGuides</span>
               <span className="text-xs text-neutral-500 block -mt-1">China's Healthcare</span>
