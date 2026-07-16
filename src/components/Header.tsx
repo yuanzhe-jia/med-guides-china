@@ -17,12 +17,6 @@ export default function Header() {
 
   return (
     <header className="bg-white shadow-sm sticky top-0 z-50">
-      <div className="bg-primary-800 text-white text-sm py-2 hidden md:block">
-        <div className="container-custom flex items-center justify-center">
-          <span className="text-primary-300 text-center">All content on this website is for reference only. Please contact the hospital for medical consultation.</span>
-        </div>
-      </div>
-      
       <div className="container-custom">
         <div className="flex items-center justify-between h-16 md:h-20">
           <Link href="/" className="flex items-center gap-2">

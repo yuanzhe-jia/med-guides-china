@@ -250,17 +250,6 @@ export default function TermsOfServicePage() {
               </p>
             </div>
 
-            <div>
-              <h2 className="text-2xl font-bold text-primary-800 mb-4">14. Contact Us</h2>
-              <p>
-                If you have any questions about these terms, please contact us at:
-              </p>
-              <div className="mt-4 p-4 bg-primary-50 rounded-lg">
-                <p>Email: <a href="mailto:info@medguideschina.com" className="text-primary-600 hover:text-primary-800 underline">info@medguideschina.com</a></p>
-                <p>Location: Beijing, China</p>
-              </div>
-            </div>
-
             <div className="pt-6 border-t border-neutral-200">
               <p className="text-sm text-neutral-500">
                 Thank you for taking the time to review our terms. We appreciate 

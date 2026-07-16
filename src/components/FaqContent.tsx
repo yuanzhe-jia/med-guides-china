@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { HelpCircle, MessageCircleQuestion } from 'lucide-react';
+import { MessageCircleQuestion } from 'lucide-react';
 import FaqItem from '@/components/FaqItem';
 import faqData from '@/data/faq.json';
 import type { FaqItem as FaqItemType } from '@/types';
@@ -59,17 +59,10 @@ export default function FaqContent() {
               Every patient&apos;s situation is unique. If you have questions we haven&apos;t covered, 
               our team is here to help guide you toward the right care.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a
-                href="mailto:info@medguideschina.com"
-                className="inline-flex items-center justify-center gap-2 bg-primary-700 hover:bg-primary-800 text-white px-8 py-3.5 rounded-xl font-semibold transition-colors shadow-md"
-              >
-                <HelpCircle size={18} />
-                Email Us Your Question
-              </a>
+            <div className="flex justify-center">
               <a
                 href="/hospitals"
-                className="inline-flex items-center justify-center gap-2 bg-white border-2 border-neutral-200 hover:border-primary-300 text-neutral-700 hover:text-primary-700 px-8 py-3.5 rounded-xl font-semibold transition-colors"
+                className="inline-flex items-center justify-center gap-2 bg-primary-700 hover:bg-primary-800 text-white px-8 py-3.5 rounded-xl font-semibold transition-colors shadow-md"
               >
                 Browse Hospitals
               </a>

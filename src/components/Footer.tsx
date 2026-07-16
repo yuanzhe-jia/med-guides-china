@@ -1,25 +1,45 @@
 import Link from 'next/link';
-import { Mail, MapPin, ExternalLink } from 'lucide-react';
+import { ExternalLink } from 'lucide-react';
 
 export default function Footer() {
   return (
     <footer className="bg-primary-900 text-white">
       <div className="container-custom py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
-          <div className="lg:col-span-1">
+
+          <div>
+            <h3 className="font-semibold text-lg mb-5">Quick Links</h3>
+            <ul className="space-y-3">
+              <li><Link href="/hospitals" className="text-primary-200 hover:text-white transition-colors">Hospitals</Link></li>
+              <li><Link href="/guide" className="text-primary-200 hover:text-white transition-colors">Medical Guide</Link></li>
+              <li><Link href="/articles" className="text-primary-200 hover:text-white transition-colors">Articles</Link></li>
+              <li><Link href="/faq" className="text-primary-200 hover:text-white transition-colors">FAQ</Link></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="font-semibold text-lg mb-5">Top Specialties</h3>
+            <ul className="space-y-3">
+              <li><Link href="/hospitals?specialty=dentistry" className="text-primary-200 hover:text-white transition-colors">Dentistry</Link></li>
+              <li><Link href="/hospitals?specialty=cardiology" className="text-primary-200 hover:text-white transition-colors">Cardiology</Link></li>
+              <li><Link href="/hospitals?specialty=orthopedics" className="text-primary-200 hover:text-white transition-colors">Orthopedics</Link></li>
+              <li><Link href="/hospitals?specialty=ophthalmology" className="text-primary-200 hover:text-white transition-colors">Ophthalmology</Link></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="font-semibold text-lg mb-5">Cities Served</h3>
+            <ul className="space-y-3">
+              <li><Link href="/hospitals?city=Beijing" className="text-primary-200 hover:text-white transition-colors">Beijing</Link></li>
+              <li><Link href="/hospitals?city=Shanghai" className="text-primary-200 hover:text-white transition-colors">Shanghai</Link></li>
+              <li><Link href="/hospitals?city=Guangzhou" className="text-primary-200 hover:text-white transition-colors">Guangzhou</Link></li>
+              <li><Link href="/hospitals?city=Hainan" className="text-primary-200 hover:text-white transition-colors">Hainan</Link></li>
+            </ul>
+          </div>
+
+          <div>
             <h3 className="font-semibold text-lg mb-5">References</h3>
             <ul className="space-y-3">
-              <li>
-                <a
-                  href="http://english.scio.gov.cn/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-primary-200 hover:text-white transition-colors flex items-center gap-2"
-                >
-                  <span>State Council</span>
-                  <ExternalLink size={12} className="flex-shrink-0" />
-                </a>
-              </li>
               <li>
                 <a
                   href="https://english.beijing.gov.cn/"
@@ -67,49 +87,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div>
-            <h3 className="font-semibold text-lg mb-5">Quick Links</h3>
-            <ul className="space-y-3">
-              <li><Link href="/" className="text-primary-200 hover:text-white transition-colors">Home</Link></li>
-              <li><Link href="/hospitals" className="text-primary-200 hover:text-white transition-colors">Find Hospitals</Link></li>
-              <li><Link href="/guide" className="text-primary-200 hover:text-white transition-colors">Medical Guide</Link></li>
-              <li><Link href="/articles" className="text-primary-200 hover:text-white transition-colors">Find Articles</Link></li>
-              <li><Link href="/faq" className="text-primary-200 hover:text-white transition-colors">FAQ</Link></li>
-            </ul>
-          </div>
-
-          <div>
-            <h3 className="font-semibold text-lg mb-5">Top Specialties</h3>
-            <ul className="space-y-3">
-              <li><Link href="/hospitals?specialty=dentistry" className="text-primary-200 hover:text-white transition-colors">Dentistry</Link></li>
-              <li><Link href="/hospitals?specialty=cardiology" className="text-primary-200 hover:text-white transition-colors">Cardiology</Link></li>
-              <li><Link href="/hospitals?specialty=orthopedics" className="text-primary-200 hover:text-white transition-colors">Orthopedics</Link></li>
-              <li><Link href="/hospitals?specialty=ophthalmology" className="text-primary-200 hover:text-white transition-colors">Ophthalmology</Link></li>
-              <li><Link href="/hospitals?specialty=Traditional%20Chinese%20Medicine" className="text-primary-200 hover:text-white transition-colors">Traditional Chinese Medicine</Link></li>
-            </ul>
-          </div>
-
-          <div>
-            <h3 className="font-semibold text-lg mb-5">Contact Us</h3>
-            <ul className="space-y-4">
-              <li className="flex items-start gap-3">
-                <Mail size={18} className="text-primary-400 mt-0.5 flex-shrink-0" />
-                <div>
-                  <p className="text-primary-200 text-sm">Email</p>
-                  <a href="mailto:info@medguideschina.com" className="text-primary-200 hover:text-white transition-colors">
-                    info@medguideschina.com
-                  </a>
-                </div>
-              </li>
-              <li className="flex items-start gap-3">
-                <MapPin size={18} className="text-primary-400 mt-0.5 flex-shrink-0" />
-                <div>
-                  <p className="text-primary-200 text-sm">Location</p>
-                  <p className="text-primary-200">Beijing, China</p>
-                </div>
-              </li>
-            </ul>
-          </div>
         </div>
       </div>
       

@@ -102,7 +102,6 @@ export default function HomePage() {
     url: 'https://medguideschina.com',
     logo: 'https://medguideschina.com/favicon.ico',
     description: 'Your trusted guide to world-class healthcare in China.',
-    email: 'info@medguideschina.com',
     areaServed: ['Beijing', 'Shanghai', 'Guangzhou', 'Hainan'],
   };
 
