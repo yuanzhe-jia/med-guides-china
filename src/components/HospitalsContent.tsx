@@ -51,6 +51,14 @@ export default function HospitalsContent() {
   const [searchQuery, setSearchQuery] = useState('');
 
   useEffect(() => {
+    // 先重置所有筛选条件为默认值，避免与之前的状态叠加
+    setCity('All Cities');
+    setTier('all');
+    setCategory('all');
+    setSpecialty('All Specialties');
+    setSearchQuery('');
+
+    // 只根据当前 URL 中存在的参数设置状态
     const cityParam = searchParams.get('city');
     if (cityParam && cities.includes(cityParam)) {
       setCity(cityParam);

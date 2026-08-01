@@ -17,24 +17,15 @@ export default function ArticleCard({ article, featured = false }: ArticleCardPr
       }`}
     >
       <div className={`relative overflow-hidden bg-gradient-to-br from-secondary-50 to-primary-100 ${
-        featured ? 'h-48 md:h-auto md:w-2/5' : 'h-40'
+        featured ? 'h-24 md:h-auto md:w-2/5' : 'h-20'
       }`}>
         <div className="absolute inset-0 flex items-center justify-center">
-          <div className="text-primary-700 text-center px-6">
-            <div className="text-sm font-medium text-primary-600 uppercase tracking-wide mb-2">
+          <div className="text-primary-700 text-center px-4">
+            <div className="text-xs font-semibold text-primary-600 uppercase tracking-wide">
               {article.category_label}
             </div>
-            <div className="w-12 h-0.5 bg-primary-400 mx-auto" />
           </div>
         </div>
-        
-        {article.featured && (
-          <div className="absolute top-3 left-3">
-            <span className="px-2.5 py-1 rounded-full text-xs font-semibold bg-amber-500 text-white">
-              Featured
-            </span>
-          </div>
-        )}
       </div>
 
       <div className={`p-5 flex-1 flex flex-col ${featured ? 'md:w-3/5' : ''}`}>

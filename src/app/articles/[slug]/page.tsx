@@ -8,8 +8,6 @@ import {
   Clock,
   BookOpen,
   Share2,
-  ChevronLeft,
-  ChevronRight,
 } from 'lucide-react';
 import articlesData from '@/data/articles.json';
 import { getArticleContent } from '@/lib/markdown';
@@ -73,10 +71,6 @@ export default function ArticlePage({ params }: ArticlePageProps) {
     notFound();
   }
 
-  const currentIndex = articles.findIndex((a) => a.slug === params.slug);
-  const prevArticle = currentIndex > 0 ? articles[currentIndex - 1] : null;
-  const nextArticle = currentIndex < articles.length - 1 ? articles[currentIndex + 1] : null;
-
   return (
     <div className="bg-neutral-50 min-h-screen">
       <script
@@ -124,11 +118,6 @@ export default function ArticlePage({ params }: ArticlePageProps) {
               <span className="px-3 py-1 bg-primary-50 text-primary-700 rounded-full text-sm font-medium">
                 {article.category_label}
               </span>
-              {article.featured && (
-                <span className="px-3 py-1 bg-amber-50 text-amber-700 rounded-full text-sm font-medium">
-                  Featured
-                </span>
-              )}
             </div>
 
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-neutral-900 mb-6 leading-tight">
@@ -180,42 +169,6 @@ export default function ArticlePage({ params }: ArticlePageProps) {
                     ))}
                   </div>
                 </div>
-              </div>
-
-              {/* Previous / Next Navigation */}
-              <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
-                {prevArticle ? (
-                  <Link
-                    href={`/articles/${prevArticle.slug}`}
-                    className="bg-white rounded-xl shadow-card border border-neutral-100 p-5 hover:shadow-card-hover transition-all group"
-                  >
-                    <div className="flex items-center gap-2 text-sm text-neutral-500 mb-2">
-                      <ChevronLeft size={16} />
-                      <span>Previous Article</span>
-                    </div>
-                    <p className="font-semibold text-neutral-900 group-hover:text-primary-700 transition-colors line-clamp-2">
-                      {prevArticle.title}
-                    </p>
-                  </Link>
-                ) : (
-                  <div />
-                )}
-                {nextArticle ? (
-                  <Link
-                    href={`/articles/${nextArticle.slug}`}
-                    className="bg-white rounded-xl shadow-card border border-neutral-100 p-5 hover:shadow-card-hover transition-all group text-right"
-                  >
-                    <div className="flex items-center justify-end gap-2 text-sm text-neutral-500 mb-2">
-                      <span>Next Article</span>
-                      <ChevronRight size={16} />
-                    </div>
-                    <p className="font-semibold text-neutral-900 group-hover:text-primary-700 transition-colors line-clamp-2">
-                      {nextArticle.title}
-                    </p>
-                  </Link>
-                ) : (
-                  <div />
-                )}
               </div>
             </article>
 

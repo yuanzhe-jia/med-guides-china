@@ -441,7 +441,7 @@ export default function HomePage() {
             <div className="max-w-2xl">
               <span className="text-primary-600 font-semibold text-sm uppercase tracking-wide">Learning Center</span>
               <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 mt-3 mb-4">
-                Essential Reading for Your Medical Journey
+                Essential Reading for Your Journey
               </h2>
               <p className="text-lg text-neutral-600">
                 Practical guides, hospital reviews, and expert advice to help you navigate China's healthcare system with confidence.
