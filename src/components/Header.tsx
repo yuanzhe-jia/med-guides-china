@@ -20,7 +20,15 @@ export default function Header() {
       <div className="container-custom">
         <div className="flex items-center justify-between h-16 md:h-20">
           <Link href="/" className="flex items-center gap-2">
-            <img src="/logo.png" alt="MedGuides Logo" className="w-10 h-10" />
+            <img
+              src="/logo.png"
+              alt="MedGuides Logo"
+              className="w-10 h-10"
+              loading="lazy"
+              decoding="async"
+              width="40"
+              height="40"
+            />
             <div>
               <span className="text-lg md:text-xl font-bold text-primary-800">MedGuides</span>
               <span className="text-xs text-neutral-500 block -mt-1">China's Healthcare</span>

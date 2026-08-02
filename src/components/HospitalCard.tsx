@@ -26,6 +26,11 @@ export default function HospitalCard({ hospital, featured = false }: HospitalCar
             src={hospital.image_cover}
             alt={hospital.name}
             className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+            {...(featured
+              ? { fetchpriority: "high", loading: "eager", decoding: "sync" }
+              : { loading: "lazy", decoding: "async" })}
+            width="800"
+            height="450"
           />
         )}
         <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />

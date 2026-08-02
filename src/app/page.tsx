@@ -360,6 +360,10 @@ export default function HomePage() {
                     src={city.image_cover}
                     alt={city.name}
                     className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                    loading="lazy"
+                    decoding="async"
+                    width="800"
+                    height="500"
                   />
                 )}
                 <div className="absolute inset-0 bg-gradient-to-t from-primary-900/90 via-primary-900/50 to-primary-700/30">
