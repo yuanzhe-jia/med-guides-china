@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect } from 'react';
-import { usePathname, useSearchParams } from 'next/navigation';
+import { usePathname } from 'next/navigation';
 
 declare global {
   interface Window {
@@ -26,14 +26,14 @@ function pushPageLevelAds() {
 
 export default function GoogleAdSense() {
   const pathname = usePathname();
-  const searchParams = useSearchParams();
 
   useEffect(() => {
     // Initial page-level auto ads trigger (SSR-hydrated first paint)
     pushPageLevelAds();
 
     // Re-trigger on client-side route changes (SPA navs between articles/hospitals)
-  }, [pathname, searchParams]);
+  }, [pathname]);
 
   return null;
 }
+
