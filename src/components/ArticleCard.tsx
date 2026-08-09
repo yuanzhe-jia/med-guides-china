@@ -1,7 +1,6 @@
 import Link from 'next/link';
-import { Clock, Calendar, ArrowRight } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import type { Article } from '@/types';
-import { formatDate } from '@/lib/utils';
 
 interface ArticleCardProps {
   article: Article;
@@ -17,7 +16,7 @@ export default function ArticleCard({ article, featured = false }: ArticleCardPr
       }`}
     >
       <div className={`relative overflow-hidden bg-gradient-to-br from-secondary-50 to-primary-100 ${
-        featured ? 'h-24 md:h-auto md:w-2/5' : 'h-20'
+        featured ? 'h-[72px] md:h-auto md:w-2/5' : 'h-[60px]'
       }`}>
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="text-primary-700 text-center px-4">
@@ -29,17 +28,6 @@ export default function ArticleCard({ article, featured = false }: ArticleCardPr
       </div>
 
       <div className={`p-5 flex-1 flex flex-col ${featured ? 'md:w-3/5' : ''}`}>
-        <div className="flex items-center gap-4 text-xs text-neutral-500 mb-3 h-4">
-          <div className="flex items-center gap-1">
-            <Calendar size={12} />
-            <span>{formatDate(article.publish_date)}</span>
-          </div>
-          <div className="flex items-center gap-1">
-            <Clock size={12} />
-            <span>{article.read_time} read</span>
-          </div>
-        </div>
-
         <h3 className="font-semibold text-neutral-900 group-hover:text-primary-700 transition-colors text-lg leading-snug mb-3 line-clamp-2 h-[3.125rem]">
           {article.title}
         </h3>

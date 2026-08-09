@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 import { usePathname } from 'next/navigation';
 
 declare global {
@@ -11,27 +11,33 @@ declare global {
 
 const GOOGLE_AD_CLIENT = 'ca-pub-7905191864325907';
 
-function pushPageLevelAds() {
-  if (typeof window === 'undefined') return;
-  try {
-    (window.adsbygoogle = window.adsbygoogle || []).push({
-      google_ad_client: GOOGLE_AD_CLIENT,
-      enable_page_level_ads: true,
-      overlays: { bottom: true, sidebars: true },
-    });
-  } catch {
-    /* no-op */
-  }
-}
-
 export default function GoogleAdSense() {
   const pathname = usePathname();
+  const pageLevelInitialized = useRef(false);
+  const lastPathname = useRef<string | null>(null);
 
   useEffect(() => {
-    // Initial page-level auto ads trigger (SSR-hydrated first paint)
-    pushPageLevelAds();
+    if (typeof window === 'undefined') return;
 
-    // Re-trigger on client-side route changes (SPA navs between articles/hospitals)
+    try {
+      if (!pageLevelInitialized.current) {
+        (window.adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: GOOGLE_AD_CLIENT,
+          enable_page_level_ads: true,
+          overlays: { bottom: true, sidebars: true },
+        });
+        pageLevelInitialized.current = true;
+        lastPathname.current = pathname;
+        return;
+      }
+
+      if (lastPathname.current !== pathname) {
+        lastPathname.current = pathname;
+        (window.adsbygoogle = window.adsbygoogle || []).push({});
+      }
+    } catch {
+      /* no-op */
+    }
   }, [pathname]);
 
   return null;

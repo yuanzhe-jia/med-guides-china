@@ -45,7 +45,6 @@ export interface Article {
   category_label: string;
   excerpt: string;
   publish_date: string;
-  read_time: string;
   tags: string[];
   featured?: boolean;
 }

@@ -4,14 +4,9 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import {
   ArrowLeft,
-  Calendar,
-  Clock,
-  BookOpen,
-  Share2,
 } from 'lucide-react';
 import articlesData from '@/data/articles.json';
 import { getArticleContent } from '@/lib/markdown';
-import { formatDate } from '@/lib/utils';
 import type { Article } from '@/types';
 import type { Metadata } from 'next';
 
@@ -123,21 +118,6 @@ export default function ArticlePage({ params }: ArticlePageProps) {
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-neutral-900 mb-6 leading-tight">
               {article.title}
             </h1>
-
-            <div className="flex flex-wrap items-center gap-6 text-sm text-neutral-500">
-              <div className="flex items-center gap-2">
-                <Calendar size={16} />
-                <span>{formatDate(article.publish_date)}</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <Clock size={16} />
-                <span>{article.read_time} read</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <BookOpen size={16} />
-                <span>By Xinhua</span>
-              </div>
-            </div>
           </div>
         </div>
       </section>
