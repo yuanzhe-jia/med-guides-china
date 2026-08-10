@@ -4,6 +4,17 @@ export const metadata: Metadata = {
   title: 'Privacy Policy',
   description: 'MedGuidesChina privacy policy. Learn how we handle your information when you use our website and services.',
   keywords: ['privacy policy', 'data privacy', 'MedGuidesChina privacy', 'personal information'],
+  robots: {
+    index: false,
+    follow: false,
+    googleBot: {
+      index: false,
+      follow: false,
+      'max-snippet': -1,
+      'max-image-preview': 'large',
+      'max-video-preview': -1,
+    },
+  },
   openGraph: {
     type: 'website',
     locale: 'en_US',

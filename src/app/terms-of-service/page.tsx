@@ -4,6 +4,17 @@ export const metadata: Metadata = {
   title: 'Terms of Service',
   description: 'MedGuidesChina Terms of Service. Please read these terms carefully before using our website and services.',
   keywords: ['terms of service', 'terms of use', 'user agreement', 'MedGuidesChina terms'],
+  robots: {
+    index: false,
+    follow: false,
+    googleBot: {
+      index: false,
+      follow: false,
+      'max-snippet': -1,
+      'max-image-preview': 'large',
+      'max-video-preview': -1,
+    },
+  },
   openGraph: {
     type: 'website',
     locale: 'en_US',
