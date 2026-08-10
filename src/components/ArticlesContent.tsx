@@ -13,7 +13,7 @@ const categories = [
   { value: 'medical-tourism', label: 'Medical Tourism' },
   { value: 'innovation', label: 'Innovation' },
   { value: 'cost', label: 'Cost' },
-  { value: 'international', label: 'International' },
+  { value: 'guide', label: 'Guide' }
 ];
 
 export default function ArticlesContent() {
