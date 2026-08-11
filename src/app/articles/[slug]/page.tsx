@@ -4,6 +4,8 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import {
   ArrowLeft,
+  ChevronLeft,
+  ChevronRight,
 } from 'lucide-react';
 import articlesData from '@/data/articles.json';
 import { getArticleContent } from '@/lib/markdown';
@@ -40,9 +42,6 @@ export function generateMetadata({ params }: ArticlePageProps): Metadata {
       siteName: 'China Medical Guides',
       title: `${article.title} | China Medical Guides`,
       description: article.excerpt,
-      publishedTime: article.publish_date,
-      modifiedTime: article.publish_date,
-      authors: ['Xinhua'],
       tags: article.tags,
     },
     twitter: {
@@ -59,12 +58,16 @@ export function generateMetadata({ params }: ArticlePageProps): Metadata {
 
 export default function ArticlePage({ params }: ArticlePageProps) {
   const articles = articlesData as Article[];
-  const article = articles.find((a) => a.slug === params.slug);
-  const content = getArticleContent(params.slug);
+  const currentIndex = articles.findIndex((a) => a.slug === params.slug);
+  const article = currentIndex >= 0 ? articles[currentIndex] : undefined;
+  const content = article ? getArticleContent(params.slug) : '';
 
   if (!article) {
     notFound();
   }
+
+  const prevArticle = currentIndex > 0 ? articles[currentIndex - 1] : null;
+  const nextArticle = currentIndex >= 0 && currentIndex < articles.length - 1 ? articles[currentIndex + 1] : null;
 
   return (
     <div className="bg-neutral-50 min-h-screen">
@@ -77,8 +80,6 @@ export default function ArticlePage({ params }: ArticlePageProps) {
             headline: article.title,
             description: article.excerpt,
             articleBody: content,
-            datePublished: article.publish_date,
-            dateModified: article.publish_date,
             author: {
               '@type': 'Organization',
               name: 'Xinhua',
@@ -150,6 +151,49 @@ export default function ArticlePage({ params }: ArticlePageProps) {
                   </div>
                 </div>
               </div>
+
+              {/* Prev / Next Navigation */}
+              {(prevArticle || nextArticle) && (
+                <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  {prevArticle ? (
+                    <Link
+                      href={`/articles/${prevArticle.slug}`}
+                      className="group bg-white rounded-2xl shadow-card border border-neutral-100 p-5 hover:border-primary-200 hover:shadow-md transition-all flex items-center gap-4 min-h-[88px]"
+                    >
+                      <div className="w-10 h-10 rounded-full bg-neutral-100 group-hover:bg-primary-50 text-neutral-500 group-hover:text-primary-600 flex items-center justify-center flex-shrink-0 transition-colors">
+                        <ChevronLeft size={20} />
+                      </div>
+                      <div className="min-w-0 flex-1">
+                        <p className="text-xs uppercase tracking-wider text-neutral-400 font-medium mb-1">Previous Article</p>
+                        <p className="text-sm font-semibold text-neutral-800 group-hover:text-primary-700 transition-colors line-clamp-2">
+                          {prevArticle.title}
+                        </p>
+                      </div>
+                    </Link>
+                  ) : (
+                    <div className="hidden sm:block" aria-hidden="true" />
+                  )}
+
+                  {nextArticle ? (
+                    <Link
+                      href={`/articles/${nextArticle.slug}`}
+                      className="group bg-white rounded-2xl shadow-card border border-neutral-100 p-5 hover:border-primary-200 hover:shadow-md transition-all flex items-center gap-4 min-h-[88px] sm:flex-row-reverse sm:text-right"
+                    >
+                      <div className="w-10 h-10 rounded-full bg-neutral-100 group-hover:bg-primary-50 text-neutral-500 group-hover:text-primary-600 flex items-center justify-center flex-shrink-0 transition-colors">
+                        <ChevronRight size={20} />
+                      </div>
+                      <div className="min-w-0 flex-1">
+                        <p className="text-xs uppercase tracking-wider text-neutral-400 font-medium mb-1">Next Article</p>
+                        <p className="text-sm font-semibold text-neutral-800 group-hover:text-primary-700 transition-colors line-clamp-2">
+                          {nextArticle.title}
+                        </p>
+                      </div>
+                    </Link>
+                  ) : (
+                    <div className="hidden sm:block" aria-hidden="true" />
+                  )}
+                </div>
+              )}
             </article>
 
             {/* Sidebar */}

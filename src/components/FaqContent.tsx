@@ -56,8 +56,7 @@ export default function FaqContent() {
               Still Have Questions?
             </h2>
             <p className="text-lg text-neutral-600 mb-8">
-              Every patient&apos;s situation is unique. If you have questions we haven&apos;t covered, 
-              our team is here to help guide you toward the right care.
+              Every patient&apos;s situation is unique. If you have questions we haven&apos;t covered, please contact the hospital you are interested for inquiries.
             </p>
             <div className="flex justify-center">
               <a

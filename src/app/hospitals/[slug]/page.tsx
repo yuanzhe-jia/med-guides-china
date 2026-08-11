@@ -17,10 +17,8 @@ import {
   Star,
   FileText,
 } from 'lucide-react';
-import ArticleCard from '@/components/ArticleCard';
 import hospitalsData from '@/data/hospitals.json';
-import articlesData from '@/data/articles.json';
-import type { Hospital, Article } from '@/types';
+import type { Hospital } from '@/types';
 import type { Metadata } from 'next';
 
 interface HospitalPageProps {
@@ -28,10 +26,8 @@ interface HospitalPageProps {
 }
 
 const tierColors: Record<string, string> = {
-  'S': 'bg-amber-500 text-white',
-  'A+': 'bg-primary-600 text-white',
-  'A': 'bg-primary-500 text-white',
-  'B': 'bg-neutral-500 text-white',
+  '3A': 'bg-amber-500 text-white',
+  'Other': 'bg-neutral-500 text-white',
 };
 
 export function generateStaticParams() {
@@ -75,17 +71,10 @@ export function generateMetadata({ params }: HospitalPageProps): Metadata {
 
 export default function HospitalPage({ params }: HospitalPageProps) {
   const hospital = (hospitalsData as Hospital[]).find((h) => h.slug === params.slug);
-  const allArticles = articlesData as Article[];
 
   if (!hospital) {
     notFound();
   }
-
-  const relatedArticles = allArticles.filter(
-    (a) =>
-      a.title.toLowerCase().includes(hospital.name.split(' ')[0].toLowerCase()) ||
-      hospital.specialties.some((s) => a.tags.includes(s.toLowerCase()))
-  ).slice(0, 2);
 
   return (
     <div className="bg-neutral-50">
@@ -129,8 +118,8 @@ export default function HospitalPage({ params }: HospitalPageProps) {
           <div className="flex flex-col md:flex-row md:items-start gap-6">
             <div className="flex-1">
               <div className="flex flex-wrap items-center gap-3 mb-4">
-                <span className={`px-3 py-1 rounded-full text-sm font-semibold ${tierColors[hospital.tier]}`}>
-                  {hospital.tier} Tier
+                <span className={`px-3 py-1 rounded-full text-sm font-semibold ${tierColors[hospital.tier] || 'bg-neutral-500 text-white'}`}>
+                  {hospital.tier === '3A' ? '3A (三甲)' : hospital.tier}
                 </span>
                 <span className="px-3 py-1 rounded-full text-sm font-medium bg-white/10 backdrop-blur-sm">
                   {hospital.category_label}
@@ -437,8 +426,8 @@ export default function HospitalPage({ params }: HospitalPageProps) {
 
                   <div className="flex items-center justify-between py-3 border-b border-neutral-100">
                     <span className="text-neutral-600 text-sm">Tier</span>
-                    <span className={`px-2 py-0.5 rounded text-xs font-semibold ${tierColors[hospital.tier]}`}>
-                      {hospital.tier}
+                    <span className={`px-2 py-0.5 rounded text-xs font-semibold ${tierColors[hospital.tier] || 'bg-neutral-500 text-white'}`}>
+                      {hospital.tier === '3A' ? '3A (三甲)' : hospital.tier}
                     </span>
                   </div>
 
@@ -476,18 +465,6 @@ export default function HospitalPage({ params }: HospitalPageProps) {
               </div>
             </div>
           </div>
-
-          {/* Related Articles */}
-          {relatedArticles.length > 0 && (
-            <div className="mt-12">
-              <h2 className="text-2xl font-bold text-neutral-900 mb-6">Related Articles</h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                {relatedArticles.map((article) => (
-                  <ArticleCard key={article.id} article={article} />
-                ))}
-              </div>
-            </div>
-          )}
         </div>
       </section>
     </div>

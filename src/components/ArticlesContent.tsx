@@ -37,7 +37,12 @@ export default function ArticlesContent() {
       );
     }
 
-    return result.sort((a, b) => new Date(b.publish_date).getTime() - new Date(a.publish_date).getTime());
+    return result.sort((a, b) => {
+      // ID 格式 "a1" ~ "a12"：解析尾部数字，按数值从小到大排序（避免字典序 a10 < a2 的坑）
+      const na = parseInt(a.id.slice(1), 10);
+      const nb = parseInt(b.id.slice(1), 10);
+      return (Number.isFinite(na) ? na : Number.MAX_SAFE_INTEGER) - (Number.isFinite(nb) ? nb : Number.MAX_SAFE_INTEGER);
+    });
   }, [category, searchQuery]);
 
   return (

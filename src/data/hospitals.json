@@ -4,12 +4,23 @@
     "slug": "peking-union-medical-college-hospital",
     "name": "Peking Union Medical College Hospital - International Medical Center",
     "name_zh": "北京协和医院国际医疗部",
-    "tier": "S",
+    "tier": "3A",
     "category": "public_international",
     "category_label": "Public Tier 3A International",
     "city": "Beijing",
-    "specialties": ["Oncology", "Rheumatology", "Obstetrics", "Orthopedics", "Allergy", "Endocrinology", "Cardiology"],
-    "languages": ["English", "Japanese"],
+    "specialties": [
+      "Oncology",
+      "Rheumatology",
+      "Obstetrics",
+      "Orthopedics",
+      "Allergy",
+      "Endocrinology",
+      "Cardiology"
+    ],
+    "languages": [
+      "English",
+      "Japanese"
+    ],
     "has_24h_emergency": true,
     "phone_foreign": "+86-10-6915-6699",
     "address": "No. 1 Shuaifuyuan, Dongcheng District, Beijing",
@@ -17,18 +28,45 @@
     "registration_fee_range": "$50 - $150",
     "registration_channel": "Online / Phone / WeChat",
     "description": "Peking Union Medical College Hospital (PUMCH) is China's most prestigious medical institution, renowned for its comprehensive care and medical excellence. Our International Medical Service department has served patients from over 180 countries with warm, patient-centered care for more than three decades. Our multidisciplinary teams combine cutting-edge technology with compassionate care.",
-    "direct_billing_insurers": ["Aetna", "Cigna", "MSH", "Allianz", "Bupa", "Ping An", "ICBC"],
+    "direct_billing_insurers": [
+      "Aetna",
+      "Cigna",
+      "MSH",
+      "Allianz",
+      "Bupa",
+      "Ping An",
+      "ICBC"
+    ],
     "image_cover": "/images/hospitals/h1.jpg",
     "last_verified": "2026-06-30",
     "common_tests": [
-      { "name": "MRI Scan", "price_range": "$150 - $300" },
-      { "name": "CT Scan", "price_range": "$80 - $200" },
-      { "name": "Blood Panel", "price_range": "$30 - $80" },
-      { "name": "X-Ray", "price_range": "$30 - $60" },
-      { "name": "Ultrasound", "price_range": "$50 - $120" }
+      {
+        "name": "MRI Scan",
+        "price_range": "$150 - $300"
+      },
+      {
+        "name": "CT Scan",
+        "price_range": "$80 - $200"
+      },
+      {
+        "name": "Blood Panel",
+        "price_range": "$30 - $80"
+      },
+      {
+        "name": "X-Ray",
+        "price_range": "$30 - $60"
+      },
+      {
+        "name": "Ultrasound",
+        "price_range": "$50 - $120"
+      }
     ],
     "international_services": {
-      "languages": ["English", "Japanese", "French (limited)"],
+      "languages": [
+        "English",
+        "Japanese",
+        "French (limited)"
+      ],
       "has_international_coordinators": true,
       "has_translation_service": true,
       "has_dedicated_international_floor": true,
@@ -36,7 +74,14 @@
     },
     "transportation": {
       "nearest_subway": "Dongsi Station (Line 5, Line 6) - 8 min walk",
-      "bus_routes": ["106", "108", "110", "111", "116", "684"],
+      "bus_routes": [
+        "106",
+        "108",
+        "110",
+        "111",
+        "116",
+        "684"
+      ],
       "taxi_guide": "Tell the driver: 'Xiehe Yiyuan Dongdan, Dongcheng Qu'"
     }
   },
@@ -45,12 +90,22 @@
     "slug": "beijing-jishuitan-hospital-international",
     "name": "Beijing Jishuitan Hospital - International Medical Center",
     "name_zh": "北京积水潭医院国际医疗部",
-    "tier": "S",
+    "tier": "3A",
     "category": "public_international",
     "category_label": "Public Tier 3A International",
     "city": "Beijing",
-    "specialties": ["Orthopedics", "Traumatology", "Hand Surgery", "Spine Surgery", "Joint Replacement", "Sports Medicine", "Burns"],
-    "languages": ["English"],
+    "specialties": [
+      "Orthopedics",
+      "Traumatology",
+      "Hand Surgery",
+      "Spine Surgery",
+      "Joint Replacement",
+      "Sports Medicine",
+      "Burns"
+    ],
+    "languages": [
+      "English"
+    ],
     "has_24h_emergency": true,
     "phone_foreign": "+86-10-5851-6684",
     "address": "No. 31 Xinjiekou East Street, Xicheng District, Beijing",
@@ -58,18 +113,41 @@
     "registration_fee_range": "$30 - $120",
     "registration_channel": "Phone / WeChat / Walk-in",
     "description": "Beijing Jishuitan Hospital is China's leading orthopedic specialty hospital, with a 70-year history of excellence in bone and joint care. Our International Medical Center provides world-class orthopedic treatment with English-speaking staff, specializing in joint replacement, spine surgery, sports medicine, and trauma reconstruction. We have welcomed patients from the United States, the United Kingdom, France, Australia, Canada, the Netherlands, New Zealand, Croatia, Sudan, the Democratic Republic of the Congo, South Korea, Japan, Malaysia, Outer Mongolia, Hong Kong, Macau, Taiwan, and other regions worldwide.",
-    "direct_billing_insurers": ["Aetna", "Cigna", "MSH", "Allianz", "Bupa"],
+    "direct_billing_insurers": [
+      "Aetna",
+      "Cigna",
+      "MSH",
+      "Allianz",
+      "Bupa"
+    ],
     "image_cover": "/images/hospitals/h2.jpg",
     "last_verified": "2026-06-30",
     "common_tests": [
-      { "name": "MRI Scan", "price_range": "$120 - $250" },
-      { "name": "CT Scan", "price_range": "$70 - $180" },
-      { "name": "Bone Density Test", "price_range": "$50 - $100" },
-      { "name": "X-Ray", "price_range": "$25 - $50" },
-      { "name": "Physical Therapy Session", "price_range": "$40 - $100" }
+      {
+        "name": "MRI Scan",
+        "price_range": "$120 - $250"
+      },
+      {
+        "name": "CT Scan",
+        "price_range": "$70 - $180"
+      },
+      {
+        "name": "Bone Density Test",
+        "price_range": "$50 - $100"
+      },
+      {
+        "name": "X-Ray",
+        "price_range": "$25 - $50"
+      },
+      {
+        "name": "Physical Therapy Session",
+        "price_range": "$40 - $100"
+      }
     ],
     "international_services": {
-      "languages": ["English"],
+      "languages": [
+        "English"
+      ],
       "has_international_coordinators": true,
       "has_translation_service": true,
       "has_dedicated_international_floor": true,
@@ -77,7 +155,14 @@
     },
     "transportation": {
       "nearest_subway": "Jishuitan Station (Line 2) - 5 min walk",
-      "bus_routes": ["22", "38", "47", "88", "409", "609"],
+      "bus_routes": [
+        "22",
+        "38",
+        "47",
+        "88",
+        "409",
+        "609"
+      ],
       "taxi_guide": "Tell the driver: 'Jishuitan Yiyuan, Xicheng Qu'"
     }
   },
@@ -86,12 +171,21 @@
     "slug": "beijing-tiantan-hospital-international",
     "name": "Beijing Tiantan Hospital - International Medical Center",
     "name_zh": "北京天坛医院国际医疗部",
-    "tier": "A+",
+    "tier": "3A",
     "category": "public_international",
     "category_label": "Public Tier 3A International",
     "city": "Beijing",
-    "specialties": ["Neurology", "Neurosurgery", "Stroke Center", "Neurointervention", "Pediatric Neurology", "Neurorehabilitation"],
-    "languages": ["English"],
+    "specialties": [
+      "Neurology",
+      "Neurosurgery",
+      "Stroke Center",
+      "Neurointervention",
+      "Pediatric Neurology",
+      "Neurorehabilitation"
+    ],
+    "languages": [
+      "English"
+    ],
     "has_24h_emergency": true,
     "phone_foreign": "+86-10-5997-8500",
     "address": "No. 119 Sihuan West Road, Fengtai District, Beijing",
@@ -99,18 +193,40 @@
     "registration_fee_range": "$40 - $130",
     "registration_channel": "Phone / Online",
     "description": "Beijing Tiantan Hospital is Asia's largest neurosurgery center, affiliated with Capital Medical University. Our International Department specializes in complex neurological conditions including brain tumors, stroke, epilepsy, and movement disorders, with state-of-the-art operating rooms and intensive care units. The International Department occupies an entire independent building with complete facilities including outpatient clinics, consultation centers, 150 inpatient beds, ICU, operating rooms, catheterization rooms, imaging centers, laboratories, and pharmacies.",
-    "direct_billing_insurers": ["Aetna", "Cigna", "MSH", "Allianz"],
+    "direct_billing_insurers": [
+      "Aetna",
+      "Cigna",
+      "MSH",
+      "Allianz"
+    ],
     "image_cover": "/images/hospitals/h3.jpg",
     "last_verified": "2026-06-30",
     "common_tests": [
-      { "name": "Brain MRI", "price_range": "$180 - $350" },
-      { "name": "CT Angiography", "price_range": "$150 - $280" },
-      { "name": "EEG", "price_range": "$60 - $120" },
-      { "name": "Lumbar Puncture", "price_range": "$80 - $150" },
-      { "name": "Neuropsychological Assessment", "price_range": "$100 - $200" }
+      {
+        "name": "Brain MRI",
+        "price_range": "$180 - $350"
+      },
+      {
+        "name": "CT Angiography",
+        "price_range": "$150 - $280"
+      },
+      {
+        "name": "EEG",
+        "price_range": "$60 - $120"
+      },
+      {
+        "name": "Lumbar Puncture",
+        "price_range": "$80 - $150"
+      },
+      {
+        "name": "Neuropsychological Assessment",
+        "price_range": "$100 - $200"
+      }
     ],
     "international_services": {
-      "languages": ["English"],
+      "languages": [
+        "English"
+      ],
       "has_international_coordinators": true,
       "has_translation_service": true,
       "has_dedicated_international_floor": true,
@@ -118,7 +234,13 @@
     },
     "transportation": {
       "nearest_subway": "Niwa Station (Line 16) - 10 min walk",
-      "bus_routes": ["83", "323", "353", "454", "692"],
+      "bus_routes": [
+        "83",
+        "323",
+        "353",
+        "454",
+        "692"
+      ],
       "taxi_guide": "Tell the driver: 'Tiantan Yiyuan Fengtai Yuanqu'"
     }
   },
@@ -127,12 +249,23 @@
     "slug": "china-japan-friendship-hospital-international",
     "name": "China-Japan Friendship Hospital - International Medical Center",
     "name_zh": "中日友好医院国际医疗部",
-    "tier": "A+",
+    "tier": "3A",
     "category": "public_international",
     "category_label": "Public Tier 3A International",
     "city": "Beijing",
-    "specialties": ["Pulmonology", "Cardiology", "Oncology", "Traditional Chinese Medicine", "Dermatology", "Ophthalmology", "Dentistry"],
-    "languages": ["English", "Japanese"],
+    "specialties": [
+      "Pulmonology",
+      "Cardiology",
+      "Oncology",
+      "Traditional Chinese Medicine",
+      "Dermatology",
+      "Ophthalmology",
+      "Dentistry"
+    ],
+    "languages": [
+      "English",
+      "Japanese"
+    ],
     "has_24h_emergency": true,
     "phone_foreign": "+86-10-8420-5809",
     "address": "No. 2 Yinghua East Street, Chaoyang District, Beijing",
@@ -140,18 +273,43 @@
     "registration_fee_range": "$35 - $100",
     "registration_channel": "Phone / WeChat / Online",
     "description": "China-Japan Friendship Hospital is a comprehensive tertiary hospital with a strong reputation for integrated Chinese-Western medicine. Our International Medical Center has been serving foreign patients since 1984, making it one of the earliest established international medical service institutions in Beijing. Our outpatient clinics cover more than 40 clinical specialties including General Internal Medicine, Surgery, Orthopedics, Obstetrics and Gynecology, Pediatrics, Stomatology, Otolaryngology, Dermatology, Traditional Chinese Medicine, and Laser Aesthetics.",
-    "direct_billing_insurers": ["Aetna", "Cigna", "MSH", "Allianz", "Bupa", "Tokio Marine"],
+    "direct_billing_insurers": [
+      "Aetna",
+      "Cigna",
+      "MSH",
+      "Allianz",
+      "Bupa",
+      "Tokio Marine"
+    ],
     "image_cover": "/images/hospitals/h4.jpg",
     "last_verified": "2026-06-30",
     "common_tests": [
-      { "name": "Pulmonary Function Test", "price_range": "$50 - $100" },
-      { "name": "Echocardiogram", "price_range": "$80 - $150" },
-      { "name": "Bronchoscopy", "price_range": "$200 - $400" },
-      { "name": "TCM Consultation", "price_range": "$40 - $80" },
-      { "name": "Acupuncture Session", "price_range": "$30 - $60" }
+      {
+        "name": "Pulmonary Function Test",
+        "price_range": "$50 - $100"
+      },
+      {
+        "name": "Echocardiogram",
+        "price_range": "$80 - $150"
+      },
+      {
+        "name": "Bronchoscopy",
+        "price_range": "$200 - $400"
+      },
+      {
+        "name": "TCM Consultation",
+        "price_range": "$40 - $80"
+      },
+      {
+        "name": "Acupuncture Session",
+        "price_range": "$30 - $60"
+      }
     ],
     "international_services": {
-      "languages": ["English", "Japanese"],
+      "languages": [
+        "English",
+        "Japanese"
+      ],
       "has_international_coordinators": true,
       "has_translation_service": true,
       "has_dedicated_international_floor": true,
@@ -159,7 +317,14 @@
     },
     "transportation": {
       "nearest_subway": "Guangximen Station (Line 13) - 8 min walk",
-      "bus_routes": ["119", "361", "409", "422", "567", "596"],
+      "bus_routes": [
+        "119",
+        "361",
+        "409",
+        "422",
+        "567",
+        "596"
+      ],
       "taxi_guide": "Tell the driver: 'Zhong Ri You Hao Yi Yuan, Chaoyang Qu'"
     }
   },
@@ -168,12 +333,27 @@
     "slug": "beijing-united-family-hospital",
     "name": "Beijing United Family Hospital",
     "name_zh": "北京和睦家医院",
-    "tier": "S",
+    "tier": "Other",
     "category": "private",
     "category_label": "Premium Private Hospital",
     "city": "Beijing",
-    "specialties": ["Obstetrics & Gynecology", "Pediatrics", "Family Medicine", "Dermatology", "Dentistry", "Orthopedics", "Cardiology"],
-    "languages": ["English", "Japanese", "French", "German", "Spanish", "Arabic"],
+    "specialties": [
+      "Obstetrics & Gynecology",
+      "Pediatrics",
+      "Family Medicine",
+      "Dermatology",
+      "Dentistry",
+      "Orthopedics",
+      "Cardiology"
+    ],
+    "languages": [
+      "English",
+      "Japanese",
+      "French",
+      "German",
+      "Spanish",
+      "Arabic"
+    ],
     "has_24h_emergency": true,
     "phone_foreign": "+86-10-5927-7000",
     "address": "No. 2 Jiangtai Road, Chaoyang District, Beijing",
@@ -181,18 +361,51 @@
     "registration_fee_range": "$100 - $300",
     "registration_channel": "Phone / WeChat / Online App",
     "description": "Beijing United Family Hospital (BJU) is China's first international standard private hospital, part of the global United Family Healthcare network. With JCI accreditation and a multicultural medical team from over 20 countries, BJU delivers Western-style healthcare in a warm, patient-first environment with comprehensive insurance direct billing.",
-    "direct_billing_insurers": ["Aetna", "Cigna", "MSH", "Allianz", "Bupa", "AIA", "AXA", "Generali", "MetLife", "Ping An"],
+    "direct_billing_insurers": [
+      "Aetna",
+      "Cigna",
+      "MSH",
+      "Allianz",
+      "Bupa",
+      "AIA",
+      "AXA",
+      "Generali",
+      "MetLife",
+      "Ping An"
+    ],
     "image_cover": "/images/hospitals/h5.jpg",
     "last_verified": "2026-06-30",
     "common_tests": [
-      { "name": "General Check-up Package", "price_range": "$500 - $1,500" },
-      { "name": "MRI Scan", "price_range": "$300 - $600" },
-      { "name": "CT Scan", "price_range": "$200 - $400" },
-      { "name": "Prenatal Visit", "price_range": "$150 - $300" },
-      { "name": "Pediatric Consultation", "price_range": "$120 - $250" }
+      {
+        "name": "General Check-up Package",
+        "price_range": "$500 - $1,500"
+      },
+      {
+        "name": "MRI Scan",
+        "price_range": "$300 - $600"
+      },
+      {
+        "name": "CT Scan",
+        "price_range": "$200 - $400"
+      },
+      {
+        "name": "Prenatal Visit",
+        "price_range": "$150 - $300"
+      },
+      {
+        "name": "Pediatric Consultation",
+        "price_range": "$120 - $250"
+      }
     ],
     "international_services": {
-      "languages": ["English", "Japanese", "French", "German", "Spanish", "Arabic"],
+      "languages": [
+        "English",
+        "Japanese",
+        "French",
+        "German",
+        "Spanish",
+        "Arabic"
+      ],
       "has_international_coordinators": true,
       "has_translation_service": true,
       "has_dedicated_international_floor": true,
@@ -200,7 +413,14 @@
     },
     "transportation": {
       "nearest_subway": "Jiangtai Station (Line 14) - 5 min walk",
-      "bus_routes": ["401", "402", "405", "418", "688", "701"],
+      "bus_routes": [
+        "401",
+        "402",
+        "405",
+        "418",
+        "688",
+        "701"
+      ],
       "taxi_guide": "Tell the driver: 'He Mu Jia Yi Yuan, Jiangtai Lu'"
     }
   },
@@ -209,12 +429,21 @@
     "slug": "beijing-anzhen-hospital-international",
     "name": "Beijing Anzhen Hospital - International Medical Center",
     "name_zh": "北京安贞医院国际医疗部",
-    "tier": "A+",
+    "tier": "3A",
     "category": "public_international",
     "category_label": "Public Tier 3A International",
     "city": "Beijing",
-    "specialties": ["Cardiology", "Cardiac Surgery", "Vascular Surgery", "Hypertension", "Arrhythmia", "Heart Failure"],
-    "languages": ["English"],
+    "specialties": [
+      "Cardiology",
+      "Cardiac Surgery",
+      "Vascular Surgery",
+      "Hypertension",
+      "Arrhythmia",
+      "Heart Failure"
+    ],
+    "languages": [
+      "English"
+    ],
     "has_24h_emergency": true,
     "phone_foreign": "+86-10-6445-6610",
     "address": "No. 2 Anzhen Road, Chaoyang District, Beijing",
@@ -222,18 +451,40 @@
     "registration_fee_range": "$45 - $140",
     "registration_channel": "Phone / Online",
     "description": "Beijing Anzhen Hospital is a world-class center for cardiovascular medicine and surgery, performing over 15,000 cardiac procedures annually. Our International Medical Service offers comprehensive heart care from prevention and diagnosis to complex surgeries and rehabilitation, with English-speaking cardiologists and surgeons.",
-    "direct_billing_insurers": ["Aetna", "Cigna", "MSH", "Allianz"],
+    "direct_billing_insurers": [
+      "Aetna",
+      "Cigna",
+      "MSH",
+      "Allianz"
+    ],
     "image_cover": "/images/hospitals/h6.jpg",
     "last_verified": "2026-06-30",
     "common_tests": [
-      { "name": "Coronary Angiography", "price_range": "$800 - $1,500" },
-      { "name": "Cardiac MRI", "price_range": "$250 - $450" },
-      { "name": "Echocardiogram", "price_range": "$60 - $120" },
-      { "name": "ECG", "price_range": "$20 - $40" },
-      { "name": "Holter Monitor (24h)", "price_range": "$50 - $100" }
+      {
+        "name": "Coronary Angiography",
+        "price_range": "$800 - $1,500"
+      },
+      {
+        "name": "Cardiac MRI",
+        "price_range": "$250 - $450"
+      },
+      {
+        "name": "Echocardiogram",
+        "price_range": "$60 - $120"
+      },
+      {
+        "name": "ECG",
+        "price_range": "$20 - $40"
+      },
+      {
+        "name": "Holter Monitor (24h)",
+        "price_range": "$50 - $100"
+      }
     ],
     "international_services": {
-      "languages": ["English"],
+      "languages": [
+        "English"
+      ],
       "has_international_coordinators": true,
       "has_translation_service": true,
       "has_dedicated_international_floor": false,
@@ -241,7 +492,14 @@
     },
     "transportation": {
       "nearest_subway": "Anzhenmen Station (Line 10, Line 8) - 10 min walk",
-      "bus_routes": ["18", "104", "108", "117", "124", "328"],
+      "bus_routes": [
+        "18",
+        "104",
+        "108",
+        "117",
+        "124",
+        "328"
+      ],
       "taxi_guide": "Tell the driver: 'Anzhen Yiyuan, Chaoyang Qu'"
     }
   },
@@ -250,12 +508,19 @@
     "slug": "beijing-tongren-hospital-international",
     "name": "Beijing Tongren Hospital - International Eye Center",
     "name_zh": "北京同仁医院国际眼病中心",
-    "tier": "A+",
+    "tier": "3A",
     "category": "public_international",
     "category_label": "Public Tier 3A International",
     "city": "Beijing",
-    "specialties": ["Ophthalmology", "Otolaryngology", "Cardiovascular Disease", "Diabetes"],
-    "languages": ["English"],
+    "specialties": [
+      "Ophthalmology",
+      "Otolaryngology",
+      "Cardiovascular Disease",
+      "Diabetes"
+    ],
+    "languages": [
+      "English"
+    ],
     "has_24h_emergency": true,
     "phone_foreign": "+86-10-5826-9999",
     "address": "No. 1 Dongjiaominxiang, Dongcheng District, Beijing",
@@ -263,18 +528,40 @@
     "registration_fee_range": "$40 - $120",
     "registration_channel": "Phone / Online",
     "description": "Beijing Tongren Hospital, founded in 1886, is a large comprehensive tertiary hospital with a focus on ophthalmology, otolaryngology, and cardiovascular disease. Our International Eye Center provides world-class eye care services with English-speaking specialists. The hospital is a nationally recognized trademark in the medical services sector and serves nearly 3 million outpatient visits annually.",
-    "direct_billing_insurers": ["Aetna", "Cigna", "MSH", "Allianz"],
+    "direct_billing_insurers": [
+      "Aetna",
+      "Cigna",
+      "MSH",
+      "Allianz"
+    ],
     "image_cover": "/images/hospitals/h7.jpg",
     "last_verified": "2026-06-30",
     "common_tests": [
-      { "name": "Comprehensive Eye Exam", "price_range": "$50 - $150" },
-      { "name": "Optical Coherence Tomography", "price_range": "$100 - $250" },
-      { "name": "Visual Field Test", "price_range": "$40 - $80" },
-      { "name": "Fundus Photography", "price_range": "$30 - $60" },
-      { "name": "Corneal Topography", "price_range": "$50 - $100" }
+      {
+        "name": "Comprehensive Eye Exam",
+        "price_range": "$50 - $150"
+      },
+      {
+        "name": "Optical Coherence Tomography",
+        "price_range": "$100 - $250"
+      },
+      {
+        "name": "Visual Field Test",
+        "price_range": "$40 - $80"
+      },
+      {
+        "name": "Fundus Photography",
+        "price_range": "$30 - $60"
+      },
+      {
+        "name": "Corneal Topography",
+        "price_range": "$50 - $100"
+      }
     ],
     "international_services": {
-      "languages": ["English"],
+      "languages": [
+        "English"
+      ],
       "has_international_coordinators": true,
       "has_translation_service": true,
       "has_dedicated_international_floor": false,
@@ -282,7 +569,26 @@
     },
     "transportation": {
       "nearest_subway": "Chongwenmen Station (Line 2, Line 5) - 5 min walk",
-      "bus_routes": ["8", "9", "20", "41", "44", "59", "60", "103", "104", "106", "108", "110", "111", "116", "127", "684", "685", "729"],
+      "bus_routes": [
+        "8",
+        "9",
+        "20",
+        "41",
+        "44",
+        "59",
+        "60",
+        "103",
+        "104",
+        "106",
+        "108",
+        "110",
+        "111",
+        "116",
+        "127",
+        "684",
+        "685",
+        "729"
+      ],
       "taxi_guide": "Tell the driver: 'Tongren Yiyuan, Dongcheng Qu'"
     }
   },
@@ -291,12 +597,21 @@
     "slug": "xuanwu-hospital-international",
     "name": "Xuanwu Hospital - International Medical Center",
     "name_zh": "宣武医院国际医疗部",
-    "tier": "A+",
+    "tier": "3A",
     "category": "public_international",
     "category_label": "Public Tier 3A International",
     "city": "Beijing",
-    "specialties": ["Neurology", "Neurosurgery", "Cerebrovascular Disease", "Geriatric Medicine", "Rehabilitation Medicine", "Cardiovascular Medicine"],
-    "languages": ["English"],
+    "specialties": [
+      "Neurology",
+      "Neurosurgery",
+      "Cerebrovascular Disease",
+      "Geriatric Medicine",
+      "Rehabilitation Medicine",
+      "Cardiovascular Medicine"
+    ],
+    "languages": [
+      "English"
+    ],
     "has_24h_emergency": true,
     "phone_foreign": "+86-10-8319-8888",
     "address": "No. 45 Changchun Street, Xicheng District, Beijing",
@@ -304,18 +619,41 @@
     "registration_fee_range": "$40 - $130",
     "registration_channel": "Phone / Online / WeChat",
     "description": "Xuanwu Hospital, founded in 1958, is a large tertiary hospital affiliated with Capital Medical University, specializing in neuroscience and geriatric medicine with a focus on cerebrovascular disease treatment. Our International Medical Department provides comprehensive care for international patients, featuring expert consultations in neurology, neurosurgery, and rehabilitation medicine. The hospital is also a national clinical research center for geriatric diseases.",
-    "direct_billing_insurers": ["Aetna", "Cigna", "MSH", "Allianz", "Bupa"],
+    "direct_billing_insurers": [
+      "Aetna",
+      "Cigna",
+      "MSH",
+      "Allianz",
+      "Bupa"
+    ],
     "image_cover": "/images/hospitals/h8.jpg",
     "last_verified": "2026-06-30",
     "common_tests": [
-      { "name": "Brain MRI", "price_range": "$180 - $350" },
-      { "name": "CT Scan", "price_range": "$80 - $200" },
-      { "name": "Cerebral Angiography", "price_range": "$300 - $600" },
-      { "name": "EEG", "price_range": "$60 - $120" },
-      { "name": "Neuropsychological Assessment", "price_range": "$100 - $200" }
+      {
+        "name": "Brain MRI",
+        "price_range": "$180 - $350"
+      },
+      {
+        "name": "CT Scan",
+        "price_range": "$80 - $200"
+      },
+      {
+        "name": "Cerebral Angiography",
+        "price_range": "$300 - $600"
+      },
+      {
+        "name": "EEG",
+        "price_range": "$60 - $120"
+      },
+      {
+        "name": "Neuropsychological Assessment",
+        "price_range": "$100 - $200"
+      }
     ],
     "international_services": {
-      "languages": ["English"],
+      "languages": [
+        "English"
+      ],
       "has_international_coordinators": true,
       "has_translation_service": true,
       "has_dedicated_international_floor": false,
@@ -323,7 +661,12 @@
     },
     "transportation": {
       "nearest_subway": "Changchun Street Station (Line 2) - 8 min walk",
-      "bus_routes": ["10", "38", "88", "477"],
+      "bus_routes": [
+        "10",
+        "38",
+        "88",
+        "477"
+      ],
       "taxi_guide": "Tell the driver: 'Xuanwu Yiyuan, Xicheng Qu'"
     }
   },
@@ -332,12 +675,21 @@
     "slug": "beijing-tsinghua-changgung-hospital",
     "name": "Beijing Tsinghua Changgung Hospital - International Medical Center",
     "name_zh": "北京清华长庚医院国际医疗部",
-    "tier": "A+",
+    "tier": "3A",
     "category": "public_international",
     "category_label": "Public Tier 3A International",
     "city": "Beijing",
-    "specialties": ["Hepatobiliary Surgery", "Oncology", "Organ Transplantation", "Cardiology", "Orthopedics", "Obstetrics & Gynecology"],
-    "languages": ["English"],
+    "specialties": [
+      "Hepatobiliary Surgery",
+      "Oncology",
+      "Organ Transplantation",
+      "Cardiology",
+      "Orthopedics",
+      "Obstetrics & Gynecology"
+    ],
+    "languages": [
+      "English"
+    ],
     "has_24h_emergency": true,
     "phone_foreign": "+86-10-5611-8888",
     "address": "No. 168 Litang Road, Changping District, Beijing",
@@ -345,18 +697,41 @@
     "registration_fee_range": "$40 - $130",
     "registration_channel": "Phone / Online / WeChat",
     "description": "Beijing Tsinghua Changgung Hospital is a comprehensive tertiary hospital affiliated with Tsinghua University. Our International Medical Center provides premium medical services with a multidisciplinary team (MDT) approach, supported by case managers for full-process care coordination. The department offers one-stop service from expert appointment scheduling, examinations, hospitalization, surgery, to post-operative follow-up, with dedicated VIP consultation rooms and inpatient wards. The hospital is a designated Beijing International Medical Service pilot institution.",
-    "direct_billing_insurers": ["Aetna", "Cigna", "MSH", "Allianz", "Bupa"],
+    "direct_billing_insurers": [
+      "Aetna",
+      "Cigna",
+      "MSH",
+      "Allianz",
+      "Bupa"
+    ],
     "image_cover": "/images/hospitals/h9.jpg",
     "last_verified": "2026-06-30",
     "common_tests": [
-      { "name": "MRI Scan", "price_range": "$150 - $300" },
-      { "name": "CT Scan", "price_range": "$80 - $200" },
-      { "name": "Ultrasound", "price_range": "$50 - $120" },
-      { "name": "Liver Function Panel", "price_range": "$40 - $80" },
-      { "name": "Tumor Marker Panel", "price_range": "$60 - $150" }
+      {
+        "name": "MRI Scan",
+        "price_range": "$150 - $300"
+      },
+      {
+        "name": "CT Scan",
+        "price_range": "$80 - $200"
+      },
+      {
+        "name": "Ultrasound",
+        "price_range": "$50 - $120"
+      },
+      {
+        "name": "Liver Function Panel",
+        "price_range": "$40 - $80"
+      },
+      {
+        "name": "Tumor Marker Panel",
+        "price_range": "$60 - $150"
+      }
     ],
     "international_services": {
-      "languages": ["English"],
+      "languages": [
+        "English"
+      ],
       "has_international_coordinators": true,
       "has_translation_service": true,
       "has_dedicated_international_floor": true,
@@ -364,7 +739,16 @@
     },
     "transportation": {
       "nearest_subway": "Tiantongyuan Station (Line 5) - 15 min walk",
-      "bus_routes": ["430", "441", "520", "537", "643", "905", "922", "933"],
+      "bus_routes": [
+        "430",
+        "441",
+        "520",
+        "537",
+        "643",
+        "905",
+        "922",
+        "933"
+      ],
       "taxi_guide": "Tell the driver: 'Qinghua Chang Geng Yiyuan, Changping Qu'"
     }
   },
@@ -373,12 +757,21 @@
     "slug": "beijing-friendship-hospital-international",
     "name": "Beijing Friendship Hospital - International Medical Center",
     "name_zh": "北京友谊医院国际医疗中心",
-    "tier": "A+",
+    "tier": "3A",
     "category": "public_international",
     "category_label": "Public Tier 3A International",
     "city": "Beijing",
-    "specialties": ["Digestive Diseases", "Hepatology", "Gastroenterology", "General Surgery", "Cardiology", "Respiratory Medicine"],
-    "languages": ["English"],
+    "specialties": [
+      "Digestive Diseases",
+      "Hepatology",
+      "Gastroenterology",
+      "General Surgery",
+      "Cardiology",
+      "Respiratory Medicine"
+    ],
+    "languages": [
+      "English"
+    ],
     "has_24h_emergency": true,
     "phone_foreign": "+86-10-6313-8601",
     "address": "No. 95 Yong'an Road, Xicheng District, Beijing",
@@ -386,18 +779,41 @@
     "registration_fee_range": "$35 - $120",
     "registration_channel": "Phone / WeChat / Online",
     "description": "Beijing Friendship Hospital, founded in 1952 with assistance from the Soviet government and the Soviet Red Cross, was the first major hospital established by the Chinese government in the capital. Our International Medical Center provides comprehensive care for international patients, with special expertise in digestive diseases, hepatology, and gastroenterology. The hospital has served as an international medical service pilot institution with dedicated international outpatient and inpatient facilities.",
-    "direct_billing_insurers": ["Aetna", "Cigna", "MSH", "Allianz", "Bupa"],
+    "direct_billing_insurers": [
+      "Aetna",
+      "Cigna",
+      "MSH",
+      "Allianz",
+      "Bupa"
+    ],
     "image_cover": "/images/hospitals/h10.jpg",
     "last_verified": "2026-06-30",
     "common_tests": [
-      { "name": "Gastroscopy", "price_range": "$200 - $400" },
-      { "name": "Colonoscopy", "price_range": "$250 - $500" },
-      { "name": "Liver Biopsy", "price_range": "$300 - $600" },
-      { "name": "Abdominal Ultrasound", "price_range": "$50 - $100" },
-      { "name": "H. Pylori Test", "price_range": "$30 - $60" }
+      {
+        "name": "Gastroscopy",
+        "price_range": "$200 - $400"
+      },
+      {
+        "name": "Colonoscopy",
+        "price_range": "$250 - $500"
+      },
+      {
+        "name": "Liver Biopsy",
+        "price_range": "$300 - $600"
+      },
+      {
+        "name": "Abdominal Ultrasound",
+        "price_range": "$50 - $100"
+      },
+      {
+        "name": "H. Pylori Test",
+        "price_range": "$30 - $60"
+      }
     ],
     "international_services": {
-      "languages": ["English"],
+      "languages": [
+        "English"
+      ],
       "has_international_coordinators": true,
       "has_translation_service": true,
       "has_dedicated_international_floor": true,
@@ -405,7 +821,20 @@
     },
     "transportation": {
       "nearest_subway": "Tianqiao Station (Line 8) - 10 min walk",
-      "bus_routes": ["6", "7", "15", "34", "35", "36", "59", "105", "106", "110", "120", "687"],
+      "bus_routes": [
+        "6",
+        "7",
+        "15",
+        "34",
+        "35",
+        "36",
+        "59",
+        "105",
+        "106",
+        "110",
+        "120",
+        "687"
+      ],
       "taxi_guide": "Tell the driver: 'Youyi Yiyuan, Xicheng Qu'"
     }
   },
@@ -414,12 +843,20 @@
     "slug": "beijing-delkangni-orthopedic-hospital",
     "name": "Beijing Delkangni Orthopedic Hospital",
     "name_zh": "北京德尔康尼骨科医院",
-    "tier": "A",
+    "tier": "Other",
     "category": "private",
     "category_label": "Private Specialist Hospital",
     "city": "Beijing",
-    "specialties": ["Orthopedics", "Spine Surgery", "Joint Replacement", "Sports Medicine", "Rehabilitation"],
-    "languages": ["English"],
+    "specialties": [
+      "Orthopedics",
+      "Spine Surgery",
+      "Joint Replacement",
+      "Sports Medicine",
+      "Rehabilitation"
+    ],
+    "languages": [
+      "English"
+    ],
     "has_24h_emergency": false,
     "phone_foreign": "+86-10-6274-2888",
     "address": "No. 2 Xierqi, Haidian District, Beijing",
@@ -427,18 +864,40 @@
     "registration_fee_range": "$30 - $100",
     "registration_channel": "Phone / Online",
     "description": "Beijing Delkangni Orthopedic Hospital is a specialized orthopedic hospital that serves as one of Beijing's eight international medical service pilot institutions, available on the 114 appointment platform. The hospital provides comprehensive orthopedic care with English-speaking services for international patients, focusing on spine surgery, joint replacement, sports medicine, and rehabilitation.",
-    "direct_billing_insurers": ["Aetna", "Cigna", "MSH", "Allianz"],
+    "direct_billing_insurers": [
+      "Aetna",
+      "Cigna",
+      "MSH",
+      "Allianz"
+    ],
     "image_cover": "/images/hospitals/h11.jpg",
     "last_verified": "2026-06-30",
     "common_tests": [
-      { "name": "MRI Scan", "price_range": "$150 - $300" },
-      { "name": "CT Scan", "price_range": "$80 - $200" },
-      { "name": "X-Ray", "price_range": "$30 - $60" },
-      { "name": "Bone Density Test", "price_range": "$50 - $100" },
-      { "name": "Physical Therapy Session", "price_range": "$40 - $100" }
+      {
+        "name": "MRI Scan",
+        "price_range": "$150 - $300"
+      },
+      {
+        "name": "CT Scan",
+        "price_range": "$80 - $200"
+      },
+      {
+        "name": "X-Ray",
+        "price_range": "$30 - $60"
+      },
+      {
+        "name": "Bone Density Test",
+        "price_range": "$50 - $100"
+      },
+      {
+        "name": "Physical Therapy Session",
+        "price_range": "$40 - $100"
+      }
     ],
     "international_services": {
-      "languages": ["English"],
+      "languages": [
+        "English"
+      ],
       "has_international_coordinators": true,
       "has_translation_service": true,
       "has_dedicated_international_floor": false,
@@ -446,7 +905,16 @@
     },
     "transportation": {
       "nearest_subway": "Xierqi Station (Line 13, Line 昌平) - 15 min walk",
-      "bus_routes": ["333", "365", "392", "438", "447", "466", "642", "664"],
+      "bus_routes": [
+        "333",
+        "365",
+        "392",
+        "438",
+        "447",
+        "466",
+        "642",
+        "664"
+      ],
       "taxi_guide": "Tell the driver: 'Delkangni Guke Yiyuan, Haidian Qu'"
     }
   },
@@ -455,12 +923,22 @@
     "slug": "peking-university-school-of-stomatology",
     "name": "Peking University School of Stomatology - International Clinic",
     "name_zh": "北京大学口腔医院国际门诊部",
-    "tier": "A+",
+    "tier": "3A",
     "category": "public_international",
     "category_label": "Public Tier 3A Specialist",
     "city": "Beijing",
-    "specialties": ["General Dentistry", "Oral Surgery", "Orthodontics", "Periodontics", "Pediatric Dentistry", "Cosmetic Dentistry", "Implantology"],
-    "languages": ["English"],
+    "specialties": [
+      "General Dentistry",
+      "Oral Surgery",
+      "Orthodontics",
+      "Periodontics",
+      "Pediatric Dentistry",
+      "Cosmetic Dentistry",
+      "Implantology"
+    ],
+    "languages": [
+      "English"
+    ],
     "has_24h_emergency": false,
     "phone_foreign": "+86-10-8301-3555",
     "address": "Bldg B, Beijing International Tower, No. 18 Zhongguancun South Street, Haidian District, Beijing",
@@ -468,18 +946,41 @@
     "registration_fee_range": "$50 - $150",
     "registration_channel": "Phone / Online",
     "description": "Peking University School of Stomatology is China's leading dental institution. Our International Clinic (Guohe Clinic) is an independently operated branch covering nearly 6,000 m² with 65 dental treatment chairs. As the pioneer of Peking University Stomatology's internationalization, the clinic provides comprehensive dental services in a premium environment with English-speaking dentists.",
-    "direct_billing_insurers": ["Aetna", "Cigna", "MSH", "Allianz", "Bupa"],
+    "direct_billing_insurers": [
+      "Aetna",
+      "Cigna",
+      "MSH",
+      "Allianz",
+      "Bupa"
+    ],
     "image_cover": "/images/hospitals/h12.jpg",
     "last_verified": "2026-06-30",
     "common_tests": [
-      { "name": "Dental Cleaning", "price_range": "$50 - $120" },
-      { "name": "Root Canal Treatment", "price_range": "$300 - $800" },
-      { "name": "Dental Implant", "price_range": "$1,000 - $3,000" },
-      { "name": "Orthodontic Consultation", "price_range": "$80 - $150" },
-      { "name": "Tooth Extraction", "price_range": "$50 - $200" }
+      {
+        "name": "Dental Cleaning",
+        "price_range": "$50 - $120"
+      },
+      {
+        "name": "Root Canal Treatment",
+        "price_range": "$300 - $800"
+      },
+      {
+        "name": "Dental Implant",
+        "price_range": "$1,000 - $3,000"
+      },
+      {
+        "name": "Orthodontic Consultation",
+        "price_range": "$80 - $150"
+      },
+      {
+        "name": "Tooth Extraction",
+        "price_range": "$50 - $200"
+      }
     ],
     "international_services": {
-      "languages": ["English"],
+      "languages": [
+        "English"
+      ],
       "has_international_coordinators": true,
       "has_translation_service": true,
       "has_dedicated_international_floor": true,
@@ -487,7 +988,18 @@
     },
     "transportation": {
       "nearest_subway": "Weigongcun Station (Line 4) - 5 min walk",
-      "bus_routes": ["26", "332", "651", "653", "717", "731", "808", "814", "特4", "特6"],
+      "bus_routes": [
+        "26",
+        "332",
+        "651",
+        "653",
+        "717",
+        "731",
+        "808",
+        "814",
+        "特4",
+        "特6"
+      ],
       "taxi_guide": "Tell the driver: 'Beijing Guoji Dasha, Weigongcun, Haidian Qu'"
     }
   },
@@ -496,12 +1008,23 @@
     "slug": "huashan-hospital-international",
     "name": "Huashan Hospital - International Medical Center",
     "name_zh": "复旦大学附属华山医院国际医疗中心",
-    "tier": "S",
+    "tier": "3A",
     "category": "public_international",
     "category_label": "Public Tier 3A International",
     "city": "Shanghai",
-    "specialties": ["Neurology", "Dermatology", "Infectious Diseases", "Hand Surgery", "Neurosurgery", "Orthopedics", "Rehabilitation"],
-    "languages": ["English", "Japanese"],
+    "specialties": [
+      "Neurology",
+      "Dermatology",
+      "Infectious Diseases",
+      "Hand Surgery",
+      "Neurosurgery",
+      "Orthopedics",
+      "Rehabilitation"
+    ],
+    "languages": [
+      "English",
+      "Japanese"
+    ],
     "has_24h_emergency": true,
     "phone_foreign": "+86-21-5288-9999",
     "address": "No. 12 Wulumuqi Middle Road, Jing'an District, Shanghai",
@@ -509,18 +1032,44 @@
     "registration_fee_range": "$50 - $200",
     "registration_channel": "Phone / Online / WeChat",
     "description": "Huashan Hospital is one of the earliest and most prestigious medical institutions in Shanghai to provide international medical services, serving as the designated medical provider for the consulates of 10 countries. Our International Medical Center has served over 600,000 international patients from more than 100 countries and regions. As a designated international medical tourism pilot hospital in Shanghai, we provide comprehensive outpatient, inpatient, and emergency services.",
-    "direct_billing_insurers": ["Aetna", "Cigna", "MSH", "Allianz", "Bupa", "AIA", "AXA"],
+    "direct_billing_insurers": [
+      "Aetna",
+      "Cigna",
+      "MSH",
+      "Allianz",
+      "Bupa",
+      "AIA",
+      "AXA"
+    ],
     "image_cover": "/images/hospitals/h13.jpg",
     "last_verified": "2026-06-30",
     "common_tests": [
-      { "name": "MRI Scan", "price_range": "$180 - $350" },
-      { "name": "CT Scan", "price_range": "$100 - $250" },
-      { "name": "Neurological Examination", "price_range": "$80 - $200" },
-      { "name": "EEG", "price_range": "$60 - $120" },
-      { "name": "Skin Biopsy", "price_range": "$100 - $250" }
+      {
+        "name": "MRI Scan",
+        "price_range": "$180 - $350"
+      },
+      {
+        "name": "CT Scan",
+        "price_range": "$100 - $250"
+      },
+      {
+        "name": "Neurological Examination",
+        "price_range": "$80 - $200"
+      },
+      {
+        "name": "EEG",
+        "price_range": "$60 - $120"
+      },
+      {
+        "name": "Skin Biopsy",
+        "price_range": "$100 - $250"
+      }
     ],
     "international_services": {
-      "languages": ["English", "Japanese"],
+      "languages": [
+        "English",
+        "Japanese"
+      ],
       "has_international_coordinators": true,
       "has_translation_service": true,
       "has_dedicated_international_floor": true,
@@ -528,7 +1077,18 @@
     },
     "transportation": {
       "nearest_subway": "Jing'an Temple Station (Line 2, Line 7) - 10 min walk",
-      "bus_routes": ["15", "45", "49", "71", "93", "94", "113", "824", "830", "927"],
+      "bus_routes": [
+        "15",
+        "45",
+        "49",
+        "71",
+        "93",
+        "94",
+        "113",
+        "824",
+        "830",
+        "927"
+      ],
       "taxi_guide": "Tell the driver: 'Huashan Yiyuan, Jing'an Qu'"
     }
   },
@@ -537,12 +1097,22 @@
     "slug": "ruijin-hospital-international",
     "name": "Ruijin Hospital - International Medical Center",
     "name_zh": "上海交通大学医学院附属瑞金医院国际医疗部",
-    "tier": "S",
+    "tier": "3A",
     "category": "public_international",
     "category_label": "Public Tier 3A International",
     "city": "Shanghai",
-    "specialties": ["Cardiology", "Oncology", "Hematology", "Endocrinology", "Gastroenterology", "Nephrology", "General Surgery"],
-    "languages": ["English"],
+    "specialties": [
+      "Cardiology",
+      "Oncology",
+      "Hematology",
+      "Endocrinology",
+      "Gastroenterology",
+      "Nephrology",
+      "General Surgery"
+    ],
+    "languages": [
+      "English"
+    ],
     "has_24h_emergency": true,
     "phone_foreign": "+86-21-6467-8970",
     "address": "No. 197 Ruijin Er Road, Huangpu District, Shanghai",
@@ -550,18 +1120,44 @@
     "registration_fee_range": "$50 - $180",
     "registration_channel": "Phone / WeChat / Online",
     "description": "Ruijin Hospital International Medical Department, established in 1998, is a comprehensive international medical service platform integrating prevention, healthcare, and rehabilitation. As one of Shanghai's 13 designated international medical tourism pilot hospitals, it has been awarded the DNV International Hospital Certification, a globally recognized gold standard in healthcare. The department features independent outpatient clinics, inpatient wards, and health management centers providing one-stop diagnostic, treatment, and hospitalization services.",
-    "direct_billing_insurers": ["Aetna", "Cigna", "MSH", "Allianz", "Bupa", "AIA", "AXA", "Generali"],
+    "direct_billing_insurers": [
+      "Aetna",
+      "Cigna",
+      "MSH",
+      "Allianz",
+      "Bupa",
+      "AIA",
+      "AXA",
+      "Generali"
+    ],
     "image_cover": "/images/hospitals/h14.jpg",
     "last_verified": "2026-06-30",
     "common_tests": [
-      { "name": "MRI Scan", "price_range": "$180 - $350" },
-      { "name": "CT Scan", "price_range": "$100 - $250" },
-      { "name": "Echocardiogram", "price_range": "$80 - $180" },
-      { "name": "Blood Panel", "price_range": "$40 - $100" },
-      { "name": "Tumor Marker Panel", "price_range": "$80 - $200" }
+      {
+        "name": "MRI Scan",
+        "price_range": "$180 - $350"
+      },
+      {
+        "name": "CT Scan",
+        "price_range": "$100 - $250"
+      },
+      {
+        "name": "Echocardiogram",
+        "price_range": "$80 - $180"
+      },
+      {
+        "name": "Blood Panel",
+        "price_range": "$40 - $100"
+      },
+      {
+        "name": "Tumor Marker Panel",
+        "price_range": "$80 - $200"
+      }
     ],
     "international_services": {
-      "languages": ["English"],
+      "languages": [
+        "English"
+      ],
       "has_international_coordinators": true,
       "has_translation_service": true,
       "has_dedicated_international_floor": true,
@@ -569,7 +1165,25 @@
     },
     "transportation": {
       "nearest_subway": "Ruijin Hospital Station (Line 9) - 3 min walk",
-      "bus_routes": ["17", "24", "36", "41", "96", "104", "128", "146", "780", "781", "786", "864", "955", "984", "985", "大桥一线", "隧道八线"],
+      "bus_routes": [
+        "17",
+        "24",
+        "36",
+        "41",
+        "96",
+        "104",
+        "128",
+        "146",
+        "780",
+        "781",
+        "786",
+        "864",
+        "955",
+        "984",
+        "985",
+        "大桥一线",
+        "隧道八线"
+      ],
       "taxi_guide": "Tell the driver: 'Ruijin Yiyuan, Huangpu Qu'"
     }
   },
@@ -578,12 +1192,23 @@
     "slug": "zhongshan-hospital-international",
     "name": "Zhongshan Hospital - International Medical Center",
     "name_zh": "复旦大学附属中山医院国际医疗部",
-    "tier": "S",
+    "tier": "3A",
     "category": "public_international",
     "category_label": "Public Tier 3A International",
     "city": "Shanghai",
-    "specialties": ["Cardiology", "Oncology", "Hepatology", "Pulmonology", "General Surgery", "Nephrology", "Rheumatology"],
-    "languages": ["English", "Japanese"],
+    "specialties": [
+      "Cardiology",
+      "Oncology",
+      "Hepatology",
+      "Pulmonology",
+      "General Surgery",
+      "Nephrology",
+      "Rheumatology"
+    ],
+    "languages": [
+      "English",
+      "Japanese"
+    ],
     "has_24h_emergency": true,
     "phone_foreign": "+86-21-6404-1990",
     "address": "No. 180 Fenglin Road, Xuhui District, Shanghai",
@@ -591,18 +1216,43 @@
     "registration_fee_range": "$50 - $200",
     "registration_channel": "Phone / Online / WeChat",
     "description": "Zhongshan Hospital International Medical Department provides international patients with a dedicated medical space featuring 14 consultation rooms and 5 inpatient wards with 70 private rooms, including surgical, general medicine, and international patient wards. The department offers multilingual services and insurance direct billing, delivering optimal treatment plans and the best possible patient experience. Zhongshan Hospital is a designated international medical tourism pilot hospital in Shanghai.",
-    "direct_billing_insurers": ["Aetna", "Cigna", "MSH", "Allianz", "Bupa", "AIA"],
+    "direct_billing_insurers": [
+      "Aetna",
+      "Cigna",
+      "MSH",
+      "Allianz",
+      "Bupa",
+      "AIA"
+    ],
     "image_cover": "/images/hospitals/h15.jpg",
     "last_verified": "2026-06-30",
     "common_tests": [
-      { "name": "MRI Scan", "price_range": "$180 - $350" },
-      { "name": "CT Scan", "price_range": "$100 - $250" },
-      { "name": "Echocardiogram", "price_range": "$80 - $180" },
-      { "name": "Pulmonary Function Test", "price_range": "$50 - $120" },
-      { "name": "Liver Function Panel", "price_range": "$40 - $80" }
+      {
+        "name": "MRI Scan",
+        "price_range": "$180 - $350"
+      },
+      {
+        "name": "CT Scan",
+        "price_range": "$100 - $250"
+      },
+      {
+        "name": "Echocardiogram",
+        "price_range": "$80 - $180"
+      },
+      {
+        "name": "Pulmonary Function Test",
+        "price_range": "$50 - $120"
+      },
+      {
+        "name": "Liver Function Panel",
+        "price_range": "$40 - $80"
+      }
     ],
     "international_services": {
-      "languages": ["English", "Japanese"],
+      "languages": [
+        "English",
+        "Japanese"
+      ],
       "has_international_coordinators": true,
       "has_translation_service": true,
       "has_dedicated_international_floor": true,
@@ -610,7 +1260,29 @@
     },
     "transportation": {
       "nearest_subway": "Zhongshan Hospital Station (Line 12) - 5 min walk",
-      "bus_routes": ["43", "49", "50", "72", "89", "104", "128", "218", "303", "326", "572", "712", "733", "806", "820", "864", "932", "957", "984", "985", "大桥六线"],
+      "bus_routes": [
+        "43",
+        "49",
+        "50",
+        "72",
+        "89",
+        "104",
+        "128",
+        "218",
+        "303",
+        "326",
+        "572",
+        "712",
+        "733",
+        "806",
+        "820",
+        "864",
+        "932",
+        "957",
+        "984",
+        "985",
+        "大桥六线"
+      ],
       "taxi_guide": "Tell the driver: 'Zhongshan Yiyuan, Xuhui Qu'"
     }
   },
@@ -619,12 +1291,22 @@
     "slug": "huadong-hospital-international",
     "name": "Huadong Hospital - International Medical Center",
     "name_zh": "复旦大学附属华东医院国际医疗部",
-    "tier": "A+",
+    "tier": "3A",
     "category": "public_international",
     "category_label": "Public Tier 3A International",
     "city": "Shanghai",
-    "specialties": ["Geriatric Medicine", "Cardiology", "Endocrinology", "Respiratory Medicine", "Traditional Chinese Medicine", "Gastroenterology"],
-    "languages": ["English", "Japanese"],
+    "specialties": [
+      "Geriatric Medicine",
+      "Cardiology",
+      "Endocrinology",
+      "Respiratory Medicine",
+      "Traditional Chinese Medicine",
+      "Gastroenterology"
+    ],
+    "languages": [
+      "English",
+      "Japanese"
+    ],
     "has_24h_emergency": true,
     "phone_foreign": "+86-21-6248-3180",
     "address": "No. 221 Yan'an West Road, Jing'an District, Shanghai",
@@ -632,18 +1314,42 @@
     "registration_fee_range": "$40 - $160",
     "registration_channel": "Phone / WeChat / Walk-in",
     "description": "Huadong Hospital International Medical Center is one of Shanghai's earliest and longest-established medical service providers for international patients, having served foreign diplomats, dignitaries, and high-end clientele for decades. The center offers VIP outpatient clinics, health check-ups, and VIP inpatient wards, providing diverse, precise, and comprehensive care. Passed the British Bupa 'Management Service Quality' accreditation and received a silver award in 2010. The hospital primarily serves patients from Europe, the United States, and Japan, and provides cashless medical services for patients holding Japanese overseas travel injury insurance cards.",
-    "direct_billing_insurers": ["Aetna", "Cigna", "MSH", "Allianz", "Bupa"],
+    "direct_billing_insurers": [
+      "Aetna",
+      "Cigna",
+      "MSH",
+      "Allianz",
+      "Bupa"
+    ],
     "image_cover": "/images/hospitals/h16.jpg",
     "last_verified": "2026-06-30",
     "common_tests": [
-      { "name": "MRI Scan", "price_range": "$160 - $320" },
-      { "name": "CT Scan", "price_range": "$90 - $220" },
-      { "name": "Geriatric Assessment", "price_range": "$100 - $250" },
-      { "name": "Echocardiogram", "price_range": "$80 - $160" },
-      { "name": "Blood Panel", "price_range": "$40 - $90" }
+      {
+        "name": "MRI Scan",
+        "price_range": "$160 - $320"
+      },
+      {
+        "name": "CT Scan",
+        "price_range": "$90 - $220"
+      },
+      {
+        "name": "Geriatric Assessment",
+        "price_range": "$100 - $250"
+      },
+      {
+        "name": "Echocardiogram",
+        "price_range": "$80 - $160"
+      },
+      {
+        "name": "Blood Panel",
+        "price_range": "$40 - $90"
+      }
     ],
     "international_services": {
-      "languages": ["English", "Japanese"],
+      "languages": [
+        "English",
+        "Japanese"
+      ],
       "has_international_coordinators": true,
       "has_translation_service": true,
       "has_dedicated_international_floor": true,
@@ -651,7 +1357,25 @@
     },
     "transportation": {
       "nearest_subway": "Jing'an Temple Station (Line 2, Line 7) - 8 min walk",
-      "bus_routes": ["20", "37", "45", "57", "71", "76", "93", "94", "113", "127", "148", "311", "330", "548", "824", "830", "838"],
+      "bus_routes": [
+        "20",
+        "37",
+        "45",
+        "57",
+        "71",
+        "76",
+        "93",
+        "94",
+        "113",
+        "127",
+        "148",
+        "311",
+        "330",
+        "548",
+        "824",
+        "830",
+        "838"
+      ],
       "taxi_guide": "Tell the driver: 'Huadong Yiyuan, Jing'an Qu'"
     }
   },
@@ -660,12 +1384,22 @@
     "slug": "shanghai-first-peoples-hospital",
     "name": "Shanghai First People's Hospital - International Medical Center",
     "name_zh": "上海市第一人民医院国际医疗中心",
-    "tier": "A+",
+    "tier": "3A",
     "category": "public_international",
     "category_label": "Public Tier 3A International",
     "city": "Shanghai",
-    "specialties": ["Cardiovascular Medicine", "Trauma Surgery", "Ophthalmology", "Urology", "Oncology", "Endocrinology"],
-    "languages": ["English", "Japanese"],
+    "specialties": [
+      "Cardiovascular Medicine",
+      "Trauma Surgery",
+      "Ophthalmology",
+      "Urology",
+      "Oncology",
+      "Endocrinology"
+    ],
+    "languages": [
+      "English",
+      "Japanese"
+    ],
     "has_24h_emergency": true,
     "phone_foreign": "+86-21-6324-0090",
     "address": "No. 85 Wujin Road, Hongkou District, Shanghai",
@@ -673,18 +1407,42 @@
     "registration_fee_range": "$40 - $160",
     "registration_channel": "Phone / Online / Walk-in",
     "description": "The International Medical Care Center (IMCC) of Shanghai First People's Hospital, formerly known as the 'Friendship Ward' established in 1956, is one of the earliest designated international medical service units in Shanghai. The IMCC provides 24-hour outpatient, emergency, and inpatient services, as well as international teleconsultation, medical tourism, and large-scale event medical support, with health coordinators providing full accompaniment services. It is the only public hospital in Shanghai offering 24-hour international medical services at both outpatient and inpatient levels. The center has 88 beds across VIP wards and suites at both north and south campuses.",
-    "direct_billing_insurers": ["Aetna", "Cigna", "MSH", "Allianz", "Bupa"],
+    "direct_billing_insurers": [
+      "Aetna",
+      "Cigna",
+      "MSH",
+      "Allianz",
+      "Bupa"
+    ],
     "image_cover": "/images/hospitals/h17.jpg",
     "last_verified": "2026-06-30",
     "common_tests": [
-      { "name": "MRI Scan", "price_range": "$160 - $320" },
-      { "name": "CT Scan", "price_range": "$90 - $220" },
-      { "name": "Echocardiogram", "price_range": "$80 - $160" },
-      { "name": "24h Holter Monitor", "price_range": "$60 - $120" },
-      { "name": "Blood Panel", "price_range": "$40 - $90" }
+      {
+        "name": "MRI Scan",
+        "price_range": "$160 - $320"
+      },
+      {
+        "name": "CT Scan",
+        "price_range": "$90 - $220"
+      },
+      {
+        "name": "Echocardiogram",
+        "price_range": "$80 - $160"
+      },
+      {
+        "name": "24h Holter Monitor",
+        "price_range": "$60 - $120"
+      },
+      {
+        "name": "Blood Panel",
+        "price_range": "$40 - $90"
+      }
     ],
     "international_services": {
-      "languages": ["English", "Japanese"],
+      "languages": [
+        "English",
+        "Japanese"
+      ],
       "has_international_coordinators": true,
       "has_translation_service": true,
       "has_dedicated_international_floor": true,
@@ -692,7 +1450,40 @@
     },
     "transportation": {
       "nearest_subway": "North Sichuan Road Station (Line 10) - 10 min walk",
-      "bus_routes": ["6", "13", "14", "17", "18", "21", "25", "51", "52", "63", "65", "66", "100", "123", "134", "145", "167", "220", "305", "307", "318", "319", "329", "510", "573", "597", "854", "939", "948", "952", "962", "申川专线"],
+      "bus_routes": [
+        "6",
+        "13",
+        "14",
+        "17",
+        "18",
+        "21",
+        "25",
+        "51",
+        "52",
+        "63",
+        "65",
+        "66",
+        "100",
+        "123",
+        "134",
+        "145",
+        "167",
+        "220",
+        "305",
+        "307",
+        "318",
+        "319",
+        "329",
+        "510",
+        "573",
+        "597",
+        "854",
+        "939",
+        "948",
+        "952",
+        "962",
+        "申川专线"
+      ],
       "taxi_guide": "Tell the driver: 'Shi Yi Yiyuan, Hongkou Qu'"
     }
   },
@@ -701,12 +1492,23 @@
     "slug": "shanghai-east-hospital-international",
     "name": "Shanghai East Hospital - International Medical Center",
     "name_zh": "同济大学附属东方医院国际医疗部",
-    "tier": "A",
+    "tier": "3A",
     "category": "public_international",
     "category_label": "Public Tier 3A International",
     "city": "Shanghai",
-    "specialties": ["Cardiology", "Emergency Medicine", "General Surgery", "Orthopedics", "Neurology", "Obstetrics & Gynecology", "Pediatrics", "Rehabilitation"],
-    "languages": ["English"],
+    "specialties": [
+      "Cardiology",
+      "Emergency Medicine",
+      "General Surgery",
+      "Orthopedics",
+      "Neurology",
+      "Obstetrics & Gynecology",
+      "Pediatrics",
+      "Rehabilitation"
+    ],
+    "languages": [
+      "English"
+    ],
     "has_24h_emergency": true,
     "phone_foreign": "+86-21-3880-4518",
     "address": "No. 150 Jimo Road, Pudong New Area, Shanghai",
@@ -714,18 +1516,41 @@
     "registration_fee_range": "$40 - $150",
     "registration_channel": "Phone / WeChat / Online",
     "description": "Shanghai East Hospital International Medical Department provides comprehensive medical services for international patients and high-end healthcare consumers, focusing on expatriates, Hong Kong, Macau, and Taiwan compatriots, and those covered by commercial health insurance. The department maintains the hospital's tradition of '24-hour outpatient, emergency, and inpatient care' with dedicated treatment areas, star-rated inpatient wards, and specialized operating rooms. Medical services cover general medicine, surgery, obstetrics and gynecology, pediatrics, otolaryngology, rehabilitation, and traditional Chinese medicine.",
-    "direct_billing_insurers": ["Aetna", "Cigna", "MSH", "Allianz", "Bupa"],
+    "direct_billing_insurers": [
+      "Aetna",
+      "Cigna",
+      "MSH",
+      "Allianz",
+      "Bupa"
+    ],
     "image_cover": "/images/hospitals/h18.jpg",
     "last_verified": "2026-06-30",
     "common_tests": [
-      { "name": "MRI Scan", "price_range": "$150 - $300" },
-      { "name": "CT Scan", "price_range": "$80 - $200" },
-      { "name": "Echocardiogram", "price_range": "$70 - $150" },
-      { "name": "Blood Panel", "price_range": "$35 - $80" },
-      { "name": "X-Ray", "price_range": "$30 - $60" }
+      {
+        "name": "MRI Scan",
+        "price_range": "$150 - $300"
+      },
+      {
+        "name": "CT Scan",
+        "price_range": "$80 - $200"
+      },
+      {
+        "name": "Echocardiogram",
+        "price_range": "$70 - $150"
+      },
+      {
+        "name": "Blood Panel",
+        "price_range": "$35 - $80"
+      },
+      {
+        "name": "X-Ray",
+        "price_range": "$30 - $60"
+      }
     ],
     "international_services": {
-      "languages": ["English"],
+      "languages": [
+        "English"
+      ],
       "has_international_coordinators": true,
       "has_translation_service": true,
       "has_dedicated_international_floor": true,
@@ -733,7 +1558,25 @@
     },
     "transportation": {
       "nearest_subway": "Pudong Avenue Station (Line 4) - 8 min walk",
-      "bus_routes": ["81", "85", "313", "455", "774", "779", "791", "794", "799", "870", "905", "971", "978", "981", "983", "993", "蔡陆专线"],
+      "bus_routes": [
+        "81",
+        "85",
+        "313",
+        "455",
+        "774",
+        "779",
+        "791",
+        "794",
+        "799",
+        "870",
+        "905",
+        "971",
+        "978",
+        "981",
+        "983",
+        "993",
+        "蔡陆专线"
+      ],
       "taxi_guide": "Tell the driver: 'Dongfang Yiyuan, Pudong Qu'"
     }
   },
@@ -742,12 +1585,21 @@
     "slug": "shanghai-childrens-medical-center",
     "name": "Shanghai Children's Medical Center - International Medical Center",
     "name_zh": "上海儿童医学中心国际部",
-    "tier": "A+",
+    "tier": "3A",
     "category": "public_international",
     "category_label": "Public Tier 3A Pediatric Specialist",
     "city": "Shanghai",
-    "specialties": ["Pediatric Cardiology", "Pediatric Hematology", "Pediatric Neurology", "Pediatric Surgery", "Neonatology", "Pediatric Oncology"],
-    "languages": ["English"],
+    "specialties": [
+      "Pediatric Cardiology",
+      "Pediatric Hematology",
+      "Pediatric Neurology",
+      "Pediatric Surgery",
+      "Neonatology",
+      "Pediatric Oncology"
+    ],
+    "languages": [
+      "English"
+    ],
     "has_24h_emergency": true,
     "phone_foreign": "+86-21-3862-6101",
     "address": "No. 1678 Dongfang Road, Pudong New Area, Shanghai",
@@ -755,18 +1607,41 @@
     "registration_fee_range": "$40 - $160",
     "registration_channel": "Phone / WeChat / Online",
     "description": "Shanghai Children's Medical Center is a national-level pediatric medical center affiliated with Shanghai Jiao Tong University School of Medicine. Our International Department provides world-class pediatric care with English-speaking specialists. The center is one of Shanghai's designated international medical tourism pilot institutions, participating in overseas medical tourism exhibitions. The International Department features dedicated outpatient and inpatient facilities designed for children and families, offering comprehensive pediatric subspecialty services.",
-    "direct_billing_insurers": ["Aetna", "Cigna", "MSH", "Allianz", "Bupa"],
+    "direct_billing_insurers": [
+      "Aetna",
+      "Cigna",
+      "MSH",
+      "Allianz",
+      "Bupa"
+    ],
     "image_cover": "/images/hospitals/h19.jpg",
     "last_verified": "2026-06-30",
     "common_tests": [
-      { "name": "Pediatric MRI", "price_range": "$150 - $300" },
-      { "name": "Pediatric Echocardiogram", "price_range": "$80 - $180" },
-      { "name": "Pediatric EEG", "price_range": "$60 - $120" },
-      { "name": "Blood Panel (Pediatric)", "price_range": "$30 - $70" },
-      { "name": "Developmental Assessment", "price_range": "$80 - $160" }
+      {
+        "name": "Pediatric MRI",
+        "price_range": "$150 - $300"
+      },
+      {
+        "name": "Pediatric Echocardiogram",
+        "price_range": "$80 - $180"
+      },
+      {
+        "name": "Pediatric EEG",
+        "price_range": "$60 - $120"
+      },
+      {
+        "name": "Blood Panel (Pediatric)",
+        "price_range": "$30 - $70"
+      },
+      {
+        "name": "Developmental Assessment",
+        "price_range": "$80 - $160"
+      }
     ],
     "international_services": {
-      "languages": ["English"],
+      "languages": [
+        "English"
+      ],
       "has_international_coordinators": true,
       "has_translation_service": true,
       "has_dedicated_international_floor": true,
@@ -774,7 +1649,27 @@
     },
     "transportation": {
       "nearest_subway": "Lancun Road Station (Line 4, Line 6) - 10 min walk",
-      "bus_routes": ["119", "219", "581", "610", "636", "715", "730", "734", "752", "763", "771", "780", "794", "795", "796", "797", "798", "799", "隧道九线"],
+      "bus_routes": [
+        "119",
+        "219",
+        "581",
+        "610",
+        "636",
+        "715",
+        "730",
+        "734",
+        "752",
+        "763",
+        "771",
+        "780",
+        "794",
+        "795",
+        "796",
+        "797",
+        "798",
+        "799",
+        "隧道九线"
+      ],
       "taxi_guide": "Tell the driver: 'Er Tong Yi Xue Zhong Xin, Pudong Qu'"
     }
   },
@@ -783,12 +1678,21 @@
     "slug": "shanghai-general-hospital-international",
     "name": "Shanghai General Hospital - International Medical Center",
     "name_zh": "上海市第十人民医院国际医疗中心",
-    "tier": "A",
+    "tier": "3A",
     "category": "public_international",
     "category_label": "Public Tier 3A International",
     "city": "Shanghai",
-    "specialties": ["Cardiology", "Neurology", "Oncology", "Orthopedics", "Ophthalmology", "Endocrinology"],
-    "languages": ["English"],
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Oncology",
+      "Orthopedics",
+      "Ophthalmology",
+      "Endocrinology"
+    ],
+    "languages": [
+      "English"
+    ],
     "has_24h_emergency": true,
     "phone_foreign": "+86-21-6630-1188",
     "address": "No. 301 Yanchang Middle Road, Jing'an District, Shanghai",
@@ -796,18 +1700,40 @@
     "registration_fee_range": "$35 - $140",
     "registration_channel": "Phone / WeChat / Online",
     "description": "Shanghai General Hospital is a comprehensive tertiary hospital. The International Medical Center provides dedicated international patient services with English-speaking medical staff, offering comprehensive outpatient and inpatient care across multiple specialties.",
-    "direct_billing_insurers": ["Aetna", "Cigna", "MSH", "Allianz"],
+    "direct_billing_insurers": [
+      "Aetna",
+      "Cigna",
+      "MSH",
+      "Allianz"
+    ],
     "image_cover": "/images/hospitals/h20.jpg",
     "last_verified": "2026-06-30",
     "common_tests": [
-      { "name": "MRI Scan", "price_range": "$150 - $300" },
-      { "name": "CT Scan", "price_range": "$80 - $200" },
-      { "name": "Echocardiogram", "price_range": "$70 - $150" },
-      { "name": "Blood Panel", "price_range": "$35 - $80" },
-      { "name": "X-Ray", "price_range": "$30 - $60" }
+      {
+        "name": "MRI Scan",
+        "price_range": "$150 - $300"
+      },
+      {
+        "name": "CT Scan",
+        "price_range": "$80 - $200"
+      },
+      {
+        "name": "Echocardiogram",
+        "price_range": "$70 - $150"
+      },
+      {
+        "name": "Blood Panel",
+        "price_range": "$35 - $80"
+      },
+      {
+        "name": "X-Ray",
+        "price_range": "$30 - $60"
+      }
     ],
     "international_services": {
-      "languages": ["English"],
+      "languages": [
+        "English"
+      ],
       "has_international_coordinators": true,
       "has_translation_service": true,
       "has_dedicated_international_floor": false,
@@ -815,7 +1741,22 @@
     },
     "transportation": {
       "nearest_subway": "Shanghai Circus World Station (Line 1) - 12 min walk",
-      "bus_routes": ["46", "95", "98", "114", "222", "253", "312", "322", "722", "741", "849", "912", "916", "944"],
+      "bus_routes": [
+        "46",
+        "95",
+        "98",
+        "114",
+        "222",
+        "253",
+        "312",
+        "322",
+        "722",
+        "741",
+        "849",
+        "912",
+        "916",
+        "944"
+      ],
       "taxi_guide": "Tell the driver: 'Shi Yi Yiyuan, Jing'an Qu'"
     }
   },
@@ -824,12 +1765,22 @@
     "slug": "guangdong-provincial-peoples-hospital",
     "name": "Guangdong Provincial People's Hospital - International Medical Center",
     "name_zh": "广东省人民医院国际医疗中心（协和高级医疗中心）",
-    "tier": "S",
+    "tier": "3A",
     "category": "public_international",
     "category_label": "Public Tier 3A International",
     "city": "Guangzhou",
-    "specialties": ["Cardiovascular Disease", "Oncology", "Geriatric Medicine", "Nephrology", "Thoracic Surgery", "Neurology"],
-    "languages": ["English", "Cantonese"],
+    "specialties": [
+      "Cardiovascular Disease",
+      "Oncology",
+      "Geriatric Medicine",
+      "Nephrology",
+      "Thoracic Surgery",
+      "Neurology"
+    ],
+    "languages": [
+      "English",
+      "Cantonese"
+    ],
     "has_24h_emergency": true,
     "phone_foreign": "+86-20-8382-7812",
     "address": "Dongbing District, Guangdong Provincial People's Hospital, Guangzhou",
@@ -837,18 +1788,43 @@
     "registration_fee_range": "$50 - $200",
     "registration_channel": "Phone / Online / WeChat",
     "description": "Guangdong Provincial People's Hospital is a designated first-batch international medical service pilot hospital in Guangdong Province. The International Medical Center (Xiehe Advanced Medical Center) was established in 1996 as China's first public hospital international medical platform to introduce Hong Kong's private hospital operating model, serving international patients, Hong Kong, Macau, and Taiwan compatriots, expatriates, and high-end commercial insurance clients with one-stop, full-course international medical services. The center features dedicated international high-end medical outpatient and inpatient wards, with over 500 senior specialists providing medical services, particularly excelling in cardiovascular disease, oncology, geriatric medicine, and nephrology. The center spans over 5,000 m² and has served patients from 151 countries and regions. The nurse-to-patient ratio exceeds 1.5.",
-    "direct_billing_insurers": ["Aetna", "Cigna", "MSH", "Allianz", "Bupa", "Ping An"],
+    "direct_billing_insurers": [
+      "Aetna",
+      "Cigna",
+      "MSH",
+      "Allianz",
+      "Bupa",
+      "Ping An"
+    ],
     "image_cover": "/images/hospitals/h21.jpg",
     "last_verified": "2026-06-30",
     "common_tests": [
-      { "name": "MRI Scan", "price_range": "$160 - $320" },
-      { "name": "CT Scan", "price_range": "$90 - $220" },
-      { "name": "Echocardiogram", "price_range": "$80 - $160" },
-      { "name": "Cardiac Catheterization", "price_range": "$800 - $1,500" },
-      { "name": "Blood Panel", "price_range": "$40 - $90" }
+      {
+        "name": "MRI Scan",
+        "price_range": "$160 - $320"
+      },
+      {
+        "name": "CT Scan",
+        "price_range": "$90 - $220"
+      },
+      {
+        "name": "Echocardiogram",
+        "price_range": "$80 - $160"
+      },
+      {
+        "name": "Cardiac Catheterization",
+        "price_range": "$800 - $1,500"
+      },
+      {
+        "name": "Blood Panel",
+        "price_range": "$40 - $90"
+      }
     ],
     "international_services": {
-      "languages": ["English", "Cantonese"],
+      "languages": [
+        "English",
+        "Cantonese"
+      ],
       "has_international_coordinators": true,
       "has_translation_service": true,
       "has_dedicated_international_floor": true,
@@ -856,7 +1832,42 @@
     },
     "transportation": {
       "nearest_subway": "Dongshankou Station (Line 1, Line 6) - 10 min walk",
-      "bus_routes": ["1", "16", "18", "22", "37", "40", "44", "76", "102", "106", "107", "108", "112", "129", "183", "192", "221", "222", "225", "243", "247", "285", "287", "299", "502", "517", "535", "541", "542", "548", "551", "813", "864", "高峰快线"],
+      "bus_routes": [
+        "1",
+        "16",
+        "18",
+        "22",
+        "37",
+        "40",
+        "44",
+        "76",
+        "102",
+        "106",
+        "107",
+        "108",
+        "112",
+        "129",
+        "183",
+        "192",
+        "221",
+        "222",
+        "225",
+        "243",
+        "247",
+        "285",
+        "287",
+        "299",
+        "502",
+        "517",
+        "535",
+        "541",
+        "542",
+        "548",
+        "551",
+        "813",
+        "864",
+        "高峰快线"
+      ],
       "taxi_guide": "Tell the driver: 'Guangdong Sheng Renmin Yiyuan, Dongchuan Lu'"
     }
   },
@@ -865,12 +1876,22 @@
     "slug": "zhongshan-first-affiliated-hospital",
     "name": "The First Affiliated Hospital of Sun Yat-sen University - International Medical Center",
     "name_zh": "中山大学附属第一医院国际医疗中心",
-    "tier": "S",
+    "tier": "3A",
     "category": "public_international",
     "category_label": "Public Tier 3A International",
     "city": "Guangzhou",
-    "specialties": ["General Surgery", "Nephrology", "Cardiology", "Neurology", "Oncology", "Orthopedics", "Obstetrics & Gynecology"],
-    "languages": ["English"],
+    "specialties": [
+      "General Surgery",
+      "Nephrology",
+      "Cardiology",
+      "Neurology",
+      "Oncology",
+      "Orthopedics",
+      "Obstetrics & Gynecology"
+    ],
+    "languages": [
+      "English"
+    ],
     "has_24h_emergency": true,
     "phone_foreign": "+86-20-8733-2208",
     "address": "No. 58 Zhongshan Er Road, Yuexiu District, Guangzhou",
@@ -878,18 +1899,41 @@
     "registration_fee_range": "$50 - $200",
     "registration_channel": "Phone / Online / WeChat",
     "description": "The First Affiliated Hospital of Sun Yat-sen University is a designated first-batch international medical service pilot hospital in Guangdong Province. Our International Medical Center is housed in a newly completed modern medical complex with a total construction area of nearly 76,000 m², featuring five core functions: Women's and Children's Center, International Medical Center, Imaging and Radiotherapy Center, Surgery Center, and Sports Medicine Center. The center is equipped with state-of-the-art medical equipment and a rescue helicopter landing pad. The International Medical Center has served over 7,500 patients from more than 40 countries and regions.",
-    "direct_billing_insurers": ["Aetna", "Cigna", "MSH", "Allianz", "Bupa"],
+    "direct_billing_insurers": [
+      "Aetna",
+      "Cigna",
+      "MSH",
+      "Allianz",
+      "Bupa"
+    ],
     "image_cover": "/images/hospitals/h22.jpg",
     "last_verified": "2026-06-30",
     "common_tests": [
-      { "name": "MRI Scan", "price_range": "$160 - $320" },
-      { "name": "CT Scan", "price_range": "$90 - $220" },
-      { "name": "PET-CT", "price_range": "$500 - $1,000" },
-      { "name": "Ultrasound", "price_range": "$50 - $120" },
-      { "name": "Blood Panel", "price_range": "$40 - $90" }
+      {
+        "name": "MRI Scan",
+        "price_range": "$160 - $320"
+      },
+      {
+        "name": "CT Scan",
+        "price_range": "$90 - $220"
+      },
+      {
+        "name": "PET-CT",
+        "price_range": "$500 - $1,000"
+      },
+      {
+        "name": "Ultrasound",
+        "price_range": "$50 - $120"
+      },
+      {
+        "name": "Blood Panel",
+        "price_range": "$40 - $90"
+      }
     ],
     "international_services": {
-      "languages": ["English"],
+      "languages": [
+        "English"
+      ],
       "has_international_coordinators": true,
       "has_translation_service": true,
       "has_dedicated_international_floor": true,
@@ -897,7 +1941,37 @@
     },
     "transportation": {
       "nearest_subway": "Peasant Movement Institute Station (Line 1) - 8 min walk",
-      "bus_routes": ["1", "27", "40", "76", "93", "102", "107", "108", "112", "129", "183", "192", "211", "221", "222", "243", "247", "285", "287", "299", "502", "517", "535", "541", "542", "548", "551", "813", "864"],
+      "bus_routes": [
+        "1",
+        "27",
+        "40",
+        "76",
+        "93",
+        "102",
+        "107",
+        "108",
+        "112",
+        "129",
+        "183",
+        "192",
+        "211",
+        "221",
+        "222",
+        "243",
+        "247",
+        "285",
+        "287",
+        "299",
+        "502",
+        "517",
+        "535",
+        "541",
+        "542",
+        "548",
+        "551",
+        "813",
+        "864"
+      ],
       "taxi_guide": "Tell the driver: 'Zhongshan Yi Yuan, Yuexiu Qu'"
     }
   },
@@ -906,12 +1980,22 @@
     "slug": "nanfang-hospital-guangzhou",
     "name": "Nanfang Hospital - International Medical Center",
     "name_zh": "南方医科大学南方医院国际医疗中心",
-    "tier": "A+",
+    "tier": "3A",
     "category": "public_international",
     "category_label": "Public Tier 3A International",
     "city": "Guangzhou",
-    "specialties": ["Infectious Diseases", "Hepatology", "Cardiology", "Oncology", "Orthopedics", "Neurology", "Obstetrics & Gynecology"],
-    "languages": ["English"],
+    "specialties": [
+      "Infectious Diseases",
+      "Hepatology",
+      "Cardiology",
+      "Oncology",
+      "Orthopedics",
+      "Neurology",
+      "Obstetrics & Gynecology"
+    ],
+    "languages": [
+      "English"
+    ],
     "has_24h_emergency": true,
     "phone_foreign": "+86-20-6164-1888",
     "address": "No. 1838 Guangzhou Avenue North, Baiyun District, Guangzhou",
@@ -919,18 +2003,41 @@
     "registration_fee_range": "$40 - $160",
     "registration_channel": "Phone / Online / WeChat",
     "description": "Nanfang Hospital is a designated first-batch international medical service pilot hospital in Guangdong Province. The hospital has been providing international medical services for 47 years, having served more than 260,000 international patients, demonstrating deep expertise in cross-border healthcare. The International Medical Services department offers comprehensive care with English-speaking medical staff, specializing in infectious diseases, hepatology, cardiology, and oncology.",
-    "direct_billing_insurers": ["Aetna", "Cigna", "MSH", "Allianz", "Bupa"],
+    "direct_billing_insurers": [
+      "Aetna",
+      "Cigna",
+      "MSH",
+      "Allianz",
+      "Bupa"
+    ],
     "image_cover": "/images/hospitals/h23.jpg",
     "last_verified": "2026-06-30",
     "common_tests": [
-      { "name": "MRI Scan", "price_range": "$150 - $300" },
-      { "name": "CT Scan", "price_range": "$80 - $200" },
-      { "name": "Liver Function Panel", "price_range": "$40 - $80" },
-      { "name": "Infectious Disease Panel", "price_range": "$60 - $150" },
-      { "name": "Blood Panel", "price_range": "$35 - $80" }
+      {
+        "name": "MRI Scan",
+        "price_range": "$150 - $300"
+      },
+      {
+        "name": "CT Scan",
+        "price_range": "$80 - $200"
+      },
+      {
+        "name": "Liver Function Panel",
+        "price_range": "$40 - $80"
+      },
+      {
+        "name": "Infectious Disease Panel",
+        "price_range": "$60 - $150"
+      },
+      {
+        "name": "Blood Panel",
+        "price_range": "$35 - $80"
+      }
     ],
     "international_services": {
-      "languages": ["English"],
+      "languages": [
+        "English"
+      ],
       "has_international_coordinators": true,
       "has_translation_service": true,
       "has_dedicated_international_floor": true,
@@ -938,7 +2045,22 @@
     },
     "transportation": {
       "nearest_subway": "Beijing Lu Station (Line 2) - 5 min walk",
-      "bus_routes": ["32", "56", "179", "219", "241", "296", "502", "560", "804", "833", "836", "862", "B6", "B18"],
+      "bus_routes": [
+        "32",
+        "56",
+        "179",
+        "219",
+        "241",
+        "296",
+        "502",
+        "560",
+        "804",
+        "833",
+        "836",
+        "862",
+        "B6",
+        "B18"
+      ],
       "taxi_guide": "Tell the driver: 'Nanfang Yiyuan, Baiyun Qu'"
     }
   },
@@ -947,12 +2069,22 @@
     "slug": "guangdong-hospital-of-tcm",
     "name": "Guangdong Hospital of Traditional Chinese Medicine - International Medical Center",
     "name_zh": "广东省中医院国际医疗中心",
-    "tier": "A+",
+    "tier": "3A",
     "category": "public_international",
     "category_label": "Public Tier 3A TCM Hospital",
     "city": "Guangzhou",
-    "specialties": ["Traditional Chinese Medicine", "Acupuncture", "Herbal Medicine", "Tuina Massage", "Rehabilitation", "Chronic Disease Management"],
-    "languages": ["English", "Cantonese"],
+    "specialties": [
+      "Traditional Chinese Medicine",
+      "Acupuncture",
+      "Herbal Medicine",
+      "Tuina Massage",
+      "Rehabilitation",
+      "Chronic Disease Management"
+    ],
+    "languages": [
+      "English",
+      "Cantonese"
+    ],
     "has_24h_emergency": true,
     "phone_foreign": "+86-20-8188-7233",
     "address": "No. 111 Dade Road, Yuexiu District, Guangzhou",
@@ -960,18 +2092,42 @@
     "registration_fee_range": "$30 - $120",
     "registration_channel": "Phone / WeChat / Walk-in",
     "description": "Guangdong Hospital of Traditional Chinese Medicine is a designated first-batch international medical service pilot hospital in Guangdong Province. The hospital has created an integrated Chinese-Western medicine international service brand, attracting patients from many countries to experience TCM characteristic diagnosis and treatment. The International TCM Service department offers acupuncture, herbal medicine, tuina massage, and comprehensive TCM rehabilitation services with English and Cantonese-speaking staff.",
-    "direct_billing_insurers": ["Aetna", "Cigna", "MSH", "Allianz", "Bupa"],
+    "direct_billing_insurers": [
+      "Aetna",
+      "Cigna",
+      "MSH",
+      "Allianz",
+      "Bupa"
+    ],
     "image_cover": "/images/hospitals/h24.jpg",
     "last_verified": "2026-06-30",
     "common_tests": [
-      { "name": "TCM Consultation (Initial)", "price_range": "$50 - $120" },
-      { "name": "Acupuncture Session", "price_range": "$30 - $80" },
-      { "name": "Herbal Prescription (1 week)", "price_range": "$40 - $100" },
-      { "name": "Tuina Massage (60 min)", "price_range": "$50 - $90" },
-      { "name": "Cupping Therapy", "price_range": "$25 - $50" }
+      {
+        "name": "TCM Consultation (Initial)",
+        "price_range": "$50 - $120"
+      },
+      {
+        "name": "Acupuncture Session",
+        "price_range": "$30 - $80"
+      },
+      {
+        "name": "Herbal Prescription (1 week)",
+        "price_range": "$40 - $100"
+      },
+      {
+        "name": "Tuina Massage (60 min)",
+        "price_range": "$50 - $90"
+      },
+      {
+        "name": "Cupping Therapy",
+        "price_range": "$25 - $50"
+      }
     ],
     "international_services": {
-      "languages": ["English", "Cantonese"],
+      "languages": [
+        "English",
+        "Cantonese"
+      ],
       "has_international_coordinators": true,
       "has_translation_service": true,
       "has_dedicated_international_floor": true,
@@ -979,7 +2135,32 @@
     },
     "transportation": {
       "nearest_subway": "Gongyuanqian Station (Line 1, Line 2) - 10 min walk",
-      "bus_routes": ["3", "6", "8", "12", "24", "58", "66", "74", "82", "101", "104", "106", "110", "113", "124", "209", "217", "244", "253", "273", "519", "541", "556", "高峰快线"],
+      "bus_routes": [
+        "3",
+        "6",
+        "8",
+        "12",
+        "24",
+        "58",
+        "66",
+        "74",
+        "82",
+        "101",
+        "104",
+        "106",
+        "110",
+        "113",
+        "124",
+        "209",
+        "217",
+        "244",
+        "253",
+        "273",
+        "519",
+        "541",
+        "556",
+        "高峰快线"
+      ],
       "taxi_guide": "Tell the driver: 'Guangdong Sheng Zhong Yi Yuan, Dade Lu'"
     }
   },
@@ -988,12 +2169,22 @@
     "slug": "guangzhou-first-affiliated-hospital",
     "name": "The First Affiliated Hospital of Guangzhou Medical University - International Medical Center",
     "name_zh": "广州医科大学附属第一医院国际医疗中心",
-    "tier": "A+",
+    "tier": "3A",
     "category": "public_international",
     "category_label": "Public Tier 3A International",
     "city": "Guangzhou",
-    "specialties": ["Pulmonology", "Thoracic Surgery", "Respiratory Medicine", "Cardiology", "Oncology", "Critical Care Medicine"],
-    "languages": ["English", "Cantonese"],
+    "specialties": [
+      "Pulmonology",
+      "Thoracic Surgery",
+      "Respiratory Medicine",
+      "Cardiology",
+      "Oncology",
+      "Critical Care Medicine"
+    ],
+    "languages": [
+      "English",
+      "Cantonese"
+    ],
     "has_24h_emergency": true,
     "phone_foreign": "+86-20-8306-2111",
     "address": "No. 151 Yanjiang Road, Yuexiu District, Guangzhou",
@@ -1001,18 +2192,41 @@
     "registration_fee_range": "$40 - $160",
     "registration_channel": "Phone / Online / WeChat",
     "description": "The First Affiliated Hospital of Guangzhou Medical University is a designated first-batch international medical service pilot hospital in Guangdong Province. The International Medical Service department provides comprehensive respiratory and thoracic care with English-speaking specialists, serving international patients, Hong Kong, Macau, and Taiwan compatriots, and expatriates.",
-    "direct_billing_insurers": ["Aetna", "Cigna", "MSH", "Allianz"],
+    "direct_billing_insurers": [
+      "Aetna",
+      "Cigna",
+      "MSH",
+      "Allianz"
+    ],
     "image_cover": "/images/hospitals/h25.jpg",
     "last_verified": "2026-06-30",
     "common_tests": [
-      { "name": "Pulmonary Function Test", "price_range": "$50 - $120" },
-      { "name": "CT Scan", "price_range": "$80 - $200" },
-      { "name": "Bronchoscopy", "price_range": "$200 - $400" },
-      { "name": "Echocardiogram", "price_range": "$70 - $150" },
-      { "name": "Blood Panel", "price_range": "$35 - $80" }
+      {
+        "name": "Pulmonary Function Test",
+        "price_range": "$50 - $120"
+      },
+      {
+        "name": "CT Scan",
+        "price_range": "$80 - $200"
+      },
+      {
+        "name": "Bronchoscopy",
+        "price_range": "$200 - $400"
+      },
+      {
+        "name": "Echocardiogram",
+        "price_range": "$70 - $150"
+      },
+      {
+        "name": "Blood Panel",
+        "price_range": "$35 - $80"
+      }
     ],
     "international_services": {
-      "languages": ["English", "Cantonese"],
+      "languages": [
+        "English",
+        "Cantonese"
+      ],
       "has_international_coordinators": true,
       "has_translation_service": true,
       "has_dedicated_international_floor": false,
@@ -1020,7 +2234,25 @@
     },
     "transportation": {
       "nearest_subway": "Yide Road Station (Line 6) - 8 min walk",
-      "bus_routes": ["1", "4", "8", "38", "57", "61", "64", "128", "186", "194", "208", "219", "236", "281", "519", "556", "旅游2线"],
+      "bus_routes": [
+        "1",
+        "4",
+        "8",
+        "38",
+        "57",
+        "61",
+        "64",
+        "128",
+        "186",
+        "194",
+        "208",
+        "219",
+        "236",
+        "281",
+        "519",
+        "556",
+        "旅游2线"
+      ],
       "taxi_guide": "Tell the driver: 'Guangyi Yi Yuan, Yanjiang Lu'"
     }
   },
@@ -1029,12 +2261,22 @@
     "slug": "guangzhou-women-children-medical-center",
     "name": "Guangzhou Women and Children's Medical Center - International Medical Center",
     "name_zh": "广州医科大学附属妇女儿童医疗中心国际医疗中心",
-    "tier": "A+",
+    "tier": "3A",
     "category": "public_international",
     "category_label": "Public Tier 3A Specialist",
     "city": "Guangzhou",
-    "specialties": ["Obstetrics", "Pediatrics", "Gynecology", "Neonatology", "Pediatric Surgery", "Reproductive Medicine"],
-    "languages": ["English", "Cantonese"],
+    "specialties": [
+      "Obstetrics",
+      "Pediatrics",
+      "Gynecology",
+      "Neonatology",
+      "Pediatric Surgery",
+      "Reproductive Medicine"
+    ],
+    "languages": [
+      "English",
+      "Cantonese"
+    ],
     "has_24h_emergency": true,
     "phone_foreign": "+86-20-3807-6000",
     "address": "No. 9 Jinsui Road, Tianhe District, Guangzhou",
@@ -1042,18 +2284,42 @@
     "registration_fee_range": "$40 - $160",
     "registration_channel": "Phone / WeChat / Online",
     "description": "Guangzhou Women and Children's Medical Center is a designated first-batch international medical service pilot hospital in Guangdong Province. Over the past three years, the center has served more than 11,000 patients from overseas, establishing strong expertise in cross-border maternal and child healthcare. The International Medical Service department provides comprehensive obstetric, gynecologic, and pediatric care with English and Cantonese-speaking medical staff.",
-    "direct_billing_insurers": ["Aetna", "Cigna", "MSH", "Allianz", "Bupa"],
+    "direct_billing_insurers": [
+      "Aetna",
+      "Cigna",
+      "MSH",
+      "Allianz",
+      "Bupa"
+    ],
     "image_cover": "/images/hospitals/h26.jpg",
     "last_verified": "2026-06-30",
     "common_tests": [
-      { "name": "Obstetric Ultrasound", "price_range": "$60 - $120" },
-      { "name": "Prenatal Check-up Package", "price_range": "$100 - $300" },
-      { "name": "Gynecological Examination", "price_range": "$50 - $120" },
-      { "name": "Pediatric Consultation", "price_range": "$40 - $100" },
-      { "name": "Fetal Monitoring", "price_range": "$30 - $60" }
+      {
+        "name": "Obstetric Ultrasound",
+        "price_range": "$60 - $120"
+      },
+      {
+        "name": "Prenatal Check-up Package",
+        "price_range": "$100 - $300"
+      },
+      {
+        "name": "Gynecological Examination",
+        "price_range": "$50 - $120"
+      },
+      {
+        "name": "Pediatric Consultation",
+        "price_range": "$40 - $100"
+      },
+      {
+        "name": "Fetal Monitoring",
+        "price_range": "$30 - $60"
+      }
     ],
     "international_services": {
-      "languages": ["English", "Cantonese"],
+      "languages": [
+        "English",
+        "Cantonese"
+      ],
       "has_international_coordinators": true,
       "has_translation_service": true,
       "has_dedicated_international_floor": true,
@@ -1061,7 +2327,14 @@
     },
     "transportation": {
       "nearest_subway": "Zhujiang New Town Station (Line 3, Line 5) - 15 min walk",
-      "bus_routes": ["40", "194", "777", "778", "811", "901A"],
+      "bus_routes": [
+        "40",
+        "194",
+        "777",
+        "778",
+        "811",
+        "901A"
+      ],
       "taxi_guide": "Tell the driver: 'Fu You Er Tong Yi Yuan, Tianhe Qu'"
     }
   },
@@ -1070,12 +2343,22 @@
     "slug": "ruijin-hainan-hospital",
     "name": "Ruijin Hospital Hainan - International Medical Center",
     "name_zh": "瑞金医院海南医院（博鳌研究型医院）",
-    "tier": "S",
+    "tier": "3A",
     "category": "public_international",
     "category_label": "Public Tier 3A International (National Regional Medical Center)",
     "city": "Hainan",
-    "specialties": ["Oncology", "Hematology", "Cardiovascular Disease", "Metabolic Disease", "Neurology", "Rare Diseases"],
-    "languages": ["English", "Chinese"],
+    "specialties": [
+      "Oncology",
+      "Hematology",
+      "Cardiovascular Disease",
+      "Metabolic Disease",
+      "Neurology",
+      "Rare Diseases"
+    ],
+    "languages": [
+      "English",
+      "Chinese"
+    ],
     "has_24h_emergency": true,
     "phone_foreign": "+86-898-6268-8888",
     "address": "Boao Lecheng International Medical Tourism Pilot Zone, Qionghai, Hainan",
@@ -1083,18 +2366,42 @@
     "registration_fee_range": "$50 - $200",
     "registration_channel": "Phone / Online / WeChat",
     "description": "Ruijin Hospital Hainan is the only public medical institution in the Boao Lecheng Pilot Zone, approved as a fourth-batch National Regional Medical Center project. The hospital is building a platform that synchronizes advanced technology, equipment, and pharmaceuticals with international standards, with 193 new drugs and medical devices already available. By November 2024, the hospital had implemented 120 licensed medical device and pharmaceutical projects, including 78 national firsts, serving nearly 16,000 patients with internationally advanced medical services. Staff provide fluent English communication for international patients, accurately addressing every aspect of their healthcare needs. In April 2025, the hospital was awarded the national 'Advanced Unit in the Health System' title.",
-    "direct_billing_insurers": ["Aetna", "Cigna", "MSH", "Allianz", "Bupa"],
+    "direct_billing_insurers": [
+      "Aetna",
+      "Cigna",
+      "MSH",
+      "Allianz",
+      "Bupa"
+    ],
     "image_cover": "/images/hospitals/h27.jpg",
     "last_verified": "2026-06-30",
     "common_tests": [
-      { "name": "MRI Scan", "price_range": "$150 - $300" },
-      { "name": "CT Scan", "price_range": "$80 - $200" },
-      { "name": "PET-CT", "price_range": "$500 - $1,000" },
-      { "name": "Tumor Marker Panel", "price_range": "$80 - $200" },
-      { "name": "Blood Panel", "price_range": "$40 - $90" }
+      {
+        "name": "MRI Scan",
+        "price_range": "$150 - $300"
+      },
+      {
+        "name": "CT Scan",
+        "price_range": "$80 - $200"
+      },
+      {
+        "name": "PET-CT",
+        "price_range": "$500 - $1,000"
+      },
+      {
+        "name": "Tumor Marker Panel",
+        "price_range": "$80 - $200"
+      },
+      {
+        "name": "Blood Panel",
+        "price_range": "$40 - $90"
+      }
     ],
     "international_services": {
-      "languages": ["English", "Chinese"],
+      "languages": [
+        "English",
+        "Chinese"
+      ],
       "has_international_coordinators": true,
       "has_translation_service": true,
       "has_dedicated_international_floor": true,
@@ -1102,7 +2409,9 @@
     },
     "transportation": {
       "nearest_subway": "N/A (Airport shuttle available from Haikou Meilan International Airport)",
-      "bus_routes": ["Special shuttle buses from Boao town"],
+      "bus_routes": [
+        "Special shuttle buses from Boao town"
+      ],
       "taxi_guide": "Tell the driver: 'Ruijin Hainan Yiyuan, Lecheng'"
     }
   },
@@ -1111,12 +2420,20 @@
     "slug": "huaxi-lecheng-hospital",
     "name": "West China Lecheng Hospital - International Medical Center",
     "name_zh": "四川大学华西乐城医院",
-    "tier": "A+",
+    "tier": "3A",
     "category": "public_international",
     "category_label": "Public Tier 3A International",
     "city": "Hainan",
-    "specialties": ["Oncology", "Advanced Diagnostics", "Rehabilitation Medicine", "Cardiovascular Disease", "Rare Diseases"],
-    "languages": ["English"],
+    "specialties": [
+      "Oncology",
+      "Advanced Diagnostics",
+      "Rehabilitation Medicine",
+      "Cardiovascular Disease",
+      "Rare Diseases"
+    ],
+    "languages": [
+      "English"
+    ],
     "has_24h_emergency": true,
     "phone_foreign": "+86-898-6268-9999",
     "address": "Boao Lecheng International Medical Tourism Pilot Zone, Qionghai, Hainan",
@@ -1124,18 +2441,41 @@
     "registration_fee_range": "$50 - $200",
     "registration_channel": "Phone / Online / WeChat",
     "description": "West China Lecheng Hospital is a high-level medical service platform established by West China Hospital of Sichuan University in the Pilot Zone. Leveraging the Pilot Zone's unique 'licensed medical' policy advantages, the hospital is committed to introducing internationally advanced medical technologies, pharmaceuticals, and devices to provide innovative diagnosis and treatment services synchronized with global standards. The hospital focuses on oncology prevention and treatment, advanced diagnostics, and rehabilitation medicine. By integrating West China Hospital's top-tier medical expertise, talent, and management advantages, the hospital is positioned as an international, high-quality medical service benchmark.",
-    "direct_billing_insurers": ["Aetna", "Cigna", "MSH", "Allianz", "Bupa"],
+    "direct_billing_insurers": [
+      "Aetna",
+      "Cigna",
+      "MSH",
+      "Allianz",
+      "Bupa"
+    ],
     "image_cover": "/images/hospitals/h28.jpg",
     "last_verified": "2026-06-30",
     "common_tests": [
-      { "name": "MRI Scan", "price_range": "$150 - $300" },
-      { "name": "CT Scan", "price_range": "$80 - $200" },
-      { "name": "PET-CT", "price_range": "$500 - $1,000" },
-      { "name": "Advanced Genetic Testing", "price_range": "$300 - $800" },
-      { "name": "Blood Panel", "price_range": "$40 - $90" }
+      {
+        "name": "MRI Scan",
+        "price_range": "$150 - $300"
+      },
+      {
+        "name": "CT Scan",
+        "price_range": "$80 - $200"
+      },
+      {
+        "name": "PET-CT",
+        "price_range": "$500 - $1,000"
+      },
+      {
+        "name": "Advanced Genetic Testing",
+        "price_range": "$300 - $800"
+      },
+      {
+        "name": "Blood Panel",
+        "price_range": "$40 - $90"
+      }
     ],
     "international_services": {
-      "languages": ["English"],
+      "languages": [
+        "English"
+      ],
       "has_international_coordinators": true,
       "has_translation_service": true,
       "has_dedicated_international_floor": true,
@@ -1143,7 +2483,9 @@
     },
     "transportation": {
       "nearest_subway": "N/A (Airport shuttle available)",
-      "bus_routes": ["Special shuttle buses from Boao town"],
+      "bus_routes": [
+        "Special shuttle buses from Boao town"
+      ],
       "taxi_guide": "Tell the driver: 'Huaxi Lecheng Yiyuan'"
     }
   },
@@ -1152,12 +2494,21 @@
     "slug": "boao-super-hospital",
     "name": "Boao Super Hospital - International Medical Center",
     "name_zh": "博鳌超级医院",
-    "tier": "A+",
+    "tier": "Other",
     "category": "private",
     "category_label": "Premium Private Hospital (Innovative '1+X' Model)",
     "city": "Hainan",
-    "specialties": ["Rare Diseases", "Oncology", "Cardiovascular Disease", "Ophthalmology", "Orthopedics", "Innovative Drug Clinical Trials"],
-    "languages": ["English"],
+    "specialties": [
+      "Rare Diseases",
+      "Oncology",
+      "Cardiovascular Disease",
+      "Ophthalmology",
+      "Orthopedics",
+      "Innovative Drug Clinical Trials"
+    ],
+    "languages": [
+      "English"
+    ],
     "has_24h_emergency": true,
     "phone_foreign": "+86-898-6268-8000",
     "address": "Boao Lecheng International Medical Tourism Pilot Zone, Qionghai, Hainan",
@@ -1165,18 +2516,41 @@
     "registration_fee_range": "$50 - $200",
     "registration_channel": "Phone / Online / WeChat",
     "description": "Boao Super Hospital, established in March 2018, is an innovative comprehensive hospital operating under a state-owned holding '1+X' shared hospital model, where '1' represents a shared hospital platform and 'X' represents multiple specialist departments led by academicians and leading experts. To date, the hospital has completed 182 licensed first-case projects, facilitating the early introduction of internationally innovative pharmaceuticals and medical devices. The hospital actively conducts real-world data research to accelerate the transformation of clinical data into regulatory evidence, providing practical support for healthcare policy and industrial innovation. The hospital's innovative model and policy advantages make it an ideal platform for international medical collaboration, particularly in rare disease treatment and innovative drug and device applications.",
-    "direct_billing_insurers": ["Aetna", "Cigna", "MSH", "Allianz", "Bupa"],
+    "direct_billing_insurers": [
+      "Aetna",
+      "Cigna",
+      "MSH",
+      "Allianz",
+      "Bupa"
+    ],
     "image_cover": "/images/hospitals/h29.jpg",
     "last_verified": "2026-06-30",
     "common_tests": [
-      { "name": "MRI Scan", "price_range": "$150 - $300" },
-      { "name": "CT Scan", "price_range": "$80 - $200" },
-      { "name": "PET-CT", "price_range": "$500 - $1,000" },
-      { "name": "Genetic Testing", "price_range": "$200 - $600" },
-      { "name": "Blood Panel", "price_range": "$40 - $90" }
+      {
+        "name": "MRI Scan",
+        "price_range": "$150 - $300"
+      },
+      {
+        "name": "CT Scan",
+        "price_range": "$80 - $200"
+      },
+      {
+        "name": "PET-CT",
+        "price_range": "$500 - $1,000"
+      },
+      {
+        "name": "Genetic Testing",
+        "price_range": "$200 - $600"
+      },
+      {
+        "name": "Blood Panel",
+        "price_range": "$40 - $90"
+      }
     ],
     "international_services": {
-      "languages": ["English"],
+      "languages": [
+        "English"
+      ],
       "has_international_coordinators": true,
       "has_translation_service": true,
       "has_dedicated_international_floor": true,
@@ -1184,7 +2558,9 @@
     },
     "transportation": {
       "nearest_subway": "N/A (Airport shuttle available)",
-      "bus_routes": ["Special shuttle buses from Boao town"],
+      "bus_routes": [
+        "Special shuttle buses from Boao town"
+      ],
       "taxi_guide": "Tell the driver: 'Boao Chaoji Yiyuan'"
     }
   },
@@ -1193,12 +2569,21 @@
     "slug": "boao-lecheng-aier-eye-hospital",
     "name": "Boao Lecheng Aier Eye Hospital",
     "name_zh": "博鳌乐城爱尔眼科医院",
-    "tier": "A",
+    "tier": "Other",
     "category": "private",
     "category_label": "Private Specialist Hospital",
     "city": "Hainan",
-    "specialties": ["Ophthalmology", "Refractive Surgery", "Cataract Surgery", "Glaucoma Treatment", "Retinal Diseases", "Corneal Diseases"],
-    "languages": ["English"],
+    "specialties": [
+      "Ophthalmology",
+      "Refractive Surgery",
+      "Cataract Surgery",
+      "Glaucoma Treatment",
+      "Retinal Diseases",
+      "Corneal Diseases"
+    ],
+    "languages": [
+      "English"
+    ],
     "has_24h_emergency": false,
     "phone_foreign": "+86-898-6268-6000",
     "address": "Boao Lecheng International Medical Tourism Pilot Zone, Qionghai, Hainan",
@@ -1206,18 +2591,41 @@
     "registration_fee_range": "$40 - $160",
     "registration_channel": "Phone / Online / WeChat",
     "description": "Boao Lecheng Aier Eye Hospital is one of three ophthalmic specialty hospitals operating in the Pilot Zone, bringing over 30 licensed ophthalmic drugs and devices to the region and completing thousands of applications to help patients regain their sight. The hospital leverages the Pilot Zone's unique policy advantages to provide access to internationally approved ophthalmic treatments not yet available in the broader Chinese market, offering international patients world-class eye care in a premium environment.",
-    "direct_billing_insurers": ["Aetna", "Cigna", "MSH", "Allianz", "Bupa"],
+    "direct_billing_insurers": [
+      "Aetna",
+      "Cigna",
+      "MSH",
+      "Allianz",
+      "Bupa"
+    ],
     "image_cover": "/images/hospitals/h30.jpg",
     "last_verified": "2026-06-30",
     "common_tests": [
-      { "name": "Comprehensive Eye Exam", "price_range": "$50 - $150" },
-      { "name": "Optical Coherence Tomography", "price_range": "$100 - $250" },
-      { "name": "Visual Field Test", "price_range": "$40 - $80" },
-      { "name": "Fundus Photography", "price_range": "$30 - $60" },
-      { "name": "Corneal Topography", "price_range": "$50 - $100" }
+      {
+        "name": "Comprehensive Eye Exam",
+        "price_range": "$50 - $150"
+      },
+      {
+        "name": "Optical Coherence Tomography",
+        "price_range": "$100 - $250"
+      },
+      {
+        "name": "Visual Field Test",
+        "price_range": "$40 - $80"
+      },
+      {
+        "name": "Fundus Photography",
+        "price_range": "$30 - $60"
+      },
+      {
+        "name": "Corneal Topography",
+        "price_range": "$50 - $100"
+      }
     ],
     "international_services": {
-      "languages": ["English"],
+      "languages": [
+        "English"
+      ],
       "has_international_coordinators": true,
       "has_translation_service": true,
       "has_dedicated_international_floor": false,
@@ -1225,7 +2633,9 @@
     },
     "transportation": {
       "nearest_subway": "N/A",
-      "bus_routes": ["Special shuttle buses from Boao town"],
+      "bus_routes": [
+        "Special shuttle buses from Boao town"
+      ],
       "taxi_guide": "Tell the driver: 'Aier Yanke Yiyuan, Lecheng'"
     }
   }

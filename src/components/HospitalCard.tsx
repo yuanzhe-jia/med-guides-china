@@ -8,10 +8,8 @@ interface HospitalCardProps {
 }
 
 const tierColors: Record<string, string> = {
-  'S': 'bg-amber-500 text-white',
-  'A+': 'bg-primary-600 text-white',
-  'A': 'bg-primary-500 text-white',
-  'B': 'bg-neutral-500 text-white',
+  '3A': 'bg-amber-500 text-white',
+  'Other': 'bg-neutral-500 text-white',
 };
 
 export default function HospitalCard({ hospital, featured = false }: HospitalCardProps) {
@@ -37,7 +35,7 @@ export default function HospitalCard({ hospital, featured = false }: HospitalCar
         
         <div className="absolute top-3 left-3 flex gap-2">
           <span className={`px-2.5 py-1 rounded-full text-xs font-semibold ${tierColors[hospital.tier] || 'bg-neutral-500 text-white'}`}>
-            {hospital.tier} Tier
+            {hospital.tier === '3A' ? '3A (三甲)' : hospital.tier}
           </span>
           {hospital.has_24h_emergency && (
             <span className="px-2.5 py-1 rounded-full text-xs font-semibold bg-red-500 text-white">

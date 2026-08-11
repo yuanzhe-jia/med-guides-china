@@ -13,15 +13,14 @@ const cities = ['All Cities', ...Array.from(new Set(allHospitals.map((h) => h.ci
 
 const tiers = [
   { value: 'all', label: 'All Tiers' },
-  { value: 'S', label: 'S Tier' },
-  { value: 'A+', label: 'A+ Tier' },
-  { value: 'A', label: 'A Tier' },
+  { value: '3A', label: '3A (Tier 3A / 三甲)' },
+  { value: 'Other', label: 'Other' },
 ];
 
 const categories = [
   { value: 'all', label: 'All Types' },
-  { value: 'public_international', label: 'Public Intl Depts' },
-  { value: 'private', label: 'Private Hospitals' },
+  { value: 'public_international', label: 'Public' },
+  { value: 'private', label: 'Private' },
 ];
 
 const specialties = [

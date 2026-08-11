@@ -6,8 +6,12 @@
     "category": "medical-tourism",
     "category_label": "Medical Tourism",
     "excerpt": "Discover how Hainan's Boao Lecheng International Medical Tourism Pilot Zone is becoming a world-class destination for medical travelers, offering 485+ advanced medicines, holistic wellness programs, and unique cultural experiences.",
-    "publish_date": "2026-06-01",
-    "tags": ["hainan", "medical tourism", "wellness", "boao"],
+    "tags": [
+      "hainan",
+      "medical tourism",
+      "wellness",
+      "boao"
+    ],
     "featured": false
   },
   {
@@ -17,8 +21,11 @@
     "category": "cost",
     "category_label": "Cost",
     "excerpt": "More foreign patients are choosing China for medical care, attracted by high efficiency, modern facilities, well-trained staff, and costs significantly lower than in Western countries.",
-    "publish_date": "2026-06-01",
-    "tags": ["costs", "healthcare", "medical tourism"],
+    "tags": [
+      "costs",
+      "healthcare",
+      "medical tourism"
+    ],
     "featured": true
   },
   {
@@ -28,8 +35,11 @@
     "category": "innovation",
     "category_label": "Innovation",
     "excerpt": "Explore how AI is transforming China's healthcare system — from improving diagnostic imaging access and primary care quality to addressing the growing demands of an aging population.",
-    "publish_date": "2026-06-01",
-    "tags": ["artificial intelligence", "technology", "healthcare innovation"],
+    "tags": [
+      "artificial intelligence",
+      "technology",
+      "healthcare innovation"
+    ],
     "featured": false
   },
   {
@@ -39,8 +49,11 @@
     "category": "innovation",
     "category_label": "Innovation",
     "excerpt": "China's biotech and pharmaceutical sector is undergoing a remarkable transformation, emerging as a global leader in innovative drug discovery with over 100 overseas licensing deals in 2025.",
-    "publish_date": "2026-06-01",
-    "tags": ["pharmaceuticals", "innovation", "drug development"],
+    "tags": [
+      "pharmaceuticals",
+      "innovation",
+      "drug development"
+    ],
     "featured": false
   },
   {
@@ -50,8 +63,11 @@
     "category": "medical-tourism",
     "category_label": "Medical Tourism",
     "excerpt": "Shanghai takes another step toward becoming an international medical tourism hub with the opening of Parkway Medi-Centre Xintiandi, bringing world-class ambulatory care to expats and travelers.",
-    "publish_date": "2026-07-01",
-    "tags": ["shanghai", "medical tourism", "international hospitals"],
+    "tags": [
+      "shanghai",
+      "medical tourism",
+      "international hospitals"
+    ],
     "featured": false
   },
   {
@@ -61,8 +77,12 @@
     "category": "guide",
     "category_label": "Guide",
     "excerpt": "Follow the journey of Portuguese TCM enthusiasts studying in Hainan, as they deepen their understanding of traditional Chinese medicine and its philosophy of harmony and holistic healing.",
-    "publish_date": "2026-07-01",
-    "tags": ["tcm", "traditional chinese medicine", "hainan", "wellness"],
+    "tags": [
+      "tcm",
+      "traditional chinese medicine",
+      "hainan",
+      "wellness"
+    ],
     "featured": false
   },
   {
@@ -72,8 +92,10 @@
     "category": "guide",
     "category_label": "Guide",
     "excerpt": "A complete overview of payment models in China's international hospitals — from MSH and Cigna direct-billing networks to pay-and-claim processes, so you can avoid large upfront deposits.",
-    "publish_date": "2026-07-01",
-    "tags": ["insurance", "direct billing"],
+    "tags": [
+      "insurance",
+      "direct billing"
+    ],
     "featured": false
   },
   {
@@ -83,8 +105,11 @@
     "category": "cost",
     "category_label": "Cost",
     "excerpt": "From endoscopy to knee replacement to proton therapy, compare real-world prices in China against the UK and US — even after flights and accommodation are added in.",
-    "publish_date": "2026-07-01",
-    "tags": ["costs", "price comparison", "savings"],
+    "tags": [
+      "costs",
+      "price comparison",
+      "savings"
+    ],
     "featured": false
   },
   {
@@ -94,8 +119,12 @@
     "category": "guide",
     "category_label": "Guide",
     "excerpt": "The essential first read: learn the three tiers of healthcare in China, how public Grade 3A, international departments, and private hospitals differ, and which is right for you.",
-    "publish_date": "2026-08-01",
-    "tags": ["healthcare system", "Grade 3A", "international department", "private hospitals"],
+    "tags": [
+      "healthcare system",
+      "Grade 3A",
+      "international department",
+      "private hospitals"
+    ],
     "featured": true
   },
   {
@@ -105,8 +134,13 @@
     "category": "medical-tourism",
     "category_label": "Medical Tourism",
     "excerpt": "Compare China's top three medical destinations side by side — authority and depth in Beijing, international standards in Shanghai, and cutting-edge access in Hainan's special zone.",
-    "publish_date": "2026-08-01", 
-    "tags": ["Beijing", "Shanghai", "Hainan", "city comparison", "medical tourism"],
+    "tags": [
+      "Beijing",
+      "Shanghai",
+      "Hainan",
+      "city comparison",
+      "medical tourism"
+    ],
     "featured": true
   },
   {
@@ -116,8 +150,12 @@
     "category": "guide",
     "category_label": "Guide",
     "excerpt": "Incomplete records cause the most delays for international patients. Learn exactly which documents you need, how to obtain DICOM imaging files, and why professional translation matters.",
-    "publish_date": "2026-08-01",
-    "tags": ["preparation", "medical records", "translation", "checklist"],
+    "tags": [
+      "preparation",
+      "medical records",
+      "translation",
+      "checklist"
+    ],
     "featured": false
   },
   {
@@ -127,8 +165,12 @@
     "category": "innovation",
     "category_label": "Innovation",
     "excerpt": "How patients access over 530 overseas-approved drugs and devices in China's unique Boao Lecheng zone — often within days of global approval and at a fraction of the cost.",
-    "publish_date": "2026-08-01",
-    "tags": ["new drugs", "boao", "innovative medicines", "special medical zone"],
+    "tags": [
+      "new drugs",
+      "boao",
+      "innovative medicines",
+      "special medical zone"
+    ],
     "featured": false
   }
 ]
