@@ -1,7 +1,8 @@
 'use client';
 
 import { useState } from 'react';
-import { MessageCircleQuestion } from 'lucide-react';
+import Link from 'next/link';
+import { MessageCircleQuestion, BookOpen, Star } from 'lucide-react';
 import FaqItem from '@/components/FaqItem';
 import faqData from '@/data/faq.json';
 import type { FaqItem as FaqItemType } from '@/types';
@@ -21,11 +22,11 @@ export default function FaqContent() {
         <div className="container-custom">
           <div className="max-w-3xl">
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-5">
-              Frequently Asked Questions
+              View Frequently Asked Questions from Worldwide Patients
             </h1>
             <p className="text-lg md:text-xl text-primary-100 leading-relaxed">
               Everything you need to know about seeking medical care in China. 
-              Can&apos;t find your question? Reach out to our team.
+              Can&apos;t find your question? Reach out a hospital directly.
             </p>
           </div>
         </div>
@@ -46,25 +47,31 @@ export default function FaqContent() {
         </div>
       </section>
 
-      <section className="bg-white border-t border-neutral-100 py-16 md:py-20">
-        <div className="container-custom">
+      {/* CTA Section — unified dark-blue gradient (consistent with all primary pages) */}
+      <section className="relative bg-gradient-to-r from-primary-800 to-primary-700 py-16 md:py-20 overflow-hidden">
+        <div className="absolute inset-0 opacity-5">
+          <div className="absolute top-0 right-0 w-96 h-96 bg-white rounded-full translate-x-1/2 -translate-y-1/2" />
+          <div className="absolute bottom-0 left-0 w-80 h-80 bg-secondary-400 rounded-full -translate-x-1/2 translate-y-1/2" />
+        </div>
+
+        <div className="container-custom relative z-10">
           <div className="max-w-3xl mx-auto text-center">
-            <div className="w-16 h-16 bg-primary-50 rounded-full flex items-center justify-center mx-auto mb-6">
-              <MessageCircleQuestion className="text-primary-600" size={28} />
-            </div>
-            <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 mb-5">
+            <MessageCircleQuestion className="text-secondary-400 mx-auto mb-6" size={48} />
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-5">
               Still Have Questions?
             </h2>
-            <p className="text-lg text-neutral-600 mb-8">
-              Every patient&apos;s situation is unique. If you have questions we haven&apos;t covered, please contact the hospital you are interested for inquiries.
+            <p className="text-lg text-primary-100 mb-8 leading-relaxed">
+              Every patient&apos;s situation is unique. 
+              If you have questions we haven&apos;t covered, please contact the hospital you are interested in for inquiries.
             </p>
-            <div className="flex justify-center">
-              <a
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link
                 href="/hospitals"
-                className="inline-flex items-center justify-center gap-2 bg-primary-700 hover:bg-primary-800 text-white px-8 py-3.5 rounded-xl font-semibold transition-colors shadow-md"
+                className="inline-flex items-center justify-center gap-2 bg-white text-primary-800 px-8 py-3.5 rounded-xl font-semibold hover:bg-primary-50 transition-all shadow-lg"
               >
-                Browse Hospitals
-              </a>
+                <BookOpen size={18} />
+                Find a Hospital
+              </Link>
             </div>
           </div>
         </div>

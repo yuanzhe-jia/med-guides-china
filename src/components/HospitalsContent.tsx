@@ -2,7 +2,8 @@
 
 import { useState, useMemo, useEffect } from 'react';
 import { useSearchParams } from 'next/navigation';
-import { Search, MapPin, AlertCircle } from 'lucide-react';
+import Link from 'next/link';
+import { Search, MapPin, AlertCircle, Shield, BookOpen, Star } from 'lucide-react';
 import HospitalCard from '@/components/HospitalCard';
 import hospitalsData from '@/data/hospitals.json';
 import type { Hospital } from '@/types';
@@ -260,6 +261,36 @@ export default function HospitalsContent() {
               </button>
             </div>
           )}
+        </div>
+      </section>
+
+      {/* CTA Section — consistent with home page */}
+      <section className="relative bg-gradient-to-r from-primary-800 to-primary-700 py-16 md:py-20 overflow-hidden">
+        <div className="absolute inset-0 opacity-5">
+          <div className="absolute top-0 right-0 w-96 h-96 bg-white rounded-full translate-x-1/2 -translate-y-1/2" />
+          <div className="absolute bottom-0 left-0 w-80 h-80 bg-secondary-400 rounded-full -translate-x-1/2 translate-y-1/2" />
+        </div>
+
+        <div className="container-custom relative z-10">
+          <div className="max-w-3xl mx-auto text-center">
+            <Shield className="text-secondary-400 mx-auto mb-6" size={48} />
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-5">
+              Ready to Take the Next Step?
+            </h2>
+            <p className="text-lg text-primary-100 mb-8 leading-relaxed">
+              Whether you&apos;re researching options or ready to book your first appointment,
+              our roadmap has everything you need to get started.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link
+                href="/roadmap"
+                className="inline-flex items-center justify-center gap-2 bg-white text-primary-800 px-8 py-3.5 rounded-xl font-semibold hover:bg-primary-50 transition-all shadow-lg"
+              >
+                <BookOpen size={18} />
+                Read Roadmap
+              </Link>
+            </div>
+          </div>
         </div>
       </section>
     </div>

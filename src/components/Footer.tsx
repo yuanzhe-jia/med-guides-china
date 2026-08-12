@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import { ExternalLink } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -10,10 +9,10 @@ export default function Footer() {
           <div>
             <h3 className="font-semibold text-lg mb-5">Quick Links</h3>
             <ul className="space-y-3">
-              <li><Link href="/hospitals" className="text-primary-200 hover:text-white transition-colors">Hospitals</Link></li>
-              <li><Link href="/guide" className="text-primary-200 hover:text-white transition-colors">Medical Guide</Link></li>
-              <li><Link href="/articles" className="text-primary-200 hover:text-white transition-colors">Articles</Link></li>
-              <li><Link href="/faq" className="text-primary-200 hover:text-white transition-colors">FAQ</Link></li>
+              <li><Link href="/hospitals" className="text-primary-200 hover:text-white transition-colors">Find a Hospital</Link></li>
+              <li><Link href="/roadmap" className="text-primary-200 hover:text-white transition-colors">Read Roadmap</Link></li>
+              <li><Link href="/articles" className="text-primary-200 hover:text-white transition-colors">Browse Articles</Link></li>
+              <li><Link href="/faq" className="text-primary-200 hover:text-white transition-colors">View FAQ</Link></li>
             </ul>
           </div>
 
@@ -38,52 +37,12 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="font-semibold text-lg mb-5">References</h3>
+            <h3 className="font-semibold text-lg mb-5">About Us</h3>
             <ul className="space-y-3">
-              <li>
-                <a
-                  href="https://english.beijing.gov.cn/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-primary-200 hover:text-white transition-colors flex items-center gap-2"
-                >
-                  <span>Beijing Government</span>
-                  <ExternalLink size={12} className="flex-shrink-0" />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://english.shanghai.gov.cn/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-primary-200 hover:text-white transition-colors flex items-center gap-2"
-                >
-                  <span>Shanghai Government</span>
-                  <ExternalLink size={12} className="flex-shrink-0" />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.gz.gov.cn/guangzhouinternational/index.html"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-primary-200 hover:text-white transition-colors flex items-center gap-2"
-                >
-                  <span>Guangzhou Government</span>
-                  <ExternalLink size={12} className="flex-shrink-0" />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://en.hainan.gov.cn/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-primary-200 hover:text-white transition-colors flex items-center gap-2"
-                >
-                  <span>Hainan Government</span>
-                  <ExternalLink size={12} className="flex-shrink-0" />
-                </a>
-              </li>
+              <li><Link href="/privacy-policy" className="text-primary-200 hover:text-white transition-colors">Privacy Policy</Link></li>
+              <li><Link href="/terms-of-service" className="text-primary-200 hover:text-white transition-colors">Terms of Service</Link></li>
+              <li><Link href="/medical-disclaimer" className="text-primary-200 hover:text-white transition-colors">Medical Disclaimer</Link></li>
+              <li><Link href="/contact-us" className="text-primary-200 hover:text-white transition-colors">Contact Us</Link></li>
             </ul>
           </div>
 
@@ -91,14 +50,10 @@ export default function Footer() {
       </div>
       
       <div className="border-t border-primary-800">
-        <div className="container-custom py-6 flex flex-col md:flex-row justify-between items-center gap-4">
+        <div className="container-custom py-6 flex justify-center md:justify-start items-center">
           <p className="text-primary-300 text-sm">
             © {new Date().getFullYear()} MedGuidesChina. All rights reserved.
           </p>
-          <div className="flex gap-6 text-sm text-primary-300">
-            <Link href="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</Link>
-            <Link href="/terms-of-service" className="hover:text-white transition-colors">Terms of Service</Link>
-          </div>
         </div>
       </div>
     </footer>

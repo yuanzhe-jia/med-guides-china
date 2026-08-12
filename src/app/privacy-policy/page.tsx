@@ -49,7 +49,7 @@ export default function PrivacyPolicyPage() {
               Privacy Policy
             </h1>
             <p className="text-lg md:text-xl text-primary-100 leading-relaxed">
-              Last updated: July 9, 2026
+              Last updated: August 10, 2026
             </p>
           </div>
         </div>

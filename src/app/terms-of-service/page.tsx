@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Terms of Service',
@@ -49,7 +50,7 @@ export default function TermsOfServicePage() {
               Terms of Service
             </h1>
             <p className="text-lg md:text-xl text-primary-100 leading-relaxed">
-              Last updated: July 9, 2026
+              Last updated: August 10, 2026
             </p>
           </div>
         </div>
@@ -78,31 +79,7 @@ export default function TermsOfServicePage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-bold text-primary-800 mb-4">3. Medical Disclaimer</h2>
-              <p className="mt-4">
-                <strong className="text-primary-800">The content on this website is for general 
-                informational purposes only and does not constitute medical advice, diagnosis, 
-                or treatment.</strong>
-              </p>
-              <p className="mt-4">
-                All information on our website is provided in good faith for general 
-                informational purposes only. We make no representation or warranty of any kind, 
-                express or implied, regarding the accuracy, adequacy, validity, reliability, 
-                availability, or completeness of any information on our website.
-              </p>
-              <ul className="list-disc pl-6 mt-3 space-y-2">
-                <li>The content is not a substitute for professional medical advice, diagnosis, or treatment</li>
-                <li>Always seek the advice of your physician or other qualified health providers with any questions you may have regarding a medical condition</li>
-                <li>Never disregard professional medical advice or delay in seeking it because of something you have read on this website</li>
-                <li>The inclusion of hospital information does not constitute an endorsement or recommendation</li>
-              </ul>
-              <p className="mt-4">
-                Reliance on any information provided by this website is solely at your own risk.
-              </p>
-            </div>
-
-            <div>
-              <h2 className="text-2xl font-bold text-primary-800 mb-4">4. User Responsibilities</h2>
+              <h2 className="text-2xl font-bold text-primary-800 mb-4">3. User Responsibilities</h2>
               <p>
                 By using our website, you agree to:
               </p>
@@ -118,7 +95,7 @@ export default function TermsOfServicePage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-bold text-primary-800 mb-4">5. Intellectual Property Rights</h2>
+              <h2 className="text-2xl font-bold text-primary-800 mb-4">4. Intellectual Property Rights</h2>
               <p>
                 The content, features, and functionality of our website — including but not 
                 limited to text, graphics, logos, images, article content, hospital profiles, 
@@ -137,7 +114,7 @@ export default function TermsOfServicePage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-bold text-primary-800 mb-4">6. Third-Party Links and Content</h2>
+              <h2 className="text-2xl font-bold text-primary-800 mb-4">5. Third-Party Links and Content</h2>
               <p>
                 Our website contains links to third-party websites and resources, including:
               </p>
@@ -160,7 +137,7 @@ export default function TermsOfServicePage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-bold text-primary-800 mb-4">7. Accuracy of Information</h2>
+              <h2 className="text-2xl font-bold text-primary-800 mb-4">6. Accuracy of Information</h2>
               <p>
                 While we make reasonable efforts to ensure the accuracy and timeliness of the 
                 information on our website, healthcare information and hospital details can 
@@ -177,7 +154,7 @@ export default function TermsOfServicePage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-bold text-primary-800 mb-4">8. Limitation of Liability</h2>
+              <h2 className="text-2xl font-bold text-primary-800 mb-4">7. Limitation of Liability</h2>
               <p>
                 To the fullest extent permitted by applicable law, MedGuidesChina and its 
                 owners, operators, employees, partners, and affiliates shall not be liable 
@@ -202,7 +179,7 @@ export default function TermsOfServicePage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-bold text-primary-800 mb-4">9. Indemnification</h2>
+              <h2 className="text-2xl font-bold text-primary-800 mb-4">8. Indemnification</h2>
               <p>
                 You agree to indemnify, defend, and hold harmless MedGuidesChina and its 
                 owners, operators, employees, partners, and affiliates from and against any 
@@ -218,7 +195,7 @@ export default function TermsOfServicePage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-bold text-primary-800 mb-4">10. Governing Law and Jurisdiction</h2>
+              <h2 className="text-2xl font-bold text-primary-800 mb-4">9. Governing Law and Jurisdiction</h2>
               <p>
                 These terms and any disputes arising out of or relating to them 
                 or our website shall be governed by and construed in accordance with the laws 
@@ -230,7 +207,7 @@ export default function TermsOfServicePage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-bold text-primary-800 mb-4">11. Modifications</h2>
+              <h2 className="text-2xl font-bold text-primary-800 mb-4">10. Modifications</h2>
               <p>
                 We reserve the right, at our sole discretion, to modify or replace these terms at any time. 
                 What constitutes a material change will be determined at our sole discretion.
@@ -241,7 +218,7 @@ export default function TermsOfServicePage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-bold text-primary-800 mb-4">12. Severability</h2>
+              <h2 className="text-2xl font-bold text-primary-800 mb-4">11. Severability</h2>
               <p>
                 If any provision of these terms is held to be invalid or unenforceable by 
                 a court of competent jurisdiction, the remaining provisions shall remain in 
@@ -252,7 +229,7 @@ export default function TermsOfServicePage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-bold text-primary-800 mb-4">13. Waiver</h2>
+              <h2 className="text-2xl font-bold text-primary-800 mb-4">12. Waiver</h2>
               <p>
                 No waiver of any term of these terms shall be deemed a further or continuing 
                 waiver of such term or any other term, and our failure to assert any right 

@@ -201,13 +201,13 @@ export default function ArticlePage({ params }: ArticlePageProps) {
               <div className="bg-gradient-to-br from-primary-700 to-primary-800 rounded-2xl p-6 text-white">
                 <h3 className="font-bold text-lg mb-3">New Here?</h3>
                 <p className="text-primary-100 text-sm mb-5">
-                  Start with our complete guide to medical care in China — everything you need to know.
+                  Start with our roadmap to your healthcare in China — everything you need to know.
                 </p>
                 <Link
-                  href="/guide"
+                  href="/roadmap"
                   className="inline-flex items-center gap-2 bg-white text-primary-700 px-4 py-2.5 rounded-lg font-medium text-sm hover:bg-primary-50 transition-colors"
                 >
-                  Read the Guide
+                  Read Roadmap
                 </Link>
               </div>
             </aside>

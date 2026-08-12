@@ -164,11 +164,11 @@ export default function HomePage() {
                 Find a Hospital
               </Link>
               <Link
-                href="/guide"
+                href="/roadmap"
                 className="inline-flex items-center justify-center gap-2 bg-white/10 backdrop-blur-sm text-white border border-white/20 px-8 py-3.5 rounded-xl font-semibold hover:bg-white/20 transition-all"
               >
                 <BookOpen size={18} />
-                Read Our Guide
+                Read Roadmap
               </Link>
             </div>
           </div>
@@ -485,22 +485,15 @@ export default function HomePage() {
             </h2>
             <p className="text-lg text-primary-100 mb-8 leading-relaxed">
               Whether you're researching options or ready to book your first appointment, 
-              our guide and hospital directory have everything you need to get started.
+              our roadmap has everything you need to get started.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
-                href="/guide"
+                href="/roadmap"
                 className="inline-flex items-center justify-center gap-2 bg-white text-primary-800 px-8 py-3.5 rounded-xl font-semibold hover:bg-primary-50 transition-all shadow-lg"
               >
                 <BookOpen size={18} />
-                Read Our Complete Guide
-              </Link>
-              <Link
-                href="/faq"
-                className="inline-flex items-center justify-center gap-2 bg-white/10 backdrop-blur-sm text-white border border-white/20 px-8 py-3.5 rounded-xl font-semibold hover:bg-white/20 transition-all"
-              >
-                <Star size={18} />
-                View FAQ
+                Read Roadmap
               </Link>
             </div>
           </div>

@@ -1,123 +1,10 @@
 [
   {
     "id": "a1",
-    "slug": "hainan-healthcare",
-    "title": "Hainan Emerges As China's Premier International Medical Tourism Destination",
-    "category": "medical-tourism",
-    "category_label": "Medical Tourism",
-    "excerpt": "Discover how Hainan's Boao Lecheng International Medical Tourism Pilot Zone is becoming a world-class destination for medical travelers, offering 485+ advanced medicines, holistic wellness programs, and unique cultural experiences.",
-    "tags": [
-      "hainan",
-      "medical tourism",
-      "wellness",
-      "boao"
-    ],
-    "featured": false
-  },
-  {
-    "id": "a2",
-    "slug": "cost-effective-healthcare",
-    "title": "China's Healthcare Impresses Global Patients: Speed, Savings, and Digital Efficiency",
-    "category": "cost",
-    "category_label": "Cost",
-    "excerpt": "More foreign patients are choosing China for medical care, attracted by high efficiency, modern facilities, well-trained staff, and costs significantly lower than in Western countries.",
-    "tags": [
-      "costs",
-      "healthcare",
-      "medical tourism"
-    ],
-    "featured": true
-  },
-  {
-    "id": "a3",
-    "slug": "ai-healthcare",
-    "title": "AI in China's Healthcare: Bridging Resource Gaps and Boosting Access",
-    "category": "innovation",
-    "category_label": "Innovation",
-    "excerpt": "Explore how AI is transforming China's healthcare system — from improving diagnostic imaging access and primary care quality to addressing the growing demands of an aging population.",
-    "tags": [
-      "artificial intelligence",
-      "technology",
-      "healthcare innovation"
-    ],
-    "featured": false
-  },
-  {
-    "id": "a4",
-    "slug": "new-chemistry",
-    "title": "The New Chemistry of 'Made in China': How Biotech Is Transforming Drug Discovery",
-    "category": "innovation",
-    "category_label": "Innovation",
-    "excerpt": "China's biotech and pharmaceutical sector is undergoing a remarkable transformation, emerging as a global leader in innovative drug discovery with over 100 overseas licensing deals in 2025.",
-    "tags": [
-      "pharmaceuticals",
-      "innovation",
-      "drug development"
-    ],
-    "featured": false
-  },
-  {
-    "id": "a5",
-    "slug": "shanghai-healthcare",
-    "title": "Shanghai's New Parkway Medi-Centre Xintiandi Boosts International Patient Care",
-    "category": "medical-tourism",
-    "category_label": "Medical Tourism",
-    "excerpt": "Shanghai takes another step toward becoming an international medical tourism hub with the opening of Parkway Medi-Centre Xintiandi, bringing world-class ambulatory care to expats and travelers.",
-    "tags": [
-      "shanghai",
-      "medical tourism",
-      "international hospitals"
-    ],
-    "featured": false
-  },
-  {
-    "id": "a6",
-    "slug": "tcm-enthusiast",
-    "title": "Portuguese TCM Enthusiasts Pursue Study in China",
-    "category": "guide",
-    "category_label": "Guide",
-    "excerpt": "Follow the journey of Portuguese TCM enthusiasts studying in Hainan, as they deepen their understanding of traditional Chinese medicine and its philosophy of harmony and holistic healing.",
-    "tags": [
-      "tcm",
-      "traditional chinese medicine",
-      "hainan",
-      "wellness"
-    ],
-    "featured": false
-  },
-  {
-    "id": "a7",
-    "slug": "billing-and-insurance",
-    "title": "Navigating Insurance and Direct Billing for International Patients in China",
-    "category": "guide",
-    "category_label": "Guide",
-    "excerpt": "A complete overview of payment models in China's international hospitals — from MSH and Cigna direct-billing networks to pay-and-claim processes, so you can avoid large upfront deposits.",
-    "tags": [
-      "insurance",
-      "direct billing"
-    ],
-    "featured": false
-  },
-  {
-    "id": "a8",
-    "slug": "china-healthcare-cost",
-    "title": "How Much Can You Save? Real Stories of Medical Costs in China",
-    "category": "cost",
-    "category_label": "Cost",
-    "excerpt": "From endoscopy to knee replacement to proton therapy, compare real-world prices in China against the UK and US — even after flights and accommodation are added in.",
-    "tags": [
-      "costs",
-      "price comparison",
-      "savings"
-    ],
-    "featured": false
-  },
-  {
-    "id": "a9",
     "slug": "china-healthcare-system",
     "title": "Understanding China's Healthcare System: 3A Hospitals, International Departments, and Private Care",
-    "category": "guide",
-    "category_label": "Guide",
+    "category": "medical-guide",
+    "category_label": "Medical Guide",
     "excerpt": "The essential first read: learn the three tiers of healthcare in China, how public Grade 3A, international departments, and private hospitals differ, and which is right for you.",
     "tags": [
       "healthcare system",
@@ -128,7 +15,7 @@
     "featured": true
   },
   {
-    "id": "a10",
+    "id": "a2",
     "slug": "city-healthcare-compare",
     "title": "Beijing vs. Shanghai vs. Hainan: Which Chinese City Is Best for Your Medical Needs?",
     "category": "medical-tourism",
@@ -144,11 +31,11 @@
     "featured": true
   },
   {
-    "id": "a11",
+    "id": "a3",
     "slug": "medical-record-prepare",
     "title": "Preparing Your Medical Records for Treatment in China: A Complete Guide",
-    "category": "guide",
-    "category_label": "Guide",
+    "category": "medical-guide",
+    "category_label": "Medical Guide",
     "excerpt": "Incomplete records cause the most delays for international patients. Learn exactly which documents you need, how to obtain DICOM imaging files, and why professional translation matters.",
     "tags": [
       "preparation",
@@ -159,18 +46,87 @@
     "featured": false
   },
   {
-    "id": "a12",
-    "slug": "new-drug",
-    "title": "Accessing Breakthrough New Drugs in China: The Boao Lecheng Pathway",
-    "category": "innovation",
-    "category_label": "Innovation",
-    "excerpt": "How patients access over 530 overseas-approved drugs and devices in China's unique Boao Lecheng zone — often within days of global approval and at a fraction of the cost.",
+    "id": "a4",
+    "slug": "hainan-healthcare",
+    "title": "Hainan Emerges As China's Premier International Medical Tourism Destination",
+    "category": "medical-tourism",
+    "category_label": "Medical Tourism",
+    "excerpt": "Discover how Hainan's Boao Lecheng International Medical Tourism Pilot Zone is becoming a world-class destination for medical travelers, offering 485+ advanced medicines, holistic wellness programs, and unique cultural experiences.",
     "tags": [
-      "new drugs",
-      "boao",
-      "innovative medicines",
-      "special medical zone"
+      "hainan",
+      "medical tourism",
+      "wellness",
+      "boao"
     ],
     "featured": false
+  },
+  {
+    "id": "a5",
+    "slug": "ai-healthcare",
+    "title": "AI in China's Healthcare: Bridging Resource Gaps and Boosting Access",
+    "category": "medical-guide",
+    "category_label": "Medical Guide",
+    "excerpt": "Explore how AI is transforming China's healthcare system — from improving diagnostic imaging access and primary care quality to addressing the growing demands of an aging population.",
+    "tags": [
+      "artificial intelligence",
+      "technology",
+      "healthcare innovation"
+    ],
+    "featured": false
+  },
+  {
+    "id": "a6",
+    "slug": "new-chemistry",
+    "title": "The New Chemistry of 'Made in China': How Biotech Is Transforming Drug Discovery",
+    "category": "medical-guide",
+    "category_label": "Medical Guide",
+    "excerpt": "China's biotech and pharmaceutical sector is undergoing a remarkable transformation, emerging as a global leader in innovative drug discovery with over 100 overseas licensing deals in 2025.",
+    "tags": [
+      "pharmaceuticals",
+      "innovation",
+      "drug development"
+    ],
+    "featured": false
+  },
+  {
+    "id": "a7",
+    "slug": "shanghai-healthcare",
+    "title": "Shanghai's New Parkway Medi-Centre Xintiandi Boosts International Patient Care",
+    "category": "medical-tourism",
+    "category_label": "Medical Tourism",
+    "excerpt": "Shanghai takes another step toward becoming an international medical tourism hub with the opening of Parkway Medi-Centre Xintiandi, bringing world-class ambulatory care to expats and travelers.",
+    "tags": [
+      "shanghai",
+      "medical tourism",
+      "international hospitals"
+    ],
+    "featured": false
+  },
+  {
+    "id": "a8",
+    "slug": "billing-and-insurance",
+    "title": "Navigating Insurance and Direct Billing for International Patients in China",
+    "category": "cost_savings",
+    "category_label": "Cost & Savings",
+    "excerpt": "A complete overview of payment models in China's international hospitals — from MSH and Cigna direct-billing networks to pay-and-claim processes, so you can avoid large upfront deposits.",
+    "tags": [
+      "insurance",
+      "direct billing"
+    ],
+    "featured": false
+  },
+  {
+    "id": "a9",
+    "slug": "china-healthcare-cost",
+    "title": "How Much Can You Save? Real Stories of Medical Costs in China",
+    "category": "cost_savings",
+    "category_label": "Cost & Savings",
+    "excerpt": "From endoscopy to knee replacement to proton therapy, compare real-world prices in China against the UK and US — even after flights and accommodation are added in.",
+    "tags": [
+      "costs",
+      "price comparison",
+      "savings"
+    ],
+    "featured": true
   }
 ]

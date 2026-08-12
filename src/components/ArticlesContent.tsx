@@ -1,7 +1,8 @@
 'use client';
 
 import { useState, useMemo } from 'react';
-import { Search, BookOpen, Filter } from 'lucide-react';
+import Link from 'next/link';
+import { Search, BookOpen, Filter, MessageCircleQuestion, Star } from 'lucide-react';
 import ArticleCard from '@/components/ArticleCard';
 import articlesData from '@/data/articles.json';
 import type { Article } from '@/types';
@@ -11,9 +12,8 @@ const allArticles = articlesData as Article[];
 const categories = [
   { value: 'all', label: 'All Articles' },
   { value: 'medical-tourism', label: 'Medical Tourism' },
-  { value: 'innovation', label: 'Innovation' },
-  { value: 'cost', label: 'Cost' },
-  { value: 'guide', label: 'Guide' }
+  { value: 'cost_savings', label: 'Cost & Savings' },
+  { value: 'medical-guide', label: 'Medical Guide' }
 ];
 
 export default function ArticlesContent() {
@@ -51,10 +51,10 @@ export default function ArticlesContent() {
         <div className="container-custom">
           <div className="max-w-3xl">
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
-              Articles & Guides
+              Essential Knowledge You Should know Before Your Arrival
             </h1>
             <p className="text-lg md:text-xl text-primary-100 leading-relaxed">
-              Expert advice, hospital reviews, and practical guides to help you navigate 
+              Expert suggestions, hospital reviews, and practical guides to help you navigate 
               China&apos;s healthcare system with confidence.
             </p>
           </div>
@@ -135,6 +135,36 @@ export default function ArticlesContent() {
               </button>
             </div>
           )}
+        </div>
+      </section>
+
+      {/* CTA Section — unified dark-blue gradient (consistent with all primary pages) */}
+      <section className="relative bg-gradient-to-r from-primary-800 to-primary-700 py-16 md:py-20 overflow-hidden">
+        <div className="absolute inset-0 opacity-5">
+          <div className="absolute top-0 right-0 w-96 h-96 bg-white rounded-full translate-x-1/2 -translate-y-1/2" />
+          <div className="absolute bottom-0 left-0 w-80 h-80 bg-secondary-400 rounded-full -translate-x-1/2 translate-y-1/2" />
+        </div>
+
+        <div className="container-custom relative z-10">
+          <div className="max-w-3xl mx-auto text-center">
+            <MessageCircleQuestion className="text-secondary-400 mx-auto mb-6" size={48} />
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-5">
+              Still Have Questions?
+            </h2>
+            <p className="text-lg text-primary-100 mb-8 leading-relaxed">
+              Every patient&apos;s situation is unique. 
+              If you have questions we haven&apos;t covered, please contact the hospital you are interested in for inquiries.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link
+                href="/hospitals"
+                className="inline-flex items-center justify-center gap-2 bg-white text-primary-800 px-8 py-3.5 rounded-xl font-semibold hover:bg-primary-50 transition-all shadow-lg"
+              >
+                <BookOpen size={18} />
+                Find a Hospital
+              </Link>
+            </div>
+          </div>
         </div>
       </section>
     </div>

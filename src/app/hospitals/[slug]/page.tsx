@@ -455,11 +455,11 @@ export default function HospitalPage({ params }: HospitalPageProps) {
                     Call Hospital
                   </a>
                   <Link
-                    href="/guide"
+                    href="/roadmap"
                     className="w-full flex items-center justify-center gap-2 bg-neutral-100 hover:bg-neutral-200 text-neutral-700 py-3 rounded-xl font-semibold transition-colors"
                   >
                     <FileText size={18} />
-                    Read Visit Guide
+                    Read Roadmap
                   </Link>
                 </div>
               </div>

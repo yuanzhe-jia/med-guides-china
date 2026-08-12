@@ -2,37 +2,39 @@ import GuideStep from '@/components/GuideStep';
 import guideStepsData from '@/data/guide-steps.json';
 import type { GuideStep as GuideStepType } from '@/types';
 import type { Metadata } from 'next';
+import Link from 'next/link';
+import { Shield, BookOpen, Star } from 'lucide-react';
 
 const guideSteps = guideStepsData as GuideStepType[];
 
 export const metadata: Metadata = {
-  title: 'Complete Medical Guide to China',
+  title: 'Medical Roadmap to China',
   description: 'Your complete roadmap to medical care in China. From pre-departure preparation to follow-up care, we break down every step.',
-  keywords: ['China medical guide', 'healthcare in China', 'medical travel China', 'hospital visit China', 'patient guide'],
+  keywords: ['China medical roadmap', 'healthcare in China', 'medical travel China', 'hospital visit China', 'patient roadmap'],
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://medguideschina.com/guide',
+    url: 'https://medguideschina.com/roadmap',
     siteName: 'China Medical Guides',
-    title: 'Complete Medical Guide to China | Your Roadmap to Healthcare',
+    title: 'Medical Roadmap to China | Step-by-Step Healthcare Journey',
     description: 'Your complete roadmap to medical care in China. From pre-departure preparation to follow-up care, we break down every step.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Complete Medical Guide to China | Your Roadmap to Healthcare',
+    title: 'Medical Roadmap to China | Step-by-Step Healthcare Journey',
     description: 'Your complete roadmap to medical care in China. From pre-departure preparation to follow-up care, we break down every step.',
     creator: '@medguideschina',
   },
   alternates: {
-    canonical: 'https://medguideschina.com/guide',
+    canonical: 'https://medguideschina.com/roadmap',
   },
 };
 
-export default function GuidePage() {
+export default function RoadmapPage() {
   const howToSchema = {
     '@context': 'https://schema.org',
     '@type': 'HowTo',
-    name: 'Complete Medical Guide to China',
+    name: 'Medical Roadmap to China',
     description: 'Your complete roadmap to medical care in China. From pre-departure preparation to follow-up care, we break down every step.',
     totalTime: 'PT6W',
     estimatedCost: {
@@ -104,26 +106,31 @@ export default function GuidePage() {
       </section>
 
       {/* Bottom CTA */}
-      <section className="bg-gradient-to-r from-primary-800 to-primary-700 py-16 md:py-20 text-white relative overflow-hidden">
+      <section className="relative bg-gradient-to-r from-primary-800 to-primary-700 py-16 md:py-20 overflow-hidden">
         <div className="absolute inset-0 opacity-5">
           <div className="absolute top-0 right-0 w-96 h-96 bg-white rounded-full translate-x-1/2 -translate-y-1/2" />
+          <div className="absolute bottom-0 left-0 w-80 h-80 bg-secondary-400 rounded-full -translate-x-1/2 translate-y-1/2" />
         </div>
-        
+
         <div className="container-custom relative z-10">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-5">
+            <Shield className="text-secondary-400 mx-auto mb-6" size={48} />
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-5">
               Ready to Find the Right Hospital?
             </h2>
-            <p className="text-lg text-primary-100 mb-8">
-              Now that you know what to expect, explore our curated directory of top hospitals 
-              with international patient services.
+            <p className="text-lg text-primary-100 mb-8 leading-relaxed">
+              Now that you know what to expect, 
+              explore our curated directory of top hospitals with international patient services.
             </p>
-            <a
-              href="/hospitals"
-              className="inline-flex items-center gap-2 bg-white text-primary-800 px-8 py-3.5 rounded-xl font-semibold hover:bg-primary-50 transition-all shadow-lg"
-            >
-              Browse Hospital Directory
-            </a>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link
+                href="/hospitals"
+                className="inline-flex items-center justify-center gap-2 bg-white text-primary-800 px-8 py-3.5 rounded-xl font-semibold hover:bg-primary-50 transition-all shadow-lg"
+              >
+                <BookOpen size={18} />
+                Find a Hospital
+              </Link>
+            </div>
           </div>
         </div>
       </section>
