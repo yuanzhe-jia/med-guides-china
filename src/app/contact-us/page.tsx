@@ -62,23 +62,13 @@ export default function ContactUsPage() {
             <div>
               <h2 className="text-2xl font-bold text-primary-800 mb-4">1. Who We Are</h2>
               <p>
-                We are a team of healthcare professionals and medical editors with years of 
-                experience in Chinese hospitals. We help international patients navigate China's 
-                medical system confidently.
+                Welcome to MedGuidesChina ("we," "our" or "us"). We are a team of healthcare professionals and medical editors with years of experience in Chinese hospitals. 
+                Our mission is to bridge the information gap and help international patients navigate China's medical system confidently.
               </p>
             </div>
 
             <div>
-              <h2 className="text-2xl font-bold text-primary-800 mb-4">2. Our Mission</h2>
-              <p>
-                We bridge the information gap by providing clear, practical, and evidence-based 
-                guides on finding specialists, understanding costs, handling insurance, and 
-                staying healthy in China.
-              </p>
-            </div>
-
-            <div>
-              <h2 className="text-2xl font-bold text-primary-800 mb-4">3. Our Editorial Process</h2>
+              <h2 className="text-2xl font-bold text-primary-800 mb-4">2. Our Editorial Process</h2>
               <p>
                 All content is sourced from official guidelines and peer-reviewed research. 
                 No AI-generated content is published without human verification.
@@ -86,19 +76,50 @@ export default function ContactUsPage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-bold text-primary-800 mb-4">4. Contact</h2>
-              <div className="bg-primary-50 border border-primary-100 rounded-xl p-6 flex items-center gap-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-primary-600 rounded-full flex items-center justify-center text-white">
-                  <Mail size={22} />
+              <h2 className="text-2xl font-bold text-primary-800 mb-4">3. Contact</h2>
+              <div className="space-y-4">
+                <div className="bg-primary-50 border border-primary-100 rounded-xl p-6 flex items-center gap-4">
+                  <div className="flex-shrink-0 w-12 h-12 bg-primary-600 rounded-full flex items-center justify-center text-white">
+                    <Mail size={22} />
+                  </div>
+                  <div>
+                    <p className="text-sm text-primary-600 font-medium mb-1">Email</p>
+                    <a
+                      href="mailto:contact@medguideschina.com"
+                      className="text-lg font-semibold text-primary-800 hover:text-primary-900 transition-colors"
+                    >
+                      contact@medguideschina.com
+                    </a>
+                  </div>
                 </div>
-                <div>
-                  <p className="text-sm text-primary-600 font-medium mb-1">Email</p>
-                  <a
-                    href="mailto:contact@medguideschina.com"
-                    className="text-lg font-semibold text-primary-800 hover:text-primary-900 transition-colors"
-                  >
-                    contact@medguideschina.com
-                  </a>
+                <div className="bg-red-50 border border-red-100 rounded-xl p-6 flex items-center gap-4">
+                  <div className="flex-shrink-0 w-12 h-12 bg-red-600 rounded-full flex items-center justify-center text-white">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="22"
+                      height="22"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17" />
+                      <path d="m10 15 5-3-5-3z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <p className="text-sm text-red-600 font-medium mb-1">YouTube Channel</p>
+                    <a
+                      href="https://youtube.com/@medguideschina"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-lg font-semibold text-red-800 hover:text-red-900 transition-colors"
+                    >
+                      youtube.com/@medguideschina
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>

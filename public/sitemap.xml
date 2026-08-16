@@ -211,56 +211,32 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://medguideschina.com/articles/china-healthcare-system</loc>
-    <lastmod>2026-08-12</lastmod>
+    <loc>https://medguideschina.com/articles/healthcare-system</loc>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://medguideschina.com/articles/city-healthcare-compare</loc>
-    <lastmod>2026-08-12</lastmod>
+    <loc>https://medguideschina.com/articles/healthcare-destination</loc>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://medguideschina.com/articles/medical-record-prepare</loc>
-    <lastmod>2026-08-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://medguideschina.com/articles/hainan-healthcare</loc>
-    <lastmod>2026-08-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://medguideschina.com/articles/ai-healthcare</loc>
-    <lastmod>2026-08-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://medguideschina.com/articles/new-chemistry</loc>
-    <lastmod>2026-08-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://medguideschina.com/articles/shanghai-healthcare</loc>
-    <lastmod>2026-08-12</lastmod>
+    <loc>https://medguideschina.com/articles/drug-discovery</loc>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://medguideschina.com/articles/billing-and-insurance</loc>
-    <lastmod>2026-08-12</lastmod>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://medguideschina.com/articles/china-healthcare-cost</loc>
-    <lastmod>2026-08-12</lastmod>
+    <loc>https://medguideschina.com/articles/healthcare-cost</loc>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

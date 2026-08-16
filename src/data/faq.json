@@ -2,7 +2,7 @@
   {
     "id": 1,
     "question": "Is China safe for international medical tourists?",
-    "answer": "Absolutely. China is one of the safest countries in the world for medical travelers. Top hospitals' international departments follow JCI or equivalent international standards, with rigorous safety protocols and dedicated security teams. Doctors at these departments have extensive experience treating foreign patients, and English-speaking patient coordinators are available to assist you throughout your visit. Major cities like Beijing and Shanghai have modern infrastructure, reliable transportation, and very low crime rates — making your medical journey as smooth and safe as possible."
+    "answer": "Absolutely. China is one of the safest countries in the world for medical travelers. Top hospitals' international departments follow rigorous international standards, and many have received JCI accreditation. These departments have extensive experience treating foreign patients, with rigorous safety protocols and dedicated security teams. English-speaking patient coordinators are available to assist you throughout your visit. Major cities like Beijing and Shanghai have modern infrastructure, reliable transportation, and very low crime rates — making your medical journey as smooth and safe as possible."
   },
   {
     "id": 2,
@@ -12,7 +12,7 @@
   {
     "id": 3,
     "question": "How much can I save compared to the US or UK?",
-    "answer": "On average, international patients save 40% to 80% on total medical costs compared to the US, and 30% to 60% compared to the UK — including surgery, hospitalization, medications, and follow-up care. For example, a coronary bypass surgery that might cost $100,000 or more in the US typically ranges from $15,000 to $30,000 at an international department in Beijing. Savings vary by procedure complexity and hospital tier. Private international hospitals (such as United Family) are at the higher end of China's pricing range, while public hospital international departments offer excellent value without compromising on quality."
+    "answer": "On average, international patients save 40% to 80% on total medical costs compared to the US, and 30% to 60% compared to the UK — including surgery, hospitalization, medications, and follow-up care. Some reports indicate that for certain procedures, costs in China can be 60% to 90% lower than in the US or Western Europe. For example, a coronary bypass surgery that might cost $100,000 or more in the US typically ranges from $15,000 to $30,000 at an international department in Beijing. Savings vary by procedure complexity and hospital tier. Private international hospitals (such as United Family) are at the higher end of China's pricing range, while public hospital international departments offer excellent value without compromising on quality."
   },
   {
     "id": 4,
@@ -21,32 +21,87 @@
   },
   {
     "id": 5,
-    "question": "Can I use my international health insurance?",
-    "answer": "Yes, you can use most international health insurance plans at China's top hospitals. However, coverage varies — so you should always confirm with your insurer that your plan covers mainland China, and check which hospitals are in their direct-billing network. Most international departments work with major providers like Aetna, Cigna, MSH, Allianz, Bupa, and AIA. There are two common scenarios: with direct billing, you simply present your insurance card and the hospital bills your insurer directly, with no upfront payment from you. Without direct billing, you pay the hospital upfront and receive detailed bilingual receipts and medical records to submit for reimbursement when you return home."
+    "question": "How do I choose the right hospital in China?",
+    "answer": "Start by identifying hospitals with strong reputations in your specific condition or procedure. Look for hospitals with dedicated international departments that offer English-speaking staff and direct-billing options for your insurance. You can research online through hospital websites, government lists of international medical pilot institutions, and patient testimonials. In Beijing, for example, 15 hospitals now offer full English-language online appointment booking services through the 114 platform. If you need advice, you can contact us and we can guide you based on your medical needs and preferences."
   },
   {
     "id": 6,
-    "question": "How do I apply for a medical visa to China?",
-    "answer": "For short initial consultations or evaluations, you may be eligible for visa-free transit — ranging from 24 to 240 hours depending on your nationality and city of entry. For planned longer treatment, you will typically need an S2 private affairs visa for medical purposes. The process is straightforward: after you confirm your appointment, the hospital's international department will issue an official invitation letter. You then submit this letter along with your passport, visa application form, and other standard documents to the Chinese embassy or consulate in your home country. Processing usually takes 4 to 7 business days. We recommend starting the visa process as early as possible, and we are here to guide you through every step if you need assistance."
-  },
-  {
-    "id": 7,
-    "question": "What if I have an emergency after clinic hours?",
-    "answer": "All major international departments have 24-hour emergency care, and top-tier hospitals maintain dedicated emergency green channels for critical cases. In a life-threatening emergency, dial 120 (China's ambulance number). When the dispatcher answers, calmly say 'English, please' — most dispatchers in major cities like Beijing and Shanghai are equipped to handle basic English requests. For non-life-threatening urgent issues, you can also call the hospital's international patient hotline directly. Most international departments have 24/7 on-call coordinators who can advise you and arrange care."
-  },
-  {
-    "id": 8,
     "question": "Is Traditional Chinese Medicine (TCM) reliable?",
     "answer": "Yes, TCM is a formal, regulated medical system in China with its own research institutions, national standards, and an evidence-based practice framework. Tertiary TCM hospitals and the TCM departments of comprehensive hospitals use standardized herbal granules, evidence-based acupuncture protocols, and modern quality control measures. TCM excels particularly in chronic disease management, pain conditions, post-surgical recovery, fertility support, and overall wellness. It can be used safely alongside Western medicine in an integrative approach. For the best results, we recommend seeking TCM treatment at established hospitals rather than unregulated clinics to ensure safety and quality."
   },
   {
+    "id": 7,
+    "question": "Can I use my international health insurance?",
+    "answer": "Yes, you can use most international health insurance plans at China's top hospitals. However, coverage varies — so you should always confirm with your insurer that your plan covers mainland China, and check which hospitals are in their direct-billing network. Most international departments work with major providers like Aetna, Cigna, MSH, Allianz, Bupa, and AIA. Some hospitals, such as United Family Healthcare, offer direct billing with 100+ international insurance providers. There are two common scenarios: with direct billing, you simply present your insurance card and the hospital bills your insurer directly, with no upfront payment from you. Without direct billing, you pay the hospital upfront and receive detailed bilingual receipts and medical records to submit for reimbursement when you return home."
+  },
+  {
+    "id": 8,
+    "question": "How do I apply for a medical visa to China?",
+    "answer": "For short initial consultations or evaluations, you may be eligible for visa-free transit. As of December 2024, China extended the visa-free transit period to 240 hours (10 days) for citizens of eligible countries, and as of June 2025, the policy applies to 55 countries. For planned longer treatment, you will typically need an S2 private affairs visa for medical purposes. The process is straightforward: after you confirm your appointment, the hospital's international department will issue an official invitation letter. You then submit this letter along with your passport, visa application form, and other standard documents to the Chinese embassy or consulate in your home country. Processing usually takes 4 to 7 business days, with expedited services available at most consulates for an additional fee. We recommend starting the visa process as early as possible, and we are here to guide you through every step if you need assistance."
+  },
+  {
     "id": 9,
-    "question": "Will my personal medical data be protected?",
-    "answer": "Absolutely. China has strict data protection and medical privacy laws that align with international standards. International departments take special care with foreign patients' medical records, which are stored separately with restricted access. Your data cannot be shared with any third party without your explicit written consent. Hospitals follow rigorous data security protocols, and international patient coordinators are bound by strict confidentiality agreements. You have the right to access, correct, and request copies of your medical records at any time."
+    "question": "Are there any restrictions on bringing medications into China?",
+    "answer": "Yes, China has strict customs regulations on personal medications. According to the Drug Import Management Measures, individuals may carry a reasonable quantity of personal-use medications. You should bring enough prescription medication for your entire stay plus a few extra days, but keep them in their original packaging with a doctor's prescription and a translated doctor's note (in English or Chinese). 'Reasonable quantity' is generally interpreted as up to approximately one month's supply. Most common prescription medications are allowed, but controlled substances (e.g., certain painkillers, sedatives, or psychoactive drugs) may require special permits or are limited to a single prescription's maximum dosage. We strongly advise checking with the Chinese embassy or customs authorities before you travel, and always carry a copy of your prescriptions and a letter from your doctor explaining the medical necessity."
   },
   {
     "id": 10,
+    "question": "How do I make an appointment at a Chinese hospital?",
+    "answer": "The most reliable way is to call the hospital's international department hotline directly — English-speaking staff will help you book the right specialist. You can also use official hospital WeChat accounts or mobile apps (some have English interfaces). For patients in Beijing, the 114 appointment platform now offers an English version — as of 2025, 15 hospitals provide full English-language online booking services through this platform, including Peking Union Medical College Hospital, Peking University Third Hospital, Xuanwu Hospital, Fuwai Hospital, Beijing Friendship Hospital, Beijing Jishuitan Hospital, Beijing Tiantan Hospital, and Beijing Tsinghua Changgung Hospital. Walk-in appointments are possible but not guaranteed, so we always recommend booking in advance. Have your passport number and a brief description of your symptoms ready when calling."
+  },
+  {
+    "id": 11,
+    "question": "What should I bring on my first visit?",
+    "answer": "Bring your passport, your medical visa (if applicable), all relevant medical records (test results, imaging reports, doctor's notes — preferably translated into English or Chinese), a list of current medications, and your insurance card if you have one. It is also helpful to bring a notebook to write down questions and the doctor's instructions. Arrive at least 30 minutes early to complete the registration process. The international department staff will guide you through every step."
+  },
+  {
+    "id": 12,
+    "question": "What is the registration process like on the first day?",
+    "answer": "You will start by going to the international department reception desk. Present your passport and any appointment confirmation you have. You will fill out a brief information form (available in English) and pay a one-time registration/建档 fee (typically $10–30). You will then receive a hospital card or an electronic health code — this is your key to appointments, tests, payments, and medication pickup. The staff will verify your insurance coverage if you have direct-billing insurance. After registration, a nurse will check your vital signs before you see the doctor."
+  },
+  {
+    "id": 13,
+    "question": "How long does it take to get diagnostic test results?",
+    "answer": "Blood tests and basic X-rays are usually ready the same day — typically within 2 to 6 hours. More advanced imaging such as MRI, CT, or PET scans may take 1 to 2 business days for a full radiologist report. Your doctor will tell you when and how to receive your results — often via the hospital app, by phone, or by scheduling a follow-up visit. In some cases, you can get preliminary results verbally on the same day and the detailed report later."
+  },
+  {
+    "id": 14,
+    "question": "What if I have a medical emergency after clinic hours?",
+    "answer": "All major international departments have 24-hour emergency care, and top-tier hospitals maintain dedicated emergency green channels for critical cases. In a life-threatening emergency, dial 120 (China's ambulance number). When the dispatcher answers, calmly say 'English, please' — most dispatchers in major cities like Beijing and Shanghai are equipped to handle basic English requests. For non-life-threatening urgent issues, you can also call the hospital's international patient hotline directly. Most international departments have 24/7 on-call coordinators who can advise you and arrange care."
+  },
+  {
+    "id": 15,
+    "question": "What if I need a second opinion during my treatment?",
+    "answer": "You can request a second opinion from another specialist within the same hospital or at a different hospital. The international department can help coordinate this. If you are already under the care of one doctor, simply inform your patient coordinator, and they will arrange a consultation with a senior specialist. Please note that additional consultations may incur extra fees, but they are usually affordable and can be covered by some insurance plans."
+  },
+  {
+    "id": 16,
+    "question": "What payment methods are accepted at Chinese hospitals?",
+    "answer": "Most hospitals accept cash (RMB), international credit/debit cards (Visa, Mastercard, American Express), and mobile payments (WeChat Pay and Alipay). As of 2025, 167 healthcare institutions in Beijing alone support foreign card payments. For mobile payments, you can now link your international credit card to WeChat Pay or Alipay, making digital payments easy. Always carry some cash as backup, especially in smaller cities or for small fees."
+  },
+  {
+    "id": 17,
+    "question": "What is a hospitalization deposit and how does it work?",
+    "answer": "If you are admitted to the hospital, you will need to pay an upfront deposit — typically 30–50% of the estimated total cost for self-paying patients. The exact amount depends on your planned procedures and hospital policies. The deposit is usually charged to your credit card or paid in cash. You can also use direct-billing insurance to reduce or eliminate the deposit. The final bill is settled at discharge, and any overpayment is refunded to you. The international department will provide you with a detailed estimate before admission."
+  },
+  {
+    "id": 18,
+    "question": "How do I get my medical records before leaving China?",
+    "answer": "Request a bilingual medical record summary (出院小结) and copies of all test results, imaging reports, procedure notes, and medication details from the international department. These are usually prepared within 1 to 2 business days. The records will be provided in both English and Chinese, which is essential for your doctor at home to continue your care seamlessly. You can pick them up in person, or the hospital may send them to you by email or courier if you are already back home."
+  },
+  {
+    "id": 19,
+    "question": "Can I extend my medical visa if my treatment takes longer than expected?",
+    "answer": "Yes, you can apply for an extension through the local Exit and Entry Administration Bureau. You will need a letter from your hospital confirming the need for extended treatment, along with your passport and current visa. It is best to apply at least 7–10 days before your visa expires to avoid any overstay penalties. The international department staff can assist you with the necessary documentation and guide you through the extension process."
+  },
+  {
+    "id": 20,
     "question": "What if I need follow-up care after returning home?",
     "answer": "International departments fully understand this need and provide comprehensive bilingual discharge summaries, treatment plans, imaging reports, and pathology results — all in both English and Chinese. You can take these documents to your local doctor at home for continued care coordination. Many hospitals also offer remote follow-up consultations via video call, so you can check in with your treating physician after returning home. If you need medical records translated or additional test results sent after you leave, the international patient office is usually happy to assist via email. We want to make sure your care continues seamlessly, no matter where you are in the world."
+  },
+  {
+    "id": 21,
+    "question": "Will my personal medical data be protected?",
+    "answer": "Absolutely. China has strict data protection and medical privacy laws that align with international standards. International departments take special care with foreign patients' medical records, which are stored separately with restricted access. Your data cannot be shared with any third party without your explicit written consent. Hospitals follow rigorous data security protocols, and international patient coordinators are bound by strict confidentiality agreements. You have the right to access, correct, and request copies of your medical records at any time."
   }
 ]

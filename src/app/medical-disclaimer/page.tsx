@@ -61,14 +61,8 @@ export default function MedicalDisclaimerPage() {
             <div>
               <h2 className="text-2xl font-bold text-primary-800 mb-4">1. No Medical Advice</h2>
               <p className="mt-4">
-                <strong className="text-primary-800">The content on this website is for general 
-                informational purposes only and does not constitute medical advice, diagnosis, or treatment.</strong>
-              </p>
-              <p className="mt-4">
-                All information on our website is provided in good faith for general 
-                informational purposes only. We make no representation or warranty of any kind, 
-                express or implied, regarding the accuracy, adequacy, validity, reliability, 
-                availability, or completeness of any information on our website.
+                Welcome to MedGuidesChina ("we," "our" or "us"). The content on this website is for general informational purposes only and does not constitute medical advice, diagnosis, or treatment.
+                We make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability, or completeness of any information on our website.
               </p>
             </div>
 
