@@ -5,22 +5,23 @@
     "title": "Understanding China's Healthcare System: Public vs International vs Private Hospitals",
     "category": "medical-guide",
     "category_label": "Medical Guide",
-    "excerpt": "The essential first read: learn the three tiers of healthcare in China, how public Grade 3A, international departments, and private hospitals differ, and which is right for you.",
+    "excerpt": "Learn about the three tiers of healthcare in China, how public 3A, international departments, and private hospitals differ, and which is right for you.",
     "tags": [
       "healthcare system",
-      "Grade 3A",
+      "public 3A",
       "international department",
       "private hospitals"
     ],
-    "featured": true
+    "featured": true,
+    "publish_date": "2026-06-01"
   },
   {
     "id": "a2",
-    "slug": "healthcare-destination",
+    "slug": "destination-choices",
     "title": "Beijing vs. Shanghai vs. Hainan: Which One Is Your Best Medical Care Destination?",
     "category": "medical-tourism",
     "category_label": "Medical Tourism",
-    "excerpt": "Compare China's top three medical destinations side by side — authority and depth in Beijing, international standards in Shanghai, and cutting-edge access in Hainan's special zone.",
+    "excerpt": "Compare top three medical destinations — authority and depth in Beijing, international standards in Shanghai, and cutting-edge access in Hainan.",
     "tags": [
       "Beijing",
       "Shanghai",
@@ -28,7 +29,8 @@
       "city comparison",
       "medical tourism"
     ],
-    "featured": true
+    "featured": true,
+    "publish_date": "2026-06-15"
   },
   {
     "id": "a3",
@@ -36,13 +38,14 @@
     "title": "The New Chemistry of 'Made in China': How Biotech Is Transforming Drug Discovery?",
     "category": "medical-guide",
     "category_label": "Medical Guide",
-    "excerpt": "China's biotech and pharmaceutical sector is undergoing a remarkable transformation, emerging as a global leader in innovative drug discovery with over 100 overseas licensing deals in 2025.",
+    "excerpt": "China's biotech and pharmaceutical sector is undergoing a remarkable transformation, emerging as a global leader in innovative drug discovery.",
     "tags": [
       "pharmaceuticals",
       "innovation",
       "drug development"
     ],
-    "featured": false
+    "featured": false,
+    "publish_date": "2026-07-01"
   },
   {
     "id": "a4",
@@ -50,12 +53,13 @@
     "title": "Navigating Insurance and Direct Billing for International Patients in China",
     "category": "cost_savings",
     "category_label": "Cost & Savings",
-    "excerpt": "A complete overview of payment models in China's international hospitals — from MSH and Cigna direct-billing networks to pay-and-claim processes, so you can avoid large upfront deposits.",
+    "excerpt": "A complete overview of payment models in China's international hospitals — from MSH and Cigna direct-billing networks to pay-and-claim processes.",
     "tags": [
       "insurance",
       "direct billing"
     ],
-    "featured": false
+    "featured": false,
+    "publish_date": "2026-07-15"
   },
   {
     "id": "a5",
@@ -63,12 +67,28 @@
     "title": "How Much Can You Save? Real Stories of Medical Costs in China",
     "category": "cost_savings",
     "category_label": "Cost & Savings",
-    "excerpt": "From endoscopy to knee replacement to proton therapy, compare real-world prices in China against the UK and US — even after flights and accommodation are added in.",
+    "excerpt": "From endoscopy to knee replacement to proton therapy, compare real-world prices in China against the UK and US.",
     "tags": [
       "costs",
       "price comparison",
       "savings"
     ],
-    "featured": true
+    "featured": true,
+    "publish_date": "2026-08-01"
+  },
+  {
+    "id": "a6",
+    "slug": "healthcare-visa",
+    "title": "Understanding the Visa Process: A Comprehensive Guide to Getting Your Visa",
+    "category": "medical-tourism",
+    "category_label": "Medical Tourism",
+    "excerpt": "A practical guide for international patients — how to apply for an S1 long-term medical visa or S2 short-term medical visa.",
+    "tags": [
+      "S1 visa",
+      "S2 visa",
+      "visa requirements"
+    ],
+    "featured": false,
+    "publish_date": "2026-08-15"
   }
 ]

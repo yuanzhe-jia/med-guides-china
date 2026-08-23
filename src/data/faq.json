@@ -103,5 +103,50 @@
     "id": 21,
     "question": "Will my personal medical data be protected?",
     "answer": "Absolutely. China has strict data protection and medical privacy laws that align with international standards. International departments take special care with foreign patients' medical records, which are stored separately with restricted access. Your data cannot be shared with any third party without your explicit written consent. Hospitals follow rigorous data security protocols, and international patient coordinators are bound by strict confidentiality agreements. You have the right to access, correct, and request copies of your medical records at any time."
+  },
+  {
+    "id": 22,
+    "question": "How long should I expect to wait at the clinic for my appointment?",
+    "answer": "In international departments, the waiting time is generally shorter than in public general clinics. Most patients are seen within 15 to 45 minutes of their scheduled appointment time, though this can vary depending on the specialist's schedule and whether any emergency cases arise. For your first visit, we recommend arriving 30 minutes early to complete registration. If the doctor is delayed due to an emergency or a complex case, the international coordinator will usually inform you and offer you a comfortable waiting area. You can also ask the coordinator for an estimated waiting time so you can plan accordingly."
+  },
+  {
+    "id": 23,
+    "question": "Can I choose my treating doctor or specialist?",
+    "answer": "Yes, in most international departments you can request a specific doctor, subject to their availability. When making your appointment, you can ask for the doctor's name and area of expertise, and the coordinator will do their best to accommodate your request. For highly sought-after specialists, you may need to book further in advance. If you do not have a specific doctor in mind, the department will assign a senior specialist based on your medical condition. In some hospitals, you can also request a change of doctor during your treatment if you feel the need."
+  },
+  {
+    "id": 24,
+    "question": "Can I bring a family member or companion with me?",
+    "answer": "Yes, you can bring family members or companions. For the S2 medical visa, accompanying family members must provide authenticated proof of kinship, such as marriage or birth certificates. Many international departments offer family-friendly facilities and can assist with accommodation arrangements for companions. Some hospitals provide VIP wards with en-suite bathrooms, kitchens, and dining rooms that can accommodate family members. We recommend discussing your companion's needs with the international department when booking your appointment."
+  },
+  {
+    "id": 25,
+    "question": "What cultural differences should I be aware of when seeking medical care in China?",
+    "answer": "Chinese hospitals, especially public ones, can be very crowded and may appear chaotic if you are used to hospitals in Western countries. GP clinics are uncommon — most patients go directly to hospital specialists. Privacy norms may differ: medical consultations sometimes take place in the same room as other patients, though you can usually request a private consultation. Some hospitals may assume foreign patients want VIP treatment without asking — you should clearly communicate your preferences. Doctors in China may use more cautious language ('maybe,' 'possibly') rather than giving absolute answers, which reflects cultural communication styles rather than uncertainty. Understanding these differences can help you navigate the system more comfortably."
+  },
+  {
+    "id": 26,
+    "question": "How has the number of international patients coming to China changed in recent years?",
+    "answer": "The number has grown dramatically. According to the National Health Commission's 2025 foreign medical service report, China's key foreign-facing hospitals received 1.28 million international patient visits in 2025 — an increase of 73.6% from three years ago. European and American patient numbers have doubled. In 2024, 850 medical institutions across 57 cities offered international medical services. The Boao Lecheng Pilot Zone alone recorded 865,300 medical tourism visits in 2025, a 109.18% surge from the previous year. This growth reflects China's rising competitiveness as a cost-effective, high-quality healthcare destination."
+  },
+  {
+    "id": 27,
+    "question": "Will seeking treatment at an international department affect local patients' access to care?",
+    "answer": "No. China uses a dual-track system where international departments operate separately from general public services. Policy requires that international medical services — classified as 'special needs' services — do not exceed 10% of a hospital's total capacity. International departments have dedicated facilities, staff, and resources that do not draw from the public healthcare system used by local residents. International patients are treated in these separate international departments and do not compete with local patients for basic medical resources. Hospitals also have dynamic resource allocation mechanisms to ensure that senior specialists first fulfill their regular public clinic duties before seeing international patients."
+  },
+  {
+    "id": 28,
+    "question": "What is the quality of medical technology and equipment in Chinese hospitals?",
+    "answer": "Chinese hospitals, particularly top-tier 3A hospitals and their international departments, are equipped with state-of-the-art medical technology. China is at the forefront of many cutting-edge fields including gene therapy, cell therapy, cardiovascular intervention, neurosurgery, precision radiotherapy for tumors, and rare disease treatment. The Boao Lecheng Pilot Zone has introduced over 570 innovative pharmaceuticals and medical devices approved overseas. Many hospitals have advanced imaging equipment (3T MRI, PET-CT, Da Vinci surgical robots) and perform complex procedures at volumes that rival or exceed leading Western institutions. Chinese hospitals also lead in AI-assisted diagnosis and 5G remote surgery applications."
+  },
+  {
+    "id": 29,
+    "question": "What should I know about hospital privacy and ward options in China?",
+    "answer": "Chinese hospitals offer a range of accommodation options. Standard wards may have multiple beds (2–6 patients per room) with curtains for privacy, similar to many public hospitals worldwide. For greater privacy, most international departments offer private or semi-private rooms. VIP wards feature greater privacy and higher levels of care — some are equipped similarly to apartments with en-suite bathrooms, kitchens, and dining rooms. Fees for VIP services are considerably higher than standard care. Staff may assume foreign patients require VIP treatment without first consulting them — you should make it clear if you do not wish to receive VIP treatment, and if you do want it, check with your insurer whether this is covered under your policy."
+  },
+  {
+    "id": 30,
+    "question": "How can I get help with translation and language barriers during my medical visit?",
+    "answer": "International departments of top hospitals employ staff translators who provide real-time interpretation during consultations, translation of medical records and consent forms, and preparation of bilingual discharge summaries. These services are often bundled in the hospital's service fees or included in premium packages. All 30+ Chinese hospitals with dedicated International Patient Departments provide in-person English medical interpretation as a standard service. Arabic, Russian, French, and Japanese interpretation are available at major international hospitals, though advance booking is required. Some hospitals also use AI-powered medical translation tablets and remote video interpretation services connecting patients to certified medical interpreters within 3–5 minutes. Some hospitals offer free translation services — feel free to ask the hospital staff for help. For less common languages, professional medical translation services can usually be arranged with advance notice, though they may incur additional fees."
   }
 ]

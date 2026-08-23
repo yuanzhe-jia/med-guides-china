@@ -46,6 +46,7 @@ export interface Article {
   excerpt: string;
   tags: string[];
   featured?: boolean;
+  publish_date: string;
 }
 
 export interface FaqItem {

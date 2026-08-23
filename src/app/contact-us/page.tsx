@@ -92,35 +92,6 @@ export default function ContactUsPage() {
                     </a>
                   </div>
                 </div>
-                <div className="bg-red-50 border border-red-100 rounded-xl p-6 flex items-center gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-red-600 rounded-full flex items-center justify-center text-white">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="22"
-                      height="22"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    >
-                      <path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17" />
-                      <path d="m10 15 5-3-5-3z" />
-                    </svg>
-                  </div>
-                  <div>
-                    <p className="text-sm text-red-600 font-medium mb-1">YouTube Channel</p>
-                    <a
-                      href="https://youtube.com/@medguideschina"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-lg font-semibold text-red-800 hover:text-red-900 transition-colors"
-                    >
-                      youtube.com/@medguideschina
-                    </a>
-                  </div>
-                </div>
               </div>
             </div>
 
